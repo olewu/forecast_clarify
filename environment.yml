@@ -212,4 +212,4 @@ dependencies:
     - requests==2.27.1
     - requests-futures==1.0.0
     - urllib3==1.26.9
-prefix: /projects/NS9001K/owul/conda/envs/clarify
+prefix: /nird/projects/NS9001K/sso102/Python/clarify/envs
