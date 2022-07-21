@@ -145,13 +145,39 @@ abs_pred.ca8dhakpllnee2k58qfg_avg.plot(ax=ax,x='time',color='C3')
 ax.grid()
 plt.savefig('fig3.png')
 
+signal_name = '{0:s} SS_forecast'.format(response_filtered.result.items[item_id[0]].name)
+signal_desc = 'Persistence forecast of 7-day averages up to 4 weeks ahead'
+signal_unit = response_filtered.result.items[item_id[0]].engUnit
+signal_labels = {'data-source':['Persistence Model'],'site':response_filtered.result.items[item_id[0]].labels['site'],'depth':response_filtered.result.items[item_id[0]].labels['depth']}
+
+
+
+
+# put forecast values into list:
+fc_list = list(abs_pred.ca8dhakpllnee2k58qfg_avg.values)
+
+# make list with corresponding dates:
+time_list = list(abs_pred.time.values)
+
+
+
+# Create a signal and write metadata to it
+signal = SignalInfo(name = signal_name, description = signal_desc, engUnit = signal_unit, labels = signal_labels, sourceType = 'prediction')
+client.save_signals(input_ids=['persistence_fc_test'], signals=[signal], create_only=False)
+# Write data into a signal
+data = DataFrame(series={'persistence_fc_test': fc_list}, times = time_list)
+client.insert(data)
+
+
+### SIlje
+
 # write signals back to clarify
 signal_name = '{0:s} observations_forecast'.format(response_filtered.result.items[item_id[0]].name)
 signal_desc = 'observations and Persistence forecast of 7-day averages up to 4 weeks ahead'
 signal_unit = response_filtered.result.items[item_id[0]].engUnit
 signal_labels = {'data-source':['Clarify obs + Persistence Model'],'site':response_filtered.result.items[item_id[0]].labels['site'],'depth':response_filtered.result.items[item_id[0]].labels['depth']}
 
-### SIlje
+
 
 a1= abs_pred.ca8dhakpllnee2k58qfg_avg.drop('time_doy').to_dataframe().reset_index(level=0,drop=True).set_index('time').rename(columns={"ca8dhakpllnee2k58qfg_avg": "t3m"})
 a2 = st3m_langoey.ca8dhakpllnee2k58qfg_avg.rename("t3m")
