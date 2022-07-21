@@ -176,18 +176,14 @@ signal_unit = response_filtered.result.items[item_id[0]].engUnit
 signal_labels = {'data-source':['Clarify obs + Persistence Model'],'site':response_filtered.result.items[item_id[0]].labels['site'],'depth':response_filtered.result.items[item_id[0]].labels['depth']}
 
 
-
-a1= abs_pred.ca8dhakpllnee2k58qfg_avg.drop('time_doy').to_dataframe().reset_index(level=0,drop=True).set_index('time').rename(columns={"ca8dhakpllnee2k58qfg_avg": "t3m"})
-a2 = st3m_langoey.ca8dhakpllnee2k58qfg_avg.rename("t3m")
-
+a1 = st3m_langoey.ca8dhakpllnee2k58qfg_avg.rename("t3m")
+a2= abs_pred.ca8dhakpllnee2k58qfg_avg.drop('time_doy').to_dataframe().reset_index(level=0,drop=True).set_index('time').rename(columns={"ca8dhakpllnee2k58qfg_avg": "t3m"})
 
 # put forecast values into list:
-obs_fc_list = list(np.concatenate((a2, a1), axis=None))
+obs_fc_list = list(np.concatenate((a1, a2), axis=None))
 
 # make list with corresponding dates:
-obs_fc_time_list = list(np.concatenate((a2.index.values, a1.index.values), axis=None))
-
-
+obs_fc_time_list = list(np.concatenate((a1.index.values, a2.index.values), axis=None))
 
 # Create a signal and write metadata to it
 signal = SignalInfo(name = signal_name, description = signal_desc, engUnit = signal_unit, labels = signal_labels, sourceType = 'prediction')
