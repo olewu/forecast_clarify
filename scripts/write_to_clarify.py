@@ -173,7 +173,7 @@ client.insert(data)
 
 # write signals back to clarify
 signal_name = '{0:s} observations_forecast'.format(response_filtered.result.items[item_id[0]].name)
-signal_desc = 'observations and Persistence forecast of 7-day averages up to 4 weeks ahead'
+signal_desc = 'Observations and Persistence forecast of 7-day averages up to 4 weeks ahead'
 signal_unit = response_filtered.result.items[item_id[0]].engUnit
 signal_labels = {'data-source':['Clarify obs + Persistence Model'],'site':response_filtered.result.items[item_id[0]].labels['site'],'depth':response_filtered.result.items[item_id[0]].labels['depth']}
 
@@ -182,16 +182,12 @@ signal_labels = {'data-source':['Clarify obs + Persistence Model'],'site':respon
 a1= abs_pred.ca8dhakpllnee2k58qfg_avg.drop('time_doy').to_dataframe().reset_index(level=0,drop=True).set_index('time').rename(columns={"ca8dhakpllnee2k58qfg_avg": "t3m"})
 a2 = st3m_langoey.ca8dhakpllnee2k58qfg_avg.rename("t3m")
 
-#np.concatenate((a2, a1), axis=None) # makes an array
-#list(np.concatenate((a2, a1), axis=None)) # makes a list
 
 # put forecast values into list:
-#fc_list = list(abs_pred.ca8dhakpllnee2k58qfg_avg.values)
-fc_list_SLS = list(np.concatenate((a2, a1), axis=None))
+obs_fc_list = list(np.concatenate((a2, a1), axis=None))
 
 # make list with corresponding dates:
-#time_list = list(abs_pred.time.values)
-time_list_SLS = list(np.concatenate((a2.index.values, a1.index.values), axis=None))
+obs_fc_time_list = list(np.concatenate((a2.index.values, a1.index.values), axis=None))
 
 
 
@@ -199,17 +195,7 @@ time_list_SLS = list(np.concatenate((a2.index.values, a1.index.values), axis=Non
 signal = SignalInfo(name = signal_name, description = signal_desc, engUnit = signal_unit, labels = signal_labels, sourceType = 'prediction')
 client.save_signals(input_ids=['obs_persistence_fc'], signals=[signal], create_only=False)
 # Write data into a signal
-data_SLS = DataFrame(series={'obs_persistence_fc': fc_list_SLS}, times = time_list_SLS)
-client.insert(data_SLS)
-
-
-f,ax = plt.subplots(figsize=(10,5))
-
-a1.plot(ax=ax,color='C1')
-a2.plot(ax=ax,color='C0')
-
-
-ax.grid()
-plt.savefig('fig_tot.png')
+data_obs_fc = DataFrame(series={'obs_persistence_fc': obs_fc_list}, times = obs_fc_time_list)
+client.insert(data_obs_fc)
 
 
