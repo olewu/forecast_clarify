@@ -16,8 +16,6 @@ for item_id, meta_data in item_dict.items():
   
 item_id = ["ca8dhakpllnee2k58qfg"]
 
-#item_id = ["c983nc7qfsjfsngo9qe0"]
-
 filter = query.Filter(fields={"id": query.In(value=item_id)})
 response_unfiltered = client.select_items(
     filter = filter,
