@@ -79,3 +79,88 @@ ax.set_title('{0:s} {1:s} 7-day average'.format(
 );
 
 #plt.savefig('test.png')
+
+
+
+SC = seas_cycle(st3m_langoey.ca8dhakpllnee2k58qfg_avg,nharm=3)
+SC.fit()
+SC.training_anomalies()
+
+SC_1 = seas_cycle(st3m_langoey_daily.ca8dhakpllnee2k58qfg_avg)
+SC_1.fit()
+SC_1.training_anomalies()
+
+SC_varharm = seas_cycle(st3m_langoey.ca8dhakpllnee2k58qfg_avg,nharm=1)
+SC_varharm.fit()
+SC_varharm.training_anomalies()
+
+
+
+f,ax = plt.subplots(figsize=(10,5))
+
+SC.sc_exp_doy.ca8dhakpllnee2k58qfg_avg.plot(ax=ax,color='C1')
+SC.absolute_vals.ca8dhakpllnee2k58qfg_avg.plot(ax=ax,color='C0')
+SC.anomalies.ca8dhakpllnee2k58qfg_avg.plot(ax=ax,color='C2')
+
+SC_varharm.sc_exp_doy.ca8dhakpllnee2k58qfg_avg.plot(ax=ax,ls='dotted',color='C1')
+# SC_varharm.absolute_vals.ca8dhakpllnee2k58qfg_avg.plot(ax=ax,ls='dotted')
+SC_varharm.anomalies.ca8dhakpllnee2k58qfg_avg.plot(ax=ax,ls='dotted',color='C2')
+
+ax.grid()
+
+f,ax = plt.subplots(figsize=(10,5))
+SC.absolute_vals.ca8dhakpllnee2k58qfg_avg.plot(x='month_day',ax=ax)
+SC.abs_doy_mean.ca8dhakpllnee2k58qfg_avg.plot(ax=ax)
+SC.mean_sc.ca8dhakpllnee2k58qfg_avg.plot(ax=ax)
+# SC_1.absolute_vals.ca8dhakpllnee2k58qfg_avg.plot(x='month_day',ax=ax)
+# SC_1.abs_doy_mean.ca8dhakpllnee2k58qfg_avg.plot(ax=ax)
+# SC_1.mean_sc.ca8dhakpllnee2k58qfg_avg.plot(ax=ax)
+
+
+anom_pers = persistence(lags=4)
+anom_pers.fit(SC.anomalies.ca8dhakpllnee2k58qfg_avg)
+
+
+# prediction of the anomaly:
+anom_pred = anom_pers.predict(SC.anomalies.ca8dhakpllnee2k58qfg_avg.isel(time=-1))
+
+# prediction of seasonal cycle:
+sc_pred = SC.predict(anom_pred.time_doy,time_name='lags')
+
+abs_pred = anom_pred + sc_pred
+
+
+f,ax = plt.subplots(figsize=(10,5))
+
+SC.sc_exp_doy.ca8dhakpllnee2k58qfg_avg.plot(ax=ax,color='C1')
+SC.absolute_vals.ca8dhakpllnee2k58qfg_avg.plot(ax=ax,color='C0')
+SC.anomalies.ca8dhakpllnee2k58qfg_avg.plot(ax=ax,color='C2')
+
+anom_pred.plot(ax=ax,x='time',color='C3')
+sc_pred.ca8dhakpllnee2k58qfg_avg.plot(ax=ax,x='time',color='C4',ls='dotted')
+abs_pred.ca8dhakpllnee2k58qfg_avg.plot(ax=ax,x='time',color='C3')
+
+ax.grid()
+
+# write signals back to clarify
+signal_name = '{0:s} forecast_silje'.format(response_filtered.result.items[item_id[0]].name)
+signal_desc = 'Persistence forecast of 7-day averages up to 4 weeks ahead'
+signal_unit = response_filtered.result.items[item_id[0]].engUnit
+signal_labels = {'data-source':['Persistence Model'],'site':response_filtered.result.items[item_id[0]].labels['site'],'depth':response_filtered.result.items[item_id[0]].labels['depth']}
+
+
+# put forecast values into list:
+fc_list = list(abs_pred.ca8dhakpllnee2k58qfg_avg.values)
+
+# make list with corresponding dates:
+time_list = list(abs_pred.time.values)
+
+
+
+# Create a signal and write metadata to it
+signal = SignalInfo(name = signal_name, description = signal_desc, engUnit = signal_unit, labels = signal_labels, sourceType = 'prediction')
+client.save_signals(input_ids=['persistence_fc_test'], signals=[signal], create_only=False)
+# Write data into a signal
+data = DataFrame(series={'persistence_fc_test': fc_list}, times = time_list)
+client.insert(data)
+
