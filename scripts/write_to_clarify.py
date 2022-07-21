@@ -187,11 +187,11 @@ a2 = st3m_langoey.ca8dhakpllnee2k58qfg_avg.rename("t3m")
 
 # put forecast values into list:
 #fc_list = list(abs_pred.ca8dhakpllnee2k58qfg_avg.values)
-fc_list = list(np.concatenate((a2, a1), axis=None))
+fc_list_SLS = list(np.concatenate((a2, a1), axis=None))
 
 # make list with corresponding dates:
 #time_list = list(abs_pred.time.values)
-time_list = list(np.concatenate((a2.index.values, a1.index.values), axis=None))
+time_list_SLS = list(np.concatenate((a2.index.values, a1.index.values), axis=None))
 
 
 
@@ -199,6 +199,17 @@ time_list = list(np.concatenate((a2.index.values, a1.index.values), axis=None))
 signal = SignalInfo(name = signal_name, description = signal_desc, engUnit = signal_unit, labels = signal_labels, sourceType = 'prediction')
 client.save_signals(input_ids=['obs_persistence_fc'], signals=[signal], create_only=False)
 # Write data into a signal
-data = DataFrame(series={'obs_persistence_fc': fc_list}, times = time_list)
-client.insert(data)
+data_SLS = DataFrame(series={'obs_persistence_fc': fc_list_SLS}, times = time_list_SLS)
+client.insert(data_SLS)
+
+
+f,ax = plt.subplots(figsize=(10,5))
+
+a1.plot(ax=ax,color='C1')
+a2.plot(ax=ax,color='C0')
+
+
+ax.grid()
+plt.savefig('fig_tot.png')
+
 
