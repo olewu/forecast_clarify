@@ -167,7 +167,7 @@ data = DataFrame(series={'persistence_fc_test': fc_list}, times = time_list)
 client.insert(data)
 
 
-### SIlje
+### Merge obs with forecast
 
 # write signals back to clarify
 signal_name = '{0:s} observations_forecast'.format(response_filtered.result.items[item_id[0]].name)
