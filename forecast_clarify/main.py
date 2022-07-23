@@ -215,19 +215,20 @@ class persistence():
             self.training_ts,self.lags,
             input_core_dims = [['time'],[]],
             output_core_dims = [['lags'],],
-            dask_gufunc_kwargs =  dict(output_sizes = {'lags':self.lags}),
+            dask_gufunc_kwargs =  dict(output_sizes = {'lags':self.lags+1}),
             vectorize = True,
             dask = 'parallelized'
         )
 
-        self.corr = corr.assign_coords(lags=np.arange(1,1+self.lags))
+        self.corr = corr.assign_coords(lags=np.arange(0,1+self.lags))
 
-    def predict(self,intial_condition):
+    def predict(self,initial_condition):
         """
         can only handle a single value as initial condition currently
         """
         
-        persistence_fc = self.corr * intial_condition
+        persistence_fc = self.corr * initial_condition
+        # persistence_fc = xr.concat([initial_condition, persistence_fc_lags],dim='time')
         
         td = [persistence_fc.time.values + pd.Timedelta('{0:d}D'.format(ddiff*7)) for ddiff in persistence_fc.lags.values]
         tdoy = persistence_fc.month_day.values + persistence_fc.lags.values*7
@@ -236,4 +237,4 @@ class persistence():
         return self.persistence_fc
 
 def auto_corr(timeseries,lags):
-    return np.array([np.corrcoef(timeseries[lg:],timeseries[:-lg])[0,1] for lg in range(1,1+lags)])
+    return np.concatenate([np.array([1]),np.array([np.corrcoef(timeseries[lg:],timeseries[:-lg])[0,1] for lg in range(1,1+lags)])])
