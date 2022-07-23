@@ -1,5 +1,5 @@
-%load_ext autoreload
-%autoreload 2
+# %load_ext autoreload
+# %autoreload 2
 
 from pyclarify import ClarifyClient, query, SignalInfo, DataFrame
 import matplotlib.pyplot as plt
