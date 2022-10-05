@@ -1,0 +1,7958 @@
+[
+  {
+    "lat": 65.045867,
+    "name": "Aarsand",
+    "lon": 12.156933,
+    "localityNo": 14746
+  },
+  {
+    "lat": 60.83205,
+    "name": "Ådnekvamme",
+    "lon": 5.355017,
+    "localityNo": 30196
+  },
+  {
+    "lat": 58.91455,
+    "name": "Ådnøy Sø",
+    "lon": 6.028583,
+    "localityNo": 35297
+  },
+  {
+    "lat": 68.104867,
+    "name": "Æsøya",
+    "lon": 13.790067,
+    "localityNo": 30977
+  },
+  {
+    "lat": 59.8451,
+    "name": "Aga Ø",
+    "lon": 5.261367,
+    "localityNo": 15196
+  },
+  {
+    "lat": 59.83985,
+    "name": "Agapollen",
+    "lon": 5.247117,
+    "localityNo": 11507
+  },
+  {
+    "lat": 61.321667,
+    "name": "Agnalsvika",
+    "lon": 5.206117,
+    "localityNo": 45040
+  },
+  {
+    "lat": 60.112833,
+    "name": "Åkre",
+    "lon": 6.044717,
+    "localityNo": 10331
+  },
+  {
+    "lat": 60.24995,
+    "name": "Aldalen",
+    "lon": 5.571917,
+    "localityNo": 12067
+  },
+  {
+    "lat": 61.31055,
+    "name": "Aldeøyna",
+    "lon": 4.767783,
+    "localityNo": 12982
+  },
+  {
+    "lat": 59.866417,
+    "name": "Ålforo",
+    "lon": 5.2447,
+    "localityNo": 10298
+  },
+  {
+    "lat": 60.77465,
+    "name": "Allersholmen",
+    "lon": 4.8536,
+    "localityNo": 11756
+  },
+  {
+    "lat": 64.433533,
+    "name": "Almurden",
+    "lon": 10.678883,
+    "localityNo": 13271
+  },
+  {
+    "lat": 59.759517,
+    "name": "Alsåkervik",
+    "lon": 6.072883,
+    "localityNo": 12086
+  },
+  {
+    "lat": 68.9027,
+    "name": "Alsvåg",
+    "lon": 15.28675,
+    "localityNo": 11416
+  },
+  {
+    "lat": 60.24815,
+    "name": "Altaneset",
+    "lon": 5.6368,
+    "localityNo": 13227
+  },
+  {
+    "lat": 68.207367,
+    "name": "Alterosen",
+    "lon": 14.446867,
+    "localityNo": 11179
+  },
+  {
+    "lat": 61.585767,
+    "name": "Ålvora",
+    "lon": 5.136833,
+    "localityNo": 10319
+  },
+  {
+    "lat": 68.72655,
+    "name": "Åmundsvika",
+    "lon": 17.343483,
+    "localityNo": 11330
+  },
+  {
+    "lat": 59.636483,
+    "name": "Andal",
+    "lon": 5.247117,
+    "localityNo": 11513
+  },
+  {
+    "lat": 65.5826,
+    "name": "Andalsvågen I",
+    "lon": 12.4032,
+    "localityNo": 38037
+  },
+  {
+    "lat": 59.773483,
+    "name": "Andarevågen",
+    "lon": 5.109083,
+    "localityNo": 10289
+  },
+  {
+    "lat": 67.754667,
+    "name": "Ånderbakk",
+    "lon": 15.70465,
+    "localityNo": 33457
+  },
+  {
+    "lat": 67.76295,
+    "name": "Ånderbakk Alge",
+    "lon": 15.678017,
+    "localityNo": 35717
+  },
+  {
+    "lat": 68.925417,
+    "name": "Ånderkleiva",
+    "lon": 17.14895,
+    "localityNo": 11339
+  },
+  {
+    "lat": 63.469783,
+    "name": "Andholmen 1",
+    "lon": 7.8556,
+    "localityNo": 32277
+  },
+  {
+    "lat": 63.46745,
+    "name": "Andholmen 2",
+    "lon": 7.847167,
+    "localityNo": 32297
+  },
+  {
+    "lat": 68.005917,
+    "name": "Anevik",
+    "lon": 15.264333,
+    "localityNo": 30156
+  },
+  {
+    "lat": 60.523333,
+    "name": "Angelskår",
+    "lon": 5.352617,
+    "localityNo": 13563
+  },
+  {
+    "lat": 69.695333,
+    "name": "Angstauren",
+    "lon": 18.170267,
+    "localityNo": 13518
+  },
+  {
+    "lat": 64.7198,
+    "name": "Ånholmen",
+    "lon": 11.461683,
+    "localityNo": 32017
+  },
+  {
+    "lat": 61.2843,
+    "name": "Ånnaholmane",
+    "lon": 4.7254,
+    "localityNo": 11793
+  },
+  {
+    "lat": 60.146217,
+    "name": "Apalvikneset",
+    "lon": 6.121133,
+    "localityNo": 29816
+  },
+  {
+    "lat": 70.020583,
+    "name": "Åpenvik",
+    "lon": 29.215333,
+    "localityNo": 29416
+  },
+  {
+    "lat": 60.258583,
+    "name": "Aplavika",
+    "lon": 6.055517,
+    "localityNo": 12085
+  },
+  {
+    "lat": 69.1959,
+    "name": "Årberg",
+    "lon": 16.91595,
+    "localityNo": 11364
+  },
+  {
+    "lat": 64.5961,
+    "name": "Årnes",
+    "lon": 11.273417,
+    "localityNo": 24695
+  },
+  {
+    "lat": 58.2679,
+    "name": "Arnevik",
+    "lon": 8.440433,
+    "localityNo": 17276
+  },
+  {
+    "lat": 69.663267,
+    "name": "Årøya",
+    "lon": 20.314917,
+    "localityNo": 10735
+  },
+  {
+    "lat": 65.008183,
+    "name": "Årsetfjorden",
+    "lon": 11.746417,
+    "localityNo": 35797
+  },
+  {
+    "lat": 68.2826,
+    "name": "Årsteinfoten Alge",
+    "lon": 15.073833,
+    "localityNo": 37837
+  },
+  {
+    "lat": 63.942353,
+    "name": "Askerholmen",
+    "lon": 10.183832,
+    "localityNo": 12754
+  },
+  {
+    "lat": 64.807983,
+    "name": "Astridholmen",
+    "lon": 11.542583,
+    "localityNo": 12668
+  },
+  {
+    "lat": 58.140267,
+    "name": "Auenes",
+    "lon": 8.2553,
+    "localityNo": 14016
+  },
+  {
+    "lat": 63.0603,
+    "name": "Aukan",
+    "lon": 7.594283,
+    "localityNo": 13254
+  },
+  {
+    "lat": 62.783417,
+    "name": "Aukrasanden",
+    "lon": 6.92605,
+    "localityNo": 12988
+  },
+  {
+    "lat": 63.801967,
+    "name": "Aursøysva",
+    "lon": 8.910767,
+    "localityNo": 12357
+  },
+  {
+    "lat": 68.168033,
+    "name": "Ausa Vest I",
+    "lon": 14.235383,
+    "localityNo": 32557
+  },
+  {
+    "lat": 70.14145,
+    "name": "Auskarnes Ø",
+    "lon": 22.3542,
+    "localityNo": 10275
+  },
+  {
+    "lat": 61.490817,
+    "name": "Austneståa",
+    "lon": 5.171167,
+    "localityNo": 11800
+  },
+  {
+    "lat": 64.418533,
+    "name": "Austvika",
+    "lon": 10.696033,
+    "localityNo": 26795
+  },
+  {
+    "lat": 63.533983,
+    "name": "Badstuvika",
+    "lon": 9.1469,
+    "localityNo": 13572
+  },
+  {
+    "lat": 65.860867,
+    "name": "Bærøya",
+    "lon": 12.621983,
+    "localityNo": 39077
+  },
+  {
+    "lat": 64.949883,
+    "name": "Båfjorden",
+    "lon": 11.5733,
+    "localityNo": 12730
+  },
+  {
+    "lat": 64.964483,
+    "name": "Båfjordstranda",
+    "lon": 11.59435,
+    "localityNo": 29016
+  },
+  {
+    "lat": 70.874833,
+    "name": "Bakfjorden",
+    "lon": 24.616967,
+    "localityNo": 45017
+  },
+  {
+    "lat": 61.82025,
+    "name": "Bakjestranda",
+    "lon": 4.940267,
+    "localityNo": 13341
+  },
+  {
+    "lat": 60.2349,
+    "name": "Bakka",
+    "lon": 6.006483,
+    "localityNo": 19395
+  },
+  {
+    "lat": 69.5463,
+    "name": "Baltsfjord",
+    "lon": 17.7697,
+    "localityNo": 32537
+  },
+  {
+    "lat": 69.368117,
+    "name": "Barbogen",
+    "lon": 17.0281,
+    "localityNo": 13305
+  },
+  {
+    "lat": 60.945867,
+    "name": "Bårøy",
+    "lon": 4.845383,
+    "localityNo": 11749
+  },
+  {
+    "lat": 64.621117,
+    "name": "Barøya",
+    "lon": 11.235517,
+    "localityNo": 31877
+  },
+  {
+    "lat": 65.117667,
+    "name": "Båsen",
+    "lon": 12.321467,
+    "localityNo": 10862
+  },
+  {
+    "lat": 59.2694,
+    "name": "Bastli",
+    "lon": 6.193083,
+    "localityNo": 18235
+  },
+  {
+    "lat": 62.141333,
+    "name": "Beitveit",
+    "lon": 5.3397,
+    "localityNo": 13845
+  },
+  {
+    "lat": 64.5711,
+    "name": "Bekkavika",
+    "lon": 11.56275,
+    "localityNo": 16496
+  },
+  {
+    "lat": 61.07675,
+    "name": "Bekksneset",
+    "lon": 5.386017,
+    "localityNo": 25055
+  },
+  {
+    "lat": 59.872728,
+    "name": "Berfot Kvarvadalen",
+    "lon": 5.573484,
+    "localityNo": 13828
+  },
+  {
+    "lat": 60.1216,
+    "name": "Bergadalen",
+    "lon": 5.908883,
+    "localityNo": 12095
+  },
+  {
+    "lat": 70.229717,
+    "name": "Bergsnes V",
+    "lon": 23.336117,
+    "localityNo": 20396
+  },
+  {
+    "lat": 68.57475,
+    "name": "Bergvikodden",
+    "lon": 14.850883,
+    "localityNo": 11241
+  },
+  {
+    "lat": 59.45165,
+    "name": "Bjelkavik",
+    "lon": 5.991917,
+    "localityNo": 11930
+  },
+  {
+    "lat": 61.098083,
+    "name": "Bjønnspjotneset",
+    "lon": 5.82545,
+    "localityNo": 12178
+  },
+  {
+    "lat": 61.09345,
+    "name": "Bjønnspjotneset II",
+    "lon": 5.823133,
+    "localityNo": 36097
+  },
+  {
+    "lat": 61.09385,
+    "name": "Bjønnspjotneset III",
+    "lon": 5.838433,
+    "localityNo": 36098
+  },
+  {
+    "lat": 63.966817,
+    "name": "Bjørga",
+    "lon": 11.057683,
+    "localityNo": 24655
+  },
+  {
+    "lat": 69.153983,
+    "name": "Bjørga",
+    "lon": 17.948417,
+    "localityNo": 31738
+  },
+  {
+    "lat": 64.592683,
+    "name": "Bjørgan",
+    "lon": 10.908333,
+    "localityNo": 12625
+  },
+  {
+    "lat": 68.02925,
+    "name": "Bjørkvik",
+    "lon": 16.131417,
+    "localityNo": 31317
+  },
+  {
+    "lat": 62.16655,
+    "name": "Bjørlykkestranda",
+    "lon": 5.5954,
+    "localityNo": 22455
+  },
+  {
+    "lat": 62.274883,
+    "name": "Bjørndal",
+    "lon": 6.00285,
+    "localityNo": 12308
+  },
+  {
+    "lat": 61.20635,
+    "name": "Bjørnholmen",
+    "lon": 4.938083,
+    "localityNo": 23436
+  },
+  {
+    "lat": 67.4164,
+    "name": "Bjørnøya",
+    "lon": 14.428667,
+    "localityNo": 34997
+  },
+  {
+    "lat": 68.886183,
+    "name": "Bjørnstein",
+    "lon": 17.109217,
+    "localityNo": 11340
+  },
+  {
+    "lat": 66.0175,
+    "name": "Blåbærvika",
+    "lon": 12.759833,
+    "localityNo": 13115
+  },
+  {
+    "lat": 69.730633,
+    "name": "Blåmannsvik",
+    "lon": 18.653583,
+    "localityNo": 29458
+  },
+  {
+    "lat": 69.73305,
+    "name": "Blåsenborgneset",
+    "lon": 30.1079,
+    "localityNo": 19255
+  },
+  {
+    "lat": 64.57665,
+    "name": "Blikengfjorden",
+    "lon": 11.586,
+    "localityNo": 13274
+  },
+  {
+    "lat": 60.436517,
+    "name": "Blom",
+    "lon": 5.56465,
+    "localityNo": 12156
+  },
+  {
+    "lat": 65.856367,
+    "name": "Blomsøråsa",
+    "lon": 12.311833,
+    "localityNo": 31857
+  },
+  {
+    "lat": 65.660283,
+    "name": "Bøbukta Alge",
+    "lon": 12.089783,
+    "localityNo": 40138
+  },
+  {
+    "lat": 68.6565,
+    "name": "Bogelva",
+    "lon": 15.90035,
+    "localityNo": 11399
+  },
+  {
+    "lat": 63.076783,
+    "name": "Bogen",
+    "lon": 7.9046,
+    "localityNo": 10212
+  },
+  {
+    "lat": 60.604067,
+    "name": "Bognøy",
+    "lon": 5.076983,
+    "localityNo": 13209
+  },
+  {
+    "lat": 66.113117,
+    "name": "Bollhaugen",
+    "lon": 12.487683,
+    "localityNo": 13284
+  },
+  {
+    "lat": 70.81695,
+    "name": "Bondejorda",
+    "lon": 27.563717,
+    "localityNo": 13143
+  },
+  {
+    "lat": 64.8168,
+    "name": "Bondøya",
+    "lon": 10.7427,
+    "localityNo": 10256
+  },
+  {
+    "lat": 68.817383,
+    "name": "Bonhammaren",
+    "lon": 14.7101,
+    "localityNo": 11248
+  },
+  {
+    "lat": 64.604817,
+    "name": "Bonstranda",
+    "lon": 11.440033,
+    "localityNo": 20536
+  },
+  {
+    "lat": 60.727883,
+    "name": "Bøøy",
+    "lon": 4.8641,
+    "localityNo": 11754
+  },
+  {
+    "lat": 70.645333,
+    "name": "Børfjord",
+    "lon": 22.694317,
+    "localityNo": 37237
+  },
+  {
+    "lat": 59.3892,
+    "name": "Borgarliflot",
+    "lon": 5.924733,
+    "localityNo": 15796
+  },
+  {
+    "lat": 64.5858,
+    "name": "Borgsvika",
+    "lon": 11.19495,
+    "localityNo": 13905
+  },
+  {
+    "lat": 68.844367,
+    "name": "Børøya",
+    "lon": 14.85465,
+    "localityNo": 20876
+  },
+  {
+    "lat": 68.57425,
+    "name": "Børøya Slaktemerd",
+    "lon": 14.959733,
+    "localityNo": 11230
+  },
+  {
+    "lat": 59.013383,
+    "name": "Børstadbukta",
+    "lon": 10.041883,
+    "localityNo": 24255
+  },
+  {
+    "lat": 61.351497,
+    "name": "Bortheim",
+    "lon": 5.349191,
+    "localityNo": 14715
+  },
+  {
+    "lat": 70.756667,
+    "name": "Borvika",
+    "lon": 23.4353,
+    "localityNo": 36417
+  },
+  {
+    "lat": 64.684033,
+    "name": "Brakstadsundet",
+    "lon": 11.235517,
+    "localityNo": 38837
+  },
+  {
+    "lat": 59.975733,
+    "name": "Brandaskuta",
+    "lon": 5.909183,
+    "localityNo": 12040
+  },
+  {
+    "lat": 64.223067,
+    "name": "Brandsfjorden",
+    "lon": 10.279933,
+    "localityNo": 34897
+  },
+  {
+    "lat": 60.044117,
+    "name": "Brattavika",
+    "lon": 5.303317,
+    "localityNo": 11488
+  },
+  {
+    "lat": 68.713517,
+    "name": "Brattberg",
+    "lon": 17.429533,
+    "localityNo": 33137
+  },
+  {
+    "lat": 65.90735,
+    "name": "Brattholmen",
+    "lon": 12.220967,
+    "localityNo": 11015
+  },
+  {
+    "lat": 61.068383,
+    "name": "Brattholmen",
+    "lon": 4.713817,
+    "localityNo": 13205
+  },
+  {
+    "lat": 59.2434,
+    "name": "Brattholmen Sv",
+    "lon": 5.556633,
+    "localityNo": 25716
+  },
+  {
+    "lat": 59.247683,
+    "name": "Brattholmskjæret",
+    "lon": 5.572433,
+    "localityNo": 25715
+  },
+  {
+    "lat": 60.980417,
+    "name": "Brattøyna",
+    "lon": 4.9092,
+    "localityNo": 37917
+  },
+  {
+    "lat": 64.38605,
+    "name": "Brattvika II",
+    "lon": 10.815717,
+    "localityNo": 37157
+  },
+  {
+    "lat": 64.474983,
+    "name": "Breidvika",
+    "lon": 11.1887,
+    "localityNo": 13743
+  },
+  {
+    "lat": 64.295367,
+    "name": "Breidvika",
+    "lon": 10.397483,
+    "localityNo": 12594
+  },
+  {
+    "lat": 59.671183,
+    "name": "Breivik S",
+    "lon": 5.31215,
+    "localityNo": 11574
+  },
+  {
+    "lat": 70.798183,
+    "name": "Breivika",
+    "lon": 28.079433,
+    "localityNo": 36677
+  },
+  {
+    "lat": 66.1609,
+    "name": "Breivika",
+    "lon": 12.681467,
+    "localityNo": 28336
+  },
+  {
+    "lat": 66.1581,
+    "name": "Breivika S",
+    "lon": 12.682017,
+    "localityNo": 32897
+  },
+  {
+    "lat": 66.46165,
+    "name": "Breiviken",
+    "lon": 12.958033,
+    "localityNo": 13765
+  },
+  {
+    "lat": 68.758517,
+    "name": "Breivoll",
+    "lon": 17.152583,
+    "localityNo": 33237
+  },
+  {
+    "lat": 68.823767,
+    "name": "Bremnesøya",
+    "lon": 15.400217,
+    "localityNo": 36118
+  },
+  {
+    "lat": 63.39795,
+    "name": "Bremnessvaet",
+    "lon": 8.214317,
+    "localityNo": 10223
+  },
+  {
+    "lat": 65.978717,
+    "name": "Brennholmen",
+    "lon": 12.16355,
+    "localityNo": 34197
+  },
+  {
+    "lat": 69.578367,
+    "name": "Brensholmen",
+    "lon": 17.994267,
+    "localityNo": 37357
+  },
+  {
+    "lat": 63.3582,
+    "name": "Brettingen",
+    "lon": 8.237267,
+    "localityNo": 12466
+  },
+  {
+    "lat": 63.953033,
+    "name": "Bromsen",
+    "lon": 10.004267,
+    "localityNo": 39137
+  },
+  {
+    "lat": 63.950867,
+    "name": "Bromsen Sør",
+    "lon": 10.015417,
+    "localityNo": 40197
+  },
+  {
+    "lat": 67.411567,
+    "name": "Brønnøyskjæran",
+    "lon": 13.901767,
+    "localityNo": 36857
+  },
+  {
+    "lat": 68.4885,
+    "name": "Brottøy",
+    "lon": 15.125917,
+    "localityNo": 35677
+  },
+  {
+    "lat": 62.116567,
+    "name": "Brudevika",
+    "lon": 5.420717,
+    "localityNo": 12237
+  },
+  {
+    "lat": 61.910183,
+    "name": "Brunsvik",
+    "lon": 5.29085,
+    "localityNo": 13841
+  },
+  {
+    "lat": 59.428783,
+    "name": "Bryggelandsholmane",
+    "lon": 5.09895,
+    "localityNo": 11435
+  },
+  {
+    "lat": 60.220067,
+    "name": "Buarøy",
+    "lon": 5.21455,
+    "localityNo": 31038
+  },
+  {
+    "lat": 63.431233,
+    "name": "Bugten",
+    "lon": 8.153417,
+    "localityNo": 12475
+  },
+  {
+    "lat": 60.020917,
+    "name": "Buholmen",
+    "lon": 5.081517,
+    "localityNo": 11543
+  },
+  {
+    "lat": 64.1569,
+    "name": "Buholmen",
+    "lon": 10.008917,
+    "localityNo": 33537
+  },
+  {
+    "lat": 61.098267,
+    "name": "Bukkeholmen",
+    "lon": 4.90485,
+    "localityNo": 11721
+  },
+  {
+    "lat": 65.918817,
+    "name": "Bukkholmen",
+    "lon": 12.24605,
+    "localityNo": 27976
+  },
+  {
+    "lat": 63.723783,
+    "name": "Bukkholmen S",
+    "lon": 8.8621,
+    "localityNo": 12361
+  },
+  {
+    "lat": 66.640967,
+    "name": "Bukkøya Ø",
+    "lon": 12.994583,
+    "localityNo": 11087
+  },
+  {
+    "lat": 58.2074,
+    "name": "Buksevika",
+    "lon": 6.63505,
+    "localityNo": 11857
+  },
+  {
+    "lat": 66.308167,
+    "name": "Buktodden Nø",
+    "lon": 13.432333,
+    "localityNo": 22035
+  },
+  {
+    "lat": 68.435117,
+    "name": "Bullatholmen",
+    "lon": 14.848083,
+    "localityNo": 11162
+  },
+  {
+    "lat": 59.044917,
+    "name": "Buøyflæet",
+    "lon": 5.40655,
+    "localityNo": 11454
+  },
+  {
+    "lat": 68.925033,
+    "name": "Dale",
+    "lon": 16.3452,
+    "localityNo": 37217
+  },
+  {
+    "lat": 59.08215,
+    "name": "Dale II",
+    "lon": 5.71055,
+    "localityNo": 12007
+  },
+  {
+    "lat": 68.697,
+    "name": "Daljorda",
+    "lon": 14.963383,
+    "localityNo": 32497
+  },
+  {
+    "lat": 59.410817,
+    "name": "Dalsvåg Nv",
+    "lon": 5.21725,
+    "localityNo": 32457
+  },
+  {
+    "lat": 70.191683,
+    "name": "Danielsnes",
+    "lon": 22.321017,
+    "localityNo": 31137
+  },
+  {
+    "lat": 70.670583,
+    "name": "Danielsvika",
+    "lon": 24.488767,
+    "localityNo": 35957
+  },
+  {
+    "lat": 67.178017,
+    "name": "Daumannsvika",
+    "lon": 15.409383,
+    "localityNo": 15455
+  },
+  {
+    "lat": 70.245383,
+    "name": "Davatluft",
+    "lon": 22.87385,
+    "localityNo": 37557
+  },
+  {
+    "lat": 70.0722,
+    "name": "Dåvøya",
+    "lon": 19.341067,
+    "localityNo": 10757
+  },
+  {
+    "lat": 66.676483,
+    "name": "Digermulen",
+    "lon": 13.316867,
+    "localityNo": 11076
+  },
+  {
+    "lat": 64.786567,
+    "name": "Digerneset",
+    "lon": 11.727917,
+    "localityNo": 12659
+  },
+  {
+    "lat": 60.2308,
+    "name": "Djupedalen",
+    "lon": 5.673117,
+    "localityNo": 13229
+  },
+  {
+    "lat": 61.169417,
+    "name": "Djupeleget",
+    "lon": 5.80735,
+    "localityNo": 21336
+  },
+  {
+    "lat": 60.058967,
+    "name": "Djupestallen",
+    "lon": 5.452733,
+    "localityNo": 14799
+  },
+  {
+    "lat": 60.4075,
+    "name": "Djupevik",
+    "lon": 6.356717,
+    "localityNo": 10338
+  },
+  {
+    "lat": 59.1474,
+    "name": "Djupevik",
+    "lon": 5.863783,
+    "localityNo": 10110
+  },
+  {
+    "lat": 60.04095,
+    "name": "Djupevika",
+    "lon": 6.009367,
+    "localityNo": 20455
+  },
+  {
+    "lat": 60.035817,
+    "name": "Djupevika",
+    "lon": 5.342217,
+    "localityNo": 26595
+  },
+  {
+    "lat": 60.969583,
+    "name": "Djupevika I",
+    "lon": 5.168283,
+    "localityNo": 11684
+  },
+  {
+    "lat": 64.769267,
+    "name": "Djuptaren",
+    "lon": 10.629017,
+    "localityNo": 37177
+  },
+  {
+    "lat": 68.60365,
+    "name": "Djupvik",
+    "lon": 15.34815,
+    "localityNo": 33117
+  },
+  {
+    "lat": 66.732983,
+    "name": "Djupvik",
+    "lon": 13.33115,
+    "localityNo": 30097
+  },
+  {
+    "lat": 62.059333,
+    "name": "Djupvik I",
+    "lon": 6.30585,
+    "localityNo": 12202
+  },
+  {
+    "lat": 62.059161,
+    "name": "Djupvik II",
+    "lon": 6.304117,
+    "localityNo": 12201
+  },
+  {
+    "lat": 64.622733,
+    "name": "Djupvika",
+    "lon": 11.417733,
+    "localityNo": 23016
+  },
+  {
+    "lat": 65.025333,
+    "name": "Dolma N",
+    "lon": 11.676017,
+    "localityNo": 34018
+  },
+  {
+    "lat": 68.583933,
+    "name": "Dragnes",
+    "lon": 14.707267,
+    "localityNo": 10505
+  },
+  {
+    "lat": 64.210933,
+    "name": "Drevflesa",
+    "lon": 10.115183,
+    "localityNo": 36917
+  },
+  {
+    "lat": 60.080767,
+    "name": "Drøno",
+    "lon": 5.192033,
+    "localityNo": 35497
+  },
+  {
+    "lat": 62.6444,
+    "name": "Dryna",
+    "lon": 6.5568,
+    "localityNo": 32197
+  },
+  {
+    "lat": 60.807833,
+    "name": "Duesund",
+    "lon": 5.2946,
+    "localityNo": 11644
+  },
+  {
+    "lat": 69.4328,
+    "name": "Durmålsvika",
+    "lon": 18.147733,
+    "localityNo": 35237
+  },
+  {
+    "lat": 68.829383,
+    "name": "Dypeidet",
+    "lon": 14.776167,
+    "localityNo": 13412
+  },
+  {
+    "lat": 68.960867,
+    "name": "Dypingen",
+    "lon": 16.530417,
+    "localityNo": 11381
+  },
+  {
+    "lat": 59.285483,
+    "name": "Dyrholmen",
+    "lon": 5.8583,
+    "localityNo": 21415
+  },
+  {
+    "lat": 59.9332,
+    "name": "Dyrholmen Ø",
+    "lon": 5.239467,
+    "localityNo": 32117
+  },
+  {
+    "lat": 59.928017,
+    "name": "Dyrholmen V",
+    "lon": 5.23015,
+    "localityNo": 32157
+  },
+  {
+    "lat": 59.71765,
+    "name": "Dyrnes",
+    "lon": 5.72205,
+    "localityNo": 12128
+  },
+  {
+    "lat": 65.446017,
+    "name": "Dyrnesvågen",
+    "lon": 12.535,
+    "localityNo": 15495
+  },
+  {
+    "lat": 60.191017,
+    "name": "Dysvik",
+    "lon": 5.967617,
+    "localityNo": 12033
+  },
+  {
+    "lat": 61.478583,
+    "name": "Dyvika",
+    "lon": 5.375967,
+    "localityNo": 13711
+  },
+  {
+    "lat": 59.714433,
+    "name": "Ebne",
+    "lon": 5.8238,
+    "localityNo": 12109
+  },
+  {
+    "lat": 63.65835,
+    "name": "Edøya",
+    "lon": 8.694417,
+    "localityNo": 14041
+  },
+  {
+    "lat": 63.65805,
+    "name": "Edøya II",
+    "lon": 8.683667,
+    "localityNo": 30137
+  },
+  {
+    "lat": 62.321517,
+    "name": "Eggesbønes",
+    "lon": 5.655833,
+    "localityNo": 30597
+  },
+  {
+    "lat": 60.088083,
+    "name": "Eidholmen",
+    "lon": 5.120633,
+    "localityNo": 10045
+  },
+  {
+    "lat": 68.134617,
+    "name": "Eidisholman",
+    "lon": 13.867217,
+    "localityNo": 34717
+  },
+  {
+    "lat": 63.954183,
+    "name": "Eidskjæra Nø",
+    "lon": 10.085183,
+    "localityNo": 10248
+  },
+  {
+    "lat": 70.091,
+    "name": "Eidsnes",
+    "lon": 22.755167,
+    "localityNo": 10819
+  },
+  {
+    "lat": 60.563233,
+    "name": "Eikebærånæ",
+    "lon": 5.3535,
+    "localityNo": 13870
+  },
+  {
+    "lat": 60.121467,
+    "name": "Eikeneset",
+    "lon": 6.219617,
+    "localityNo": 38497
+  },
+  {
+    "lat": 59.0872,
+    "name": "Eime",
+    "lon": 5.510417,
+    "localityNo": 34817
+  },
+  {
+    "lat": 64.971633,
+    "name": "Eiterfjorden",
+    "lon": 11.723933,
+    "localityNo": 35877
+  },
+  {
+    "lat": 64.454633,
+    "name": "Eldviktaren",
+    "lon": 10.630717,
+    "localityNo": 29537
+  },
+  {
+    "lat": 68.87695,
+    "name": "Elgen",
+    "lon": 16.287383,
+    "localityNo": 30917
+  },
+  {
+    "lat": 70.1337,
+    "name": "Elva I Årøysundet",
+    "lon": 23.330383,
+    "localityNo": 10811
+  },
+  {
+    "lat": 61.206,
+    "name": "Elveneset",
+    "lon": 5.131733,
+    "localityNo": 33077
+  },
+  {
+    "lat": 70.9178,
+    "name": "Elvevika",
+    "lon": 25.006267,
+    "localityNo": 32797
+  },
+  {
+    "lat": 61.909833,
+    "name": "Endal Vest",
+    "lon": 5.464267,
+    "localityNo": 13241
+  },
+  {
+    "lat": 63.029683,
+    "name": "Endreset",
+    "lon": 7.713733,
+    "localityNo": 12879
+  },
+  {
+    "lat": 68.268283,
+    "name": "Engeløysundet N",
+    "lon": 15.104117,
+    "localityNo": 36397
+  },
+  {
+    "lat": 68.7276,
+    "name": "Enkeltstein",
+    "lon": 16.910467,
+    "localityNo": 11363
+  },
+  {
+    "lat": 70.56365,
+    "name": "Enkeneset",
+    "lon": 24.119067,
+    "localityNo": 34577
+  },
+  {
+    "lat": 63.677883,
+    "name": "Espnestaren",
+    "lon": 8.667,
+    "localityNo": 32677
+  },
+  {
+    "lat": 63.144583,
+    "name": "Fætten",
+    "lon": 8.459567,
+    "localityNo": 10229
+  },
+  {
+    "lat": 63.66395,
+    "name": "Fagerholmen",
+    "lon": 8.603167,
+    "localityNo": 37437
+  },
+  {
+    "lat": 59.6108,
+    "name": "Fagerlandsflæ",
+    "lon": 5.433733,
+    "localityNo": 20755
+  },
+  {
+    "lat": 64.184517,
+    "name": "Farmannsøya",
+    "lon": 10.1222,
+    "localityNo": 24575
+  },
+  {
+    "lat": 70.828517,
+    "name": "Fartøyvika",
+    "lon": 24.450483,
+    "localityNo": 31797
+  },
+  {
+    "lat": 69.875683,
+    "name": "Fellesholmen",
+    "lon": 18.250767,
+    "localityNo": 40217
+  },
+  {
+    "lat": 64.560317,
+    "name": "Feøyvika",
+    "lon": 10.919133,
+    "localityNo": 12624
+  },
+  {
+    "lat": 60.176883,
+    "name": "Fiksneset",
+    "lon": 5.124833,
+    "localityNo": 31157
+  },
+  {
+    "lat": 64.621767,
+    "name": "Finnangerøya",
+    "lon": 11.179,
+    "localityNo": 33377
+  },
+  {
+    "lat": 68.33945,
+    "name": "Finnkjerka",
+    "lon": 15.0358,
+    "localityNo": 13527
+  },
+  {
+    "lat": 69.32875,
+    "name": "Finnstein",
+    "lon": 17.063433,
+    "localityNo": 11353
+  },
+  {
+    "lat": 69.892967,
+    "name": "Finnvik",
+    "lon": 18.807933,
+    "localityNo": 31398
+  },
+  {
+    "lat": 69.502217,
+    "name": "Finnvika S",
+    "lon": 17.920983,
+    "localityNo": 11433
+  },
+  {
+    "lat": 68.525633,
+    "name": "Fiskefjorden",
+    "lon": 16.123667,
+    "localityNo": 14796
+  },
+  {
+    "lat": 69.90455,
+    "name": "Fjellbukt",
+    "lon": 21.876833,
+    "localityNo": 10803
+  },
+  {
+    "lat": 63.819233,
+    "name": "Fjølværet Ø",
+    "lon": 8.636133,
+    "localityNo": 26775
+  },
+  {
+    "lat": 63.256517,
+    "name": "Fjordprakken",
+    "lon": 7.928067,
+    "localityNo": 32597
+  },
+  {
+    "lat": 69.187117,
+    "name": "Flakstadvåg",
+    "lon": 17.015083,
+    "localityNo": 10544
+  },
+  {
+    "lat": 69.191866,
+    "name": "Flakstadvåg Havn",
+    "lon": 17.038389,
+    "localityNo": 22515
+  },
+  {
+    "lat": 61.57565,
+    "name": "Flåtegrunnen",
+    "lon": 4.80805,
+    "localityNo": 11833
+  },
+  {
+    "lat": 59.4293,
+    "name": "Flatholmen",
+    "lon": 5.114483,
+    "localityNo": 19336
+  },
+  {
+    "lat": 63.873583,
+    "name": "Flatøyan",
+    "lon": 8.4714,
+    "localityNo": 39957
+  },
+  {
+    "lat": 64.273017,
+    "name": "Flatøyfjorden",
+    "lon": 10.246233,
+    "localityNo": 36138
+  },
+  {
+    "lat": 60.156033,
+    "name": "Flatøyflu",
+    "lon": 5.2315,
+    "localityNo": 25835
+  },
+  {
+    "lat": 60.153,
+    "name": "Flatøyflu II",
+    "lon": 5.2287,
+    "localityNo": 35557
+  },
+  {
+    "lat": 60.148817,
+    "name": "Flatøyflu III",
+    "lon": 5.236217,
+    "localityNo": 35577
+  },
+  {
+    "lat": 65.815746,
+    "name": "Flatøymarka Ø",
+    "lon": 12.582309,
+    "localityNo": 10922
+  },
+  {
+    "lat": 60.950267,
+    "name": "Flatøyna",
+    "lon": 4.9199,
+    "localityNo": 38137
+  },
+  {
+    "lat": 60.148367,
+    "name": "Flatøysundet",
+    "lon": 5.22725,
+    "localityNo": 38737
+  },
+  {
+    "lat": 67.7292,
+    "name": "Flehammer",
+    "lon": 15.444317,
+    "localityNo": 30176
+  },
+  {
+    "lat": 67.0951,
+    "name": "Fleina",
+    "lon": 13.875217,
+    "localityNo": 29296
+  },
+  {
+    "lat": 64.916367,
+    "name": "Flerengstrand",
+    "lon": 11.251133,
+    "localityNo": 13494
+  },
+  {
+    "lat": 63.645,
+    "name": "Flesa",
+    "lon": 8.879483,
+    "localityNo": 12407
+  },
+  {
+    "lat": 69.246683,
+    "name": "Flesen",
+    "lon": 17.025683,
+    "localityNo": 11355
+  },
+  {
+    "lat": 58.42585,
+    "name": "Flødevigen Sjø Øst",
+    "lon": 8.754733,
+    "localityNo": 45011
+  },
+  {
+    "lat": 58.425467,
+    "name": "Flødevigen Sjø Vest",
+    "lon": 8.753317,
+    "localityNo": 45012
+  },
+  {
+    "lat": 59.890983,
+    "name": "Flornes",
+    "lon": 5.665983,
+    "localityNo": 25895
+  },
+  {
+    "lat": 64.523983,
+    "name": "Flotaren",
+    "lon": 10.761667,
+    "localityNo": 29876
+  },
+  {
+    "lat": 61.1936,
+    "name": "Floteneset",
+    "lon": 5.801617,
+    "localityNo": 21335
+  },
+  {
+    "lat": 59.0481,
+    "name": "Fluarholmen Ø",
+    "lon": 5.423733,
+    "localityNo": 24435
+  },
+  {
+    "lat": 59.80315,
+    "name": "Folderøyholmen",
+    "lon": 5.3063,
+    "localityNo": 16797
+  },
+  {
+    "lat": 59.337483,
+    "name": "Foldøy Ø",
+    "lon": 5.987767,
+    "localityNo": 21055
+  },
+  {
+    "lat": 69.915717,
+    "name": "Follesøy",
+    "lon": 20.601417,
+    "localityNo": 35597
+  },
+  {
+    "lat": 68.410483,
+    "name": "Fornes",
+    "lon": 15.435433,
+    "localityNo": 16939
+  },
+  {
+    "lat": 66.032533,
+    "name": "Forneset",
+    "lon": 12.92,
+    "localityNo": 37377
+  },
+  {
+    "lat": 63.350433,
+    "name": "Forrahammaren",
+    "lon": 9.23325,
+    "localityNo": 33697
+  },
+  {
+    "lat": 68.170717,
+    "name": "Forsåstorvika",
+    "lon": 16.153233,
+    "localityNo": 19278
+  },
+  {
+    "lat": 59.2699,
+    "name": "Fosså",
+    "lon": 6.14295,
+    "localityNo": 11893
+  },
+  {
+    "lat": 69.06865,
+    "name": "Frovågneset",
+    "lon": 17.061447,
+    "localityNo": 26935
+  },
+  {
+    "lat": 63.44715,
+    "name": "Fuglåsen",
+    "lon": 8.167767,
+    "localityNo": 31437
+  },
+  {
+    "lat": 63.475783,
+    "name": "Fugløya",
+    "lon": 9.1098,
+    "localityNo": 19115
+  },
+  {
+    "lat": 61.056083,
+    "name": "Fureholmen S",
+    "lon": 4.867017,
+    "localityNo": 11736
+  },
+  {
+    "lat": 61.79855,
+    "name": "Fureneset",
+    "lon": 5.131133,
+    "localityNo": 39917
+  },
+  {
+    "lat": 61.305667,
+    "name": "Furevika",
+    "lon": 5.071783,
+    "localityNo": 11814
+  },
+  {
+    "lat": 62.6461,
+    "name": "Furneset",
+    "lon": 7.101183,
+    "localityNo": 13669
+  },
+  {
+    "lat": 60.207733,
+    "name": "Fusavika",
+    "lon": 5.613583,
+    "localityNo": 13058
+  },
+  {
+    "lat": 69.95135,
+    "name": "Futnes",
+    "lon": 19.587733,
+    "localityNo": 10747
+  },
+  {
+    "lat": 60.5821,
+    "name": "Fyllingsnes S",
+    "lon": 5.4001,
+    "localityNo": 13874
+  },
+  {
+    "lat": 68.11055,
+    "name": "Gamskjæran",
+    "lon": 13.74305,
+    "localityNo": 11193
+  },
+  {
+    "lat": 60.2165,
+    "name": "Gangdal",
+    "lon": 6.15785,
+    "localityNo": 12078
+  },
+  {
+    "lat": 60.5399,
+    "name": "Gardskråneset",
+    "lon": 4.904617,
+    "localityNo": 11667
+  },
+  {
+    "lat": 61.316633,
+    "name": "Garvik",
+    "lon": 4.979333,
+    "localityNo": 10317
+  },
+  {
+    "lat": 65.252033,
+    "name": "Gåsflestaren",
+    "lon": 11.5664,
+    "localityNo": 39597
+  },
+  {
+    "lat": 68.612983,
+    "name": "Gaukværøy",
+    "lon": 14.34655,
+    "localityNo": 38757
+  },
+  {
+    "lat": 62.9839,
+    "name": "Gaustad",
+    "lon": 7.329667,
+    "localityNo": 13021
+  },
+  {
+    "lat": 62.716483,
+    "name": "Geilbukta",
+    "lon": 7.730117,
+    "localityNo": 45047
+  },
+  {
+    "lat": 68.090267,
+    "name": "Geiterøya I",
+    "lon": 13.735617,
+    "localityNo": 11198
+  },
+  {
+    "lat": 64.79955,
+    "name": "Geitholmen",
+    "lon": 11.025933,
+    "localityNo": 26335
+  },
+  {
+    "lat": 64.751267,
+    "name": "Geitryggen",
+    "lon": 11.189217,
+    "localityNo": 31357
+  },
+  {
+    "lat": 60.339883,
+    "name": "Giljeholmen",
+    "lon": 4.96755,
+    "localityNo": 10037
+  },
+  {
+    "lat": 68.970533,
+    "name": "Gisløy Nø",
+    "lon": 15.264783,
+    "localityNo": 34357
+  },
+  {
+    "lat": 68.963467,
+    "name": "Gisløy Nv",
+    "lon": 15.25645,
+    "localityNo": 39517
+  },
+  {
+    "lat": 68.941433,
+    "name": "Gisløy S",
+    "lon": 15.30745,
+    "localityNo": 20897
+  },
+  {
+    "lat": 59.623583,
+    "name": "Gissøysundet S",
+    "lon": 5.160067,
+    "localityNo": 11530
+  },
+  {
+    "lat": 64.117617,
+    "name": "Gjæsingen",
+    "lon": 9.981417,
+    "localityNo": 24315
+  },
+  {
+    "lat": 61.374888,
+    "name": "Gjelet",
+    "lon": 5.417636,
+    "localityNo": 19476
+  },
+  {
+    "lat": 63.48245,
+    "name": "Gjelsøya",
+    "lon": 8.27885,
+    "localityNo": 24196
+  },
+  {
+    "lat": 60.071917,
+    "name": "Gjengane",
+    "lon": 5.305567,
+    "localityNo": 13036
+  },
+  {
+    "lat": 63.299667,
+    "name": "Gjerde",
+    "lon": 8.418333,
+    "localityNo": 33617
+  },
+  {
+    "lat": 62.259983,
+    "name": "Gjerde",
+    "lon": 5.929183,
+    "localityNo": 25695
+  },
+  {
+    "lat": 60.223083,
+    "name": "Gjerdeviksflua",
+    "lon": 5.641167,
+    "localityNo": 10324
+  },
+  {
+    "lat": 64.9464,
+    "name": "Gjerdinga",
+    "lon": 11.4623,
+    "localityNo": 12714
+  },
+  {
+    "lat": 62.6275,
+    "name": "Gjermundnes",
+    "lon": 7.192817,
+    "localityNo": 13852
+  },
+  {
+    "lat": 62.530233,
+    "name": "Gjerset V",
+    "lon": 6.429083,
+    "localityNo": 31717
+  },
+  {
+    "lat": 69.050317,
+    "name": "Gjervika",
+    "lon": 16.887267,
+    "localityNo": 11365
+  },
+  {
+    "lat": 63.923533,
+    "name": "Gjøvika",
+    "lon": 10.111743,
+    "localityNo": 12752
+  },
+  {
+    "lat": 69.833017,
+    "name": "Glimbukta",
+    "lon": 19.361467,
+    "localityNo": 10754
+  },
+  {
+    "lat": 61.506417,
+    "name": "Gnarnesvika",
+    "lon": 5.051267,
+    "localityNo": 40297
+  },
+  {
+    "lat": 59.862167,
+    "name": "Goddosen",
+    "lon": 5.13615,
+    "localityNo": 10044
+  },
+  {
+    "lat": 65.0786,
+    "name": "Gorrvika",
+    "lon": 12.44105,
+    "localityNo": 10859
+  },
+  {
+    "lat": 69.57835,
+    "name": "Gourtesjouka",
+    "lon": 20.510433,
+    "localityNo": 10734
+  },
+  {
+    "lat": 65.4207,
+    "name": "Granholmen",
+    "lon": 12.47835,
+    "localityNo": 10857
+  },
+  {
+    "lat": 63.47635,
+    "name": "Gråøya",
+    "lon": 7.951517,
+    "localityNo": 34617
+  },
+  {
+    "lat": 66.3489,
+    "name": "Grasholman",
+    "lon": 12.777717,
+    "localityNo": 32037
+  },
+  {
+    "lat": 60.595767,
+    "name": "Grasholmen",
+    "lon": 5.159717,
+    "localityNo": 11690
+  },
+  {
+    "lat": 58.87195,
+    "name": "Gråtnes",
+    "lon": 6.123217,
+    "localityNo": 11907
+  },
+  {
+    "lat": 60.863083,
+    "name": "Gråvika",
+    "lon": 4.935283,
+    "localityNo": 11657
+  },
+  {
+    "lat": 68.81875,
+    "name": "Gregusvika",
+    "lon": 17.34635,
+    "localityNo": 32917
+  },
+  {
+    "lat": 59.65735,
+    "name": "Grimsholmen",
+    "lon": 5.404167,
+    "localityNo": 11559
+  },
+  {
+    "lat": 60.792717,
+    "name": "Grisholmsundet",
+    "lon": 4.693633,
+    "localityNo": 11771
+  },
+  {
+    "lat": 62.9721,
+    "name": "Grønset",
+    "lon": 7.701933,
+    "localityNo": 22296
+  },
+  {
+    "lat": 70.580533,
+    "name": "Grøtnes N",
+    "lon": 23.6761,
+    "localityNo": 45005
+  },
+  {
+    "lat": 63.879467,
+    "name": "Grøttingsøy",
+    "lon": 8.543083,
+    "localityNo": 12435
+  },
+  {
+    "lat": 68.445083,
+    "name": "Grøttøy",
+    "lon": 14.819383,
+    "localityNo": 29096
+  },
+  {
+    "lat": 61.894933,
+    "name": "Grunneneset",
+    "lon": 5.348667,
+    "localityNo": 17177
+  },
+  {
+    "lat": 61.68485,
+    "name": "Grunnsøya",
+    "lon": 4.915633,
+    "localityNo": 24615
+  },
+  {
+    "lat": 59.671717,
+    "name": "Grutlefjorden",
+    "lon": 5.167317,
+    "localityNo": 14117
+  },
+  {
+    "lat": 69.3602,
+    "name": "Gryllefjord",
+    "lon": 17.099267,
+    "localityNo": 38257
+  },
+  {
+    "lat": 61.292783,
+    "name": "Grytøyraholmen",
+    "lon": 5.014117,
+    "localityNo": 33597
+  },
+  {
+    "lat": 62.45375,
+    "name": "Gudmundset",
+    "lon": 6.601283,
+    "localityNo": 12265
+  },
+  {
+    "lat": 58.24065,
+    "name": "Guleodden",
+    "lon": 6.615217,
+    "localityNo": 37597
+  },
+  {
+    "lat": 61.041133,
+    "name": "Guleskjeret",
+    "lon": 4.79225,
+    "localityNo": 14035
+  },
+  {
+    "lat": 61.758017,
+    "name": "Gulestø",
+    "lon": 5.069883,
+    "localityNo": 10318
+  },
+  {
+    "lat": 60.1282,
+    "name": "Gulholmen",
+    "lon": 5.400467,
+    "localityNo": 24735
+  },
+  {
+    "lat": 63.479217,
+    "name": "Gullklakken",
+    "lon": 7.999867,
+    "localityNo": 33357
+  },
+  {
+    "lat": 63.569483,
+    "name": "Gunnarøya",
+    "lon": 9.467983,
+    "localityNo": 12789
+  },
+  {
+    "lat": 59.151117,
+    "name": "Gunnøyni S Fyresvatn",
+    "lon": 8.060167,
+    "localityNo": 32517
+  },
+  {
+    "lat": 61.2974,
+    "name": "Guriøyna",
+    "lon": 4.660783,
+    "localityNo": 32317
+  },
+  {
+    "lat": 64.683683,
+    "name": "Gyltneset",
+    "lon": 11.3662,
+    "localityNo": 39537
+  },
+  {
+    "lat": 63.942,
+    "name": "Håbranden",
+    "lon": 9.133483,
+    "localityNo": 33757
+  },
+  {
+    "lat": 63.3667,
+    "name": "Hafsmo",
+    "lon": 9.245217,
+    "localityNo": 29697
+  },
+  {
+    "lat": 63.137917,
+    "name": "Hagahammaren",
+    "lon": 8.0306,
+    "localityNo": 19995
+  },
+  {
+    "lat": 59.9844,
+    "name": "Hågardsneset",
+    "lon": 5.929967,
+    "localityNo": 22095
+  },
+  {
+    "lat": 65.046667,
+    "name": "Hagasandvika",
+    "lon": 12.1407,
+    "localityNo": 14747
+  },
+  {
+    "lat": 59.944217,
+    "name": "Hageberg",
+    "lon": 5.434733,
+    "localityNo": 16755
+  },
+  {
+    "lat": 69.979117,
+    "name": "Hagebergan",
+    "lon": 21.027183,
+    "localityNo": 13949
+  },
+  {
+    "lat": 64.465333,
+    "name": "Håkilen",
+    "lon": 11.215983,
+    "localityNo": 13744
+  },
+  {
+    "lat": 63.998117,
+    "name": "Hallarøy V",
+    "lon": 9.129283,
+    "localityNo": 13886
+  },
+  {
+    "lat": 63.647267,
+    "name": "Hallarvik",
+    "lon": 8.699267,
+    "localityNo": 38777
+  },
+  {
+    "lat": 67.44185,
+    "name": "Hallsteinhamn I",
+    "lon": 14.71595,
+    "localityNo": 36737
+  },
+  {
+    "lat": 68.374967,
+    "name": "Hallvardøy",
+    "lon": 15.317333,
+    "localityNo": 11318
+  },
+  {
+    "lat": 69.151367,
+    "name": "Hallvardsøya",
+    "lon": 16.906533,
+    "localityNo": 36937
+  },
+  {
+    "lat": 59.392317,
+    "name": "Halsavika",
+    "lon": 5.883333,
+    "localityNo": 18639
+  },
+  {
+    "lat": 63.077685,
+    "name": "Halsbukta",
+    "lon": 8.143622,
+    "localityNo": 12895
+  },
+  {
+    "lat": 63.8574,
+    "name": "Halsøya",
+    "lon": 9.6982,
+    "localityNo": 38337
+  },
+  {
+    "lat": 67.132283,
+    "name": "Hammarvika",
+    "lon": 14.313183,
+    "localityNo": 18717
+  },
+  {
+    "lat": 67.95877,
+    "name": "Hammer",
+    "lon": 15.171667,
+    "localityNo": 13592
+  },
+  {
+    "lat": 70.5784,
+    "name": "Hamnefjord",
+    "lon": 23.0309,
+    "localityNo": 13996
+  },
+  {
+    "lat": 65.684917,
+    "name": "Hamnsundet I",
+    "lon": 12.3393,
+    "localityNo": 38057
+  },
+  {
+    "lat": 61.84045,
+    "name": "Haneholmen",
+    "lon": 6.10055,
+    "localityNo": 31577
+  },
+  {
+    "lat": 59.290417,
+    "name": "Håøya Nø",
+    "lon": 5.6765,
+    "localityNo": 12011
+  },
+  {
+    "lat": 64.953317,
+    "name": "Harbakholmen",
+    "lon": 11.195717,
+    "localityNo": 36617
+  },
+  {
+    "lat": 61.016733,
+    "name": "Hardbakkeneset",
+    "lon": 4.950517,
+    "localityNo": 38217
+  },
+  {
+    "lat": 63.421917,
+    "name": "Hårkallbåen",
+    "lon": 8.207483,
+    "localityNo": 39217
+  },
+  {
+    "lat": 61.200917,
+    "name": "Hatlem Ø",
+    "lon": 5.262117,
+    "localityNo": 11643
+  },
+  {
+    "lat": 59.627967,
+    "name": "Hattasteinen",
+    "lon": 5.252483,
+    "localityNo": 11511
+  },
+  {
+    "lat": 64.7926,
+    "name": "Hattholmen",
+    "lon": 11.47325,
+    "localityNo": 10411
+  },
+  {
+    "lat": 68.766933,
+    "name": "Haug",
+    "lon": 16.06485,
+    "localityNo": 26615
+  },
+  {
+    "lat": 60.118083,
+    "name": "Haugsnesvåg",
+    "lon": 5.158767,
+    "localityNo": 17695
+  },
+  {
+    "lat": 70.046133,
+    "name": "Haukøya Ø",
+    "lon": 21.282033,
+    "localityNo": 36178
+  },
+  {
+    "lat": 63.458317,
+    "name": "Hausan",
+    "lon": 8.955683,
+    "localityNo": 30257
+  },
+  {
+    "lat": 60.404767,
+    "name": "Haverøy",
+    "lon": 4.93995,
+    "localityNo": 11740
+  },
+  {
+    "lat": 60.170483,
+    "name": "Håvikvågen S",
+    "lon": 5.699283,
+    "localityNo": 24035
+  },
+  {
+    "lat": 66.16405,
+    "name": "Havstein Sør",
+    "lon": 12.400767,
+    "localityNo": 36778
+  },
+  {
+    "lat": 63.799333,
+    "name": "Havsundet",
+    "lon": 9.440483,
+    "localityNo": 30897
+  },
+  {
+    "lat": 62.883933,
+    "name": "Hegerbergtrøa",
+    "lon": 8.149917,
+    "localityNo": 12896
+  },
+  {
+    "lat": 63.936035,
+    "name": "Heggbærvika",
+    "lon": 10.209363,
+    "localityNo": 12815
+  },
+  {
+    "lat": 65.126583,
+    "name": "Heggvika",
+    "lon": 12.071983,
+    "localityNo": 10425
+  },
+  {
+    "lat": 63.6106,
+    "name": "Heggvika",
+    "lon": 9.050733,
+    "localityNo": 13503
+  },
+  {
+    "lat": 61.356333,
+    "name": "Hegnes",
+    "lon": 5.284667,
+    "localityNo": 13838
+  },
+  {
+    "lat": 61.094867,
+    "name": "Hegrenesvika",
+    "lon": 4.752133,
+    "localityNo": 39257
+  },
+  {
+    "lat": 68.491583,
+    "name": "Helgeneshamn",
+    "lon": 15.2339,
+    "localityNo": 13782
+  },
+  {
+    "lat": 59.226617,
+    "name": "Helgøy",
+    "lon": 5.853783,
+    "localityNo": 11969
+  },
+  {
+    "lat": 61.406633,
+    "name": "Hella",
+    "lon": 5.080817,
+    "localityNo": 11783
+  },
+  {
+    "lat": 62.735833,
+    "name": "Hellaren",
+    "lon": 6.74745,
+    "localityNo": 10194
+  },
+  {
+    "lat": 67.7267,
+    "name": "Hellarvika",
+    "lon": 15.3812,
+    "localityNo": 11315
+  },
+  {
+    "lat": 68.668367,
+    "name": "Hellfjorden",
+    "lon": 14.8005,
+    "localityNo": 14679
+  },
+  {
+    "lat": 64.838383,
+    "name": "Helligholmen",
+    "lon": 10.665517,
+    "localityNo": 12590
+  },
+  {
+    "lat": 67.421533,
+    "name": "Helligvær Ø",
+    "lon": 14.031683,
+    "localityNo": 39997
+  },
+  {
+    "lat": 63.0573,
+    "name": "Hendneset",
+    "lon": 7.5142,
+    "localityNo": 27376
+  },
+  {
+    "lat": 59.46635,
+    "name": "Herøy",
+    "lon": 6.0258,
+    "localityNo": 11920
+  },
+  {
+    "lat": 58.065317,
+    "name": "Herøya V",
+    "lon": 7.85955,
+    "localityNo": 12830
+  },
+  {
+    "lat": 59.1941,
+    "name": "Hesbygrunnen",
+    "lon": 5.799133,
+    "localityNo": 22596
+  },
+  {
+    "lat": 59.953633,
+    "name": "Hestabyneset",
+    "lon": 5.4514,
+    "localityNo": 18015
+  },
+  {
+    "lat": 70.238067,
+    "name": "Hesten",
+    "lon": 23.40735,
+    "localityNo": 13119
+  },
+  {
+    "lat": 61.602267,
+    "name": "Hesteneset",
+    "lon": 5.034633,
+    "localityNo": 21235
+  },
+  {
+    "lat": 60.297062,
+    "name": "Hestholmen",
+    "lon": 5.183224,
+    "localityNo": 23635
+  },
+  {
+    "lat": 67.146783,
+    "name": "Hestholmen N",
+    "lon": 14.016533,
+    "localityNo": 13006
+  },
+  {
+    "lat": 59.0585,
+    "name": "Hestholmen Ø",
+    "lon": 5.445083,
+    "localityNo": 14136
+  },
+  {
+    "lat": 66.000633,
+    "name": "Hestøy",
+    "lon": 12.266567,
+    "localityNo": 26815
+  },
+  {
+    "lat": 63.3095,
+    "name": "Hestøya",
+    "lon": 8.115567,
+    "localityNo": 34677
+  },
+  {
+    "lat": 65.906717,
+    "name": "Hestøydraget",
+    "lon": 12.258333,
+    "localityNo": 37277
+  },
+  {
+    "lat": 64.489567,
+    "name": "Hestvika",
+    "lon": 11.25455,
+    "localityNo": 13582
+  },
+  {
+    "lat": 59.458633,
+    "name": "Hettaneset",
+    "lon": 5.8491,
+    "localityNo": 26955
+  },
+  {
+    "lat": 59.067283,
+    "name": "Hidlekjerringa",
+    "lon": 5.839383,
+    "localityNo": 33797
+  },
+  {
+    "lat": 68.78005,
+    "name": "Hilderkleiva",
+    "lon": 16.0978,
+    "localityNo": 31177
+  },
+  {
+    "lat": 59.6084,
+    "name": "Hillersvik",
+    "lon": 5.311917,
+    "localityNo": 10300
+  },
+  {
+    "lat": 64.773933,
+    "name": "Hindholmen",
+    "lon": 11.44087,
+    "localityNo": 10410
+  },
+  {
+    "lat": 60.126117,
+    "name": "Hisdalen",
+    "lon": 5.9305,
+    "localityNo": 12036
+  },
+  {
+    "lat": 59.72585,
+    "name": "Hiskholmen",
+    "lon": 5.144717,
+    "localityNo": 10291
+  },
+  {
+    "lat": 61.035117,
+    "name": "Hjartholm",
+    "lon": 5.33105,
+    "localityNo": 13643
+  },
+  {
+    "lat": 60.004617,
+    "name": "Hjartholmosen",
+    "lon": 5.227633,
+    "localityNo": 32417
+  },
+  {
+    "lat": 66.235783,
+    "name": "Hjartøy N",
+    "lon": 12.709967,
+    "localityNo": 15655
+  },
+  {
+    "lat": 67.6562,
+    "name": "Hjartøy Ø",
+    "lon": 15.118567,
+    "localityNo": 13931
+  },
+  {
+    "lat": 69.9116,
+    "name": "Hjellberget",
+    "lon": 21.597167,
+    "localityNo": 10808
+  },
+  {
+    "lat": 63.457733,
+    "name": "Hjortholman",
+    "lon": 7.8561,
+    "localityNo": 12483
+  },
+  {
+    "lat": 64.9848,
+    "name": "Hjortøya",
+    "lon": 11.135467,
+    "localityNo": 35197
+  },
+  {
+    "lat": 63.7224,
+    "name": "Hofsøya",
+    "lon": 8.9145,
+    "localityNo": 33957
+  },
+  {
+    "lat": 58.913183,
+    "name": "Høgås",
+    "lon": 6.059733,
+    "localityNo": 38097
+  },
+  {
+    "lat": 69.031583,
+    "name": "Høgholmen",
+    "lon": 16.481867,
+    "localityNo": 10536
+  },
+  {
+    "lat": 63.093033,
+    "name": "Hogsnes",
+    "lon": 7.675883,
+    "localityNo": 12871
+  },
+  {
+    "lat": 63.099933,
+    "name": "Hogsneset N",
+    "lon": 7.670267,
+    "localityNo": 30377
+  },
+  {
+    "lat": 68.631083,
+    "name": "Holand",
+    "lon": 15.269267,
+    "localityNo": 45010
+  },
+  {
+    "lat": 68.699,
+    "name": "Holandselv",
+    "lon": 15.979433,
+    "localityNo": 17176
+  },
+  {
+    "lat": 59.776583,
+    "name": "Holevik",
+    "lon": 5.321817,
+    "localityNo": 11571
+  },
+  {
+    "lat": 63.898267,
+    "name": "Hommelvika",
+    "lon": 10.004283,
+    "localityNo": 10247
+  },
+  {
+    "lat": 60.106867,
+    "name": "Hondskår",
+    "lon": 5.939133,
+    "localityNo": 12035
+  },
+  {
+    "lat": 62.863367,
+    "name": "Honnhammarvika",
+    "lon": 8.157583,
+    "localityNo": 12897
+  },
+  {
+    "lat": 60.100833,
+    "name": "Horgefjorden",
+    "lon": 5.117067,
+    "localityNo": 32757
+  },
+  {
+    "lat": 60.0919,
+    "name": "Horgesund",
+    "lon": 5.121167,
+    "localityNo": 37817
+  },
+  {
+    "lat": 68.844417,
+    "name": "Hornet",
+    "lon": 15.037767,
+    "localityNo": 39637
+  },
+  {
+    "lat": 68.020933,
+    "name": "Horsvågen",
+    "lon": 15.302467,
+    "localityNo": 10518
+  },
+  {
+    "lat": 64.085183,
+    "name": "Hosenøyan",
+    "lon": 9.884683,
+    "localityNo": 33218
+  },
+  {
+    "lat": 61.707683,
+    "name": "Hovden",
+    "lon": 4.911383,
+    "localityNo": 39437
+  },
+  {
+    "lat": 70.81805,
+    "name": "Hovdenakken",
+    "lon": 27.49395,
+    "localityNo": 13337
+  },
+  {
+    "lat": 62.957167,
+    "name": "Høybuvika",
+    "lon": 8.049167,
+    "localityNo": 12890
+  },
+  {
+    "lat": 68.936633,
+    "name": "Høydalsvika",
+    "lon": 15.020717,
+    "localityNo": 13784
+  },
+  {
+    "lat": 60.157417,
+    "name": "Høysteinen",
+    "lon": 6.050117,
+    "localityNo": 19939
+  },
+  {
+    "lat": 61.37475,
+    "name": "Høyvika",
+    "lon": 4.965133,
+    "localityNo": 11786
+  },
+  {
+    "lat": 60.404803,
+    "name": "Høyvika",
+    "lon": 6.24969,
+    "localityNo": 20995
+  },
+  {
+    "lat": 69.507059,
+    "name": "Huken",
+    "lon": 17.905879,
+    "localityNo": 21715
+  },
+  {
+    "lat": 64.459467,
+    "name": "Huken Hoddøy",
+    "lon": 11.1968,
+    "localityNo": 13509
+  },
+  {
+    "lat": 68.057133,
+    "name": "Hulløyhamn Ø",
+    "lon": 16.204467,
+    "localityNo": 21516
+  },
+  {
+    "lat": 64.94605,
+    "name": "Humulen",
+    "lon": 11.372467,
+    "localityNo": 25235
+  },
+  {
+    "lat": 59.308733,
+    "name": "Hundaneset",
+    "lon": 6.165483,
+    "localityNo": 45038
+  },
+  {
+    "lat": 60.11175,
+    "name": "Hundasvoskjeret",
+    "lon": 6.17085,
+    "localityNo": 12023
+  },
+  {
+    "lat": 70.19945,
+    "name": "Hundbergan",
+    "lon": 21.811017,
+    "localityNo": 10796
+  },
+  {
+    "lat": 69.556883,
+    "name": "Hundbergan",
+    "lon": 17.61055,
+    "localityNo": 32777
+  },
+  {
+    "lat": 67.265533,
+    "name": "Hundholmen",
+    "lon": 15.125183,
+    "localityNo": 27856
+  },
+  {
+    "lat": 66.03535,
+    "name": "Hundsreva",
+    "lon": 12.67965,
+    "localityNo": 39317
+  },
+  {
+    "lat": 61.872217,
+    "name": "Hundvika Aust",
+    "lon": 5.953667,
+    "localityNo": 39477
+  },
+  {
+    "lat": 69.53855,
+    "name": "Husastranda",
+    "lon": 17.67355,
+    "localityNo": 13532
+  },
+  {
+    "lat": 61.916333,
+    "name": "Husevågøy",
+    "lon": 5.06495,
+    "localityNo": 39377
+  },
+  {
+    "lat": 70.549517,
+    "name": "Husfjord",
+    "lon": 22.955883,
+    "localityNo": 21016
+  },
+  {
+    "lat": 65.662383,
+    "name": "Husvika",
+    "lon": 12.64035,
+    "localityNo": 12951
+  },
+  {
+    "lat": 60.86,
+    "name": "Hyseneset",
+    "lon": 4.963083,
+    "localityNo": 34397
+  },
+  {
+    "lat": 68.79065,
+    "name": "Hysjorda",
+    "lon": 14.626133,
+    "localityNo": 11251
+  },
+  {
+    "lat": 59.810533,
+    "name": "Hyttevika",
+    "lon": 5.077933,
+    "localityNo": 22415
+  },
+  {
+    "lat": 65.6862,
+    "name": "Igerøy Ø",
+    "lon": 12.139167,
+    "localityNo": 18936
+  },
+  {
+    "lat": 59.7215,
+    "name": "Ihlholmen",
+    "lon": 5.586633,
+    "localityNo": 27095
+  },
+  {
+    "lat": 63.664567,
+    "name": "Ilsøya 2",
+    "lon": 8.428517,
+    "localityNo": 38997
+  },
+  {
+    "lat": 63.651975,
+    "name": "Ilsøya Ø",
+    "lon": 8.88687,
+    "localityNo": 10240
+  },
+  {
+    "lat": 59.517033,
+    "name": "Ilsvåg",
+    "lon": 5.81015,
+    "localityNo": 12115
+  },
+  {
+    "lat": 69.482267,
+    "name": "Indre Bringenes",
+    "lon": 17.57155,
+    "localityNo": 29756
+  },
+  {
+    "lat": 69.8674,
+    "name": "Indre Kårvik I",
+    "lon": 18.918567,
+    "localityNo": 10768
+  },
+  {
+    "lat": 69.867926,
+    "name": "Indre Kårvik II",
+    "lon": 18.92482,
+    "localityNo": 10769
+  },
+  {
+    "lat": 61.067883,
+    "name": "Indre Oppedal",
+    "lon": 5.563833,
+    "localityNo": 13236
+  },
+  {
+    "lat": 64.2858,
+    "name": "Indre Skjervøy",
+    "lon": 10.30905,
+    "localityNo": 12599
+  },
+  {
+    "lat": 58.954133,
+    "name": "Indre Slettavikneset",
+    "lon": 5.947817,
+    "localityNo": 11957
+  },
+  {
+    "lat": 60.149731,
+    "name": "Indrepollen",
+    "lon": 5.411271,
+    "localityNo": 22776
+  },
+  {
+    "lat": 68.630717,
+    "name": "Innerbrokløysa",
+    "lon": 15.483317,
+    "localityNo": 11405
+  },
+  {
+    "lat": 64.46735,
+    "name": "Innernesset",
+    "lon": 10.735417,
+    "localityNo": 12634
+  },
+  {
+    "lat": 59.800967,
+    "name": "Innvær",
+    "lon": 5.248017,
+    "localityNo": 11508
+  },
+  {
+    "lat": 60.987833,
+    "name": "Instefjord",
+    "lon": 5.483183,
+    "localityNo": 13654
+  },
+  {
+    "lat": 61.87725,
+    "name": "Isane",
+    "lon": 5.725583,
+    "localityNo": 12224
+  },
+  {
+    "lat": 66.814683,
+    "name": "Isbergan",
+    "lon": 13.678183,
+    "localityNo": 24295
+  },
+  {
+    "lat": 65.03405,
+    "name": "Isnaustet",
+    "lon": 12.185907,
+    "localityNo": 10864
+  },
+  {
+    "lat": 65.446883,
+    "name": "Istervika",
+    "lon": 12.56175,
+    "localityNo": 10876
+  },
+  {
+    "lat": 60.51832,
+    "name": "Ivarsholmen  Ø",
+    "lon": 4.91464,
+    "localityNo": 11743
+  },
+  {
+    "lat": 60.518467,
+    "name": "Ivarsholmen V",
+    "lon": 4.907567,
+    "localityNo": 11744
+  },
+  {
+    "lat": 65.11265,
+    "name": "Jakobsteinsvika",
+    "lon": 11.792867,
+    "localityNo": 14245
+  },
+  {
+    "lat": 63.798917,
+    "name": "Jamnungen",
+    "lon": 8.64695,
+    "localityNo": 26535
+  },
+  {
+    "lat": 68.853217,
+    "name": "Jekteberget",
+    "lon": 17.06575,
+    "localityNo": 36137
+  },
+  {
+    "lat": 63.99495,
+    "name": "Jektholmen",
+    "lon": 9.928317,
+    "localityNo": 19977
+  },
+  {
+    "lat": 67.531317,
+    "name": "Jektvika I",
+    "lon": 15.443567,
+    "localityNo": 11269
+  },
+  {
+    "lat": 68.784033,
+    "name": "Jennskarbotn",
+    "lon": 14.642533,
+    "localityNo": 27176
+  },
+  {
+    "lat": 70.449583,
+    "name": "Jernelva",
+    "lon": 23.63825,
+    "localityNo": 33197
+  },
+  {
+    "lat": 70.80725,
+    "name": "Jernøya",
+    "lon": 25.81915,
+    "localityNo": 38877
+  },
+  {
+    "lat": 68.412633,
+    "name": "Jevik",
+    "lon": 16.526933,
+    "localityNo": 26495
+  },
+  {
+    "lat": 60.752533,
+    "name": "Jibbersholmane",
+    "lon": 4.884617,
+    "localityNo": 11665
+  },
+  {
+    "lat": 59.2955,
+    "name": "Jørstadskjera",
+    "lon": 5.938617,
+    "localityNo": 30036
+  },
+  {
+    "lat": 67.92365,
+    "name": "Josommarset",
+    "lon": 16.211517,
+    "localityNo": 25736
+  },
+  {
+    "lat": 65.04655,
+    "name": "Jupvik",
+    "lon": 12.127867,
+    "localityNo": 14748
+  },
+  {
+    "lat": 68.91765,
+    "name": "Juvågen",
+    "lon": 14.985133,
+    "localityNo": 11225
+  },
+  {
+    "lat": 62.664767,
+    "name": "Juvika",
+    "lon": 6.696767,
+    "localityNo": 12260
+  },
+  {
+    "lat": 61.104767,
+    "name": "Juvika",
+    "lon": 5.018483,
+    "localityNo": 29656
+  },
+  {
+    "lat": 61.895683,
+    "name": "Juvika B",
+    "lon": 5.6331,
+    "localityNo": 13242
+  },
+  {
+    "lat": 69.946617,
+    "name": "Kågen",
+    "lon": 20.752767,
+    "localityNo": 15657
+  },
+  {
+    "lat": 63.617183,
+    "name": "Kåholmen",
+    "lon": 8.994133,
+    "localityNo": 12348
+  },
+  {
+    "lat": 60.47145,
+    "name": "Kaland",
+    "lon": 6.764933,
+    "localityNo": 18496
+  },
+  {
+    "lat": 64.95705,
+    "name": "Kålåstranda",
+    "lon": 12.168733,
+    "localityNo": 10427
+  },
+  {
+    "lat": 58.27385,
+    "name": "Kaldvellfjorden",
+    "lon": 8.43085,
+    "localityNo": 17255
+  },
+  {
+    "lat": 58.974717,
+    "name": "Kalhag",
+    "lon": 5.93595,
+    "localityNo": 13220
+  },
+  {
+    "lat": 58.055417,
+    "name": "Kalholmen",
+    "lon": 7.853667,
+    "localityNo": 12829
+  },
+  {
+    "lat": 63.848033,
+    "name": "Kallholmen",
+    "lon": 8.426083,
+    "localityNo": 37417
+  },
+  {
+    "lat": 60.038183,
+    "name": "Kalsøyflu",
+    "lon": 5.114417,
+    "localityNo": 22915
+  },
+  {
+    "lat": 64.950783,
+    "name": "Kalvhagan II",
+    "lon": 12.0567,
+    "localityNo": 34797
+  },
+  {
+    "lat": 68.338817,
+    "name": "Kalvhodet",
+    "lon": 15.236583,
+    "localityNo": 27996
+  },
+  {
+    "lat": 65.748267,
+    "name": "Kalvhylla",
+    "lon": 12.540533,
+    "localityNo": 36217
+  },
+  {
+    "lat": 67.513167,
+    "name": "Kalvik",
+    "lon": 15.570433,
+    "localityNo": 29576
+  },
+  {
+    "lat": 66.39365,
+    "name": "Kalvøya",
+    "lon": 12.79975,
+    "localityNo": 15118
+  },
+  {
+    "lat": 63.651483,
+    "name": "Kalvøya",
+    "lon": 8.7472,
+    "localityNo": 12371
+  },
+  {
+    "lat": 61.319367,
+    "name": "Kalvøya N",
+    "lon": 4.707167,
+    "localityNo": 10087
+  },
+  {
+    "lat": 63.762417,
+    "name": "Kamholmen",
+    "lon": 8.882933,
+    "localityNo": 31517
+  },
+  {
+    "lat": 70.066383,
+    "name": "Karanes",
+    "lon": 19.305317,
+    "localityNo": 10759
+  },
+  {
+    "lat": 59.046683,
+    "name": "Kåregrunnane Ø",
+    "lon": 5.439483,
+    "localityNo": 16516
+  },
+  {
+    "lat": 67.382883,
+    "name": "Kariskjæret",
+    "lon": 14.380617,
+    "localityNo": 36817
+  },
+  {
+    "lat": 69.865237,
+    "name": "Kårvik",
+    "lon": 18.925086,
+    "localityNo": 10560
+  },
+  {
+    "lat": 69.867467,
+    "name": "Kårvik I",
+    "lon": 18.918333,
+    "localityNo": 31997
+  },
+  {
+    "lat": 69.851983,
+    "name": "Karvika",
+    "lon": 21.828983,
+    "localityNo": 10804
+  },
+  {
+    "lat": 68.79125,
+    "name": "Kasteberget",
+    "lon": 16.914017,
+    "localityNo": 31757
+  },
+  {
+    "lat": 59.895417,
+    "name": "Kastevika",
+    "lon": 5.103917,
+    "localityNo": 16281
+  },
+  {
+    "lat": 63.055333,
+    "name": "Kattholmen",
+    "lon": 7.695317,
+    "localityNo": 12872
+  },
+  {
+    "lat": 63.870967,
+    "name": "Kattholmen",
+    "lon": 8.679017,
+    "localityNo": 14042
+  },
+  {
+    "lat": 63.864783,
+    "name": "Kattholmen II",
+    "lon": 8.676583,
+    "localityNo": 30437
+  },
+  {
+    "lat": 69.957833,
+    "name": "Kåvika",
+    "lon": 20.69315,
+    "localityNo": 16736
+  },
+  {
+    "lat": 60.403,
+    "name": "Kelvesteinen",
+    "lon": 5.0635,
+    "localityNo": 28976
+  },
+  {
+    "lat": 59.31335,
+    "name": "Kilaneset",
+    "lon": 6.2672,
+    "localityNo": 13225
+  },
+  {
+    "lat": 59.317967,
+    "name": "Kilavågen Sjø",
+    "lon": 6.2872,
+    "localityNo": 31477
+  },
+  {
+    "lat": 67.448817,
+    "name": "Kines",
+    "lon": 15.487967,
+    "localityNo": 13297
+  },
+  {
+    "lat": 64.793867,
+    "name": "Kipholmen",
+    "lon": 11.689533,
+    "localityNo": 12660
+  },
+  {
+    "lat": 70.713367,
+    "name": "Kirkeneset",
+    "lon": 23.827433,
+    "localityNo": 31917
+  },
+  {
+    "lat": 63.384,
+    "name": "Kistvika",
+    "lon": 9.171467,
+    "localityNo": 13573
+  },
+  {
+    "lat": 59.2933,
+    "name": "Kjeahola",
+    "lon": 6.0729,
+    "localityNo": 11913
+  },
+  {
+    "lat": 58.060083,
+    "name": "Kjeholmen II",
+    "lon": 6.885683,
+    "localityNo": 33577
+  },
+  {
+    "lat": 68.785283,
+    "name": "Kjeiprød",
+    "lon": 17.64295,
+    "localityNo": 23755
+  },
+  {
+    "lat": 64.643967,
+    "name": "Kjelneset",
+    "lon": 11.3888,
+    "localityNo": 10409
+  },
+  {
+    "lat": 69.79225,
+    "name": "Kjempebakken",
+    "lon": 20.60215,
+    "localityNo": 15535
+  },
+  {
+    "lat": 60.884033,
+    "name": "Kjeneset",
+    "lon": 4.85775,
+    "localityNo": 38157
+  },
+  {
+    "lat": 68.086833,
+    "name": "Kjeøya N",
+    "lon": 13.585283,
+    "localityNo": 13009
+  },
+  {
+    "lat": 60.542833,
+    "name": "Kjeppevikholmen",
+    "lon": 5.0378,
+    "localityNo": 11652
+  },
+  {
+    "lat": 59.192033,
+    "name": "Kjeringå",
+    "lon": 5.870017,
+    "localityNo": 18275
+  },
+  {
+    "lat": 61.390983,
+    "name": "Kjeringeholmen",
+    "lon": 4.982833,
+    "localityNo": 36297
+  },
+  {
+    "lat": 67.107867,
+    "name": "Kjerkvika",
+    "lon": 14.268983,
+    "localityNo": 11112
+  },
+  {
+    "lat": 60.960183,
+    "name": "Kjerringneset",
+    "lon": 5.106783,
+    "localityNo": 11689
+  },
+  {
+    "lat": 66.00705,
+    "name": "Kjerringskjæret Nø",
+    "lon": 12.7052,
+    "localityNo": 10949
+  },
+  {
+    "lat": 66.003917,
+    "name": "Kjerringskjæret Sv",
+    "lon": 12.694217,
+    "localityNo": 10951
+  },
+  {
+    "lat": 62.622367,
+    "name": "Kjerstad",
+    "lon": 6.224883,
+    "localityNo": 12294
+  },
+  {
+    "lat": 59.279783,
+    "name": "Kjeura",
+    "lon": 6.3216,
+    "localityNo": 15338
+  },
+  {
+    "lat": 66.775567,
+    "name": "Kjølsøyvær",
+    "lon": 12.66875,
+    "localityNo": 45016
+  },
+  {
+    "lat": 67.174967,
+    "name": "Kjølvika I",
+    "lon": 14.2901,
+    "localityNo": 45037
+  },
+  {
+    "lat": 63.457567,
+    "name": "Kjørsvikgrunn",
+    "lon": 9.076,
+    "localityNo": 26135
+  },
+  {
+    "lat": 70.140517,
+    "name": "Kjøsen",
+    "lon": 22.24615,
+    "localityNo": 27015
+  },
+  {
+    "lat": 68.8658,
+    "name": "Kjøtta V",
+    "lon": 16.670217,
+    "localityNo": 32257
+  },
+  {
+    "lat": 60.08165,
+    "name": "Klammerholmen",
+    "lon": 5.168567,
+    "localityNo": 32577
+  },
+  {
+    "lat": 65.211033,
+    "name": "Klampvika N",
+    "lon": 12.250167,
+    "localityNo": 40377
+  },
+  {
+    "lat": 65.456233,
+    "name": "Klavbekken",
+    "lon": 12.726317,
+    "localityNo": 15478
+  },
+  {
+    "lat": 61.60395,
+    "name": "Klavelandet",
+    "lon": 5.186533,
+    "localityNo": 24455
+  },
+  {
+    "lat": 61.299783,
+    "name": "Kleivaholmen",
+    "lon": 4.7536,
+    "localityNo": 11835
+  },
+  {
+    "lat": 70.53805,
+    "name": "Kleppenes N",
+    "lon": 23.558533,
+    "localityNo": 10828
+  },
+  {
+    "lat": 61.785933,
+    "name": "Kleppeneset",
+    "lon": 5.977233,
+    "localityNo": 12215
+  },
+  {
+    "lat": 68.25435,
+    "name": "Kleppstad",
+    "lon": 14.256583,
+    "localityNo": 32558
+  },
+  {
+    "lat": 66.1336,
+    "name": "Klipen",
+    "lon": 12.851983,
+    "localityNo": 36037
+  },
+  {
+    "lat": 61.200383,
+    "name": "Klippenesvika",
+    "lon": 4.937617,
+    "localityNo": 39297
+  },
+  {
+    "lat": 69.709533,
+    "name": "Klokkardalen",
+    "lon": 18.363983,
+    "localityNo": 29476
+  },
+  {
+    "lat": 69.816117,
+    "name": "Klokkstein",
+    "lon": 20.717817,
+    "localityNo": 10724
+  },
+  {
+    "lat": 62.28755,
+    "name": "Klovholmane",
+    "lon": 5.474833,
+    "localityNo": 30697
+  },
+  {
+    "lat": 63.182433,
+    "name": "Klovningen",
+    "lon": 7.65375,
+    "localityNo": 39877
+  },
+  {
+    "lat": 70.663967,
+    "name": "Klubben",
+    "lon": 22.6224,
+    "localityNo": 33998
+  },
+  {
+    "lat": 61.17955,
+    "name": "Klubben",
+    "lon": 5.00315,
+    "localityNo": 12980
+  },
+  {
+    "lat": 59.926317,
+    "name": "Klubben",
+    "lon": 5.29985,
+    "localityNo": 11491
+  },
+  {
+    "lat": 65.190001,
+    "name": "Klubben",
+    "lon": 12.419421,
+    "localityNo": 10860
+  },
+  {
+    "lat": 65.3523,
+    "name": "Klubben",
+    "lon": 12.43795,
+    "localityNo": 19755
+  },
+  {
+    "lat": 59.831133,
+    "name": "Klubbeosen I",
+    "lon": 5.249333,
+    "localityNo": 10052
+  },
+  {
+    "lat": 59.621183,
+    "name": "Klubbøya",
+    "lon": 5.45055,
+    "localityNo": 20757
+  },
+  {
+    "lat": 59.746867,
+    "name": "Klungervikneset",
+    "lon": 5.3433,
+    "localityNo": 13339
+  },
+  {
+    "lat": 64.749967,
+    "name": "Klungset",
+    "lon": 11.394183,
+    "localityNo": 18755
+  },
+  {
+    "lat": 59.596783,
+    "name": "Klungsholmen",
+    "lon": 5.161567,
+    "localityNo": 11534
+  },
+  {
+    "lat": 60.5735,
+    "name": "Knappen",
+    "lon": 4.818517,
+    "localityNo": 11763
+  },
+  {
+    "lat": 60.8852,
+    "name": "Knappen Solheim",
+    "lon": 5.462083,
+    "localityNo": 13567
+  },
+  {
+    "lat": 59.122317,
+    "name": "Kobbavika",
+    "lon": 5.934433,
+    "localityNo": 10113
+  },
+  {
+    "lat": 65.435167,
+    "name": "Kobbskjæret",
+    "lon": 12.463933,
+    "localityNo": 10882
+  },
+  {
+    "lat": 59.757533,
+    "name": "Kodlevågen",
+    "lon": 5.24655,
+    "localityNo": 11509
+  },
+  {
+    "lat": 70.6381,
+    "name": "Kokelv",
+    "lon": 24.5791,
+    "localityNo": 32598
+  },
+  {
+    "lat": 66.412817,
+    "name": "Kokvika",
+    "lon": 12.956867,
+    "localityNo": 13764
+  },
+  {
+    "lat": 65.208867,
+    "name": "Kollsvika",
+    "lon": 12.7518,
+    "localityNo": 38677
+  },
+  {
+    "lat": 59.8616,
+    "name": "Koløy N",
+    "lon": 5.288267,
+    "localityNo": 11575
+  },
+  {
+    "lat": 68.088167,
+    "name": "Kolvikodden Ø",
+    "lon": 13.68965,
+    "localityNo": 11201
+  },
+  {
+    "lat": 70.4793,
+    "name": "Komagnes",
+    "lon": 23.634217,
+    "localityNo": 29557
+  },
+  {
+    "lat": 62.960383,
+    "name": "Kornstad",
+    "lon": 7.45015,
+    "localityNo": 12855
+  },
+  {
+    "lat": 69.781183,
+    "name": "Korsfjorden",
+    "lon": 29.9344,
+    "localityNo": 39837
+  },
+  {
+    "lat": 63.597217,
+    "name": "Korsholman",
+    "lon": 8.51575,
+    "localityNo": 19195
+  },
+  {
+    "lat": 69.986917,
+    "name": "Korsnes",
+    "lon": 19.931633,
+    "localityNo": 36797
+  },
+  {
+    "lat": 68.331483,
+    "name": "Korsnes",
+    "lon": 14.948217,
+    "localityNo": 20316
+  },
+  {
+    "lat": 63.142683,
+    "name": "Korsneset",
+    "lon": 8.225383,
+    "localityNo": 10224
+  },
+  {
+    "lat": 63.141233,
+    "name": "Korsneset 2",
+    "lon": 8.21375,
+    "localityNo": 32097
+  },
+  {
+    "lat": 66.578467,
+    "name": "Korsvika",
+    "lon": 12.691067,
+    "localityNo": 45002
+  },
+  {
+    "lat": 67.403517,
+    "name": "Korten",
+    "lon": 14.254733,
+    "localityNo": 37617
+  },
+  {
+    "lat": 61.894567,
+    "name": "Krabbestig",
+    "lon": 5.0616,
+    "localityNo": 11809
+  },
+  {
+    "lat": 63.944483,
+    "name": "Krabbholmen",
+    "lon": 9.8814,
+    "localityNo": 30297
+  },
+  {
+    "lat": 63.94,
+    "name": "Krabbholmen II",
+    "lon": 9.886633,
+    "localityNo": 33177
+  },
+  {
+    "lat": 67.73985,
+    "name": "Kråkåsen",
+    "lon": 14.896817,
+    "localityNo": 34037
+  },
+  {
+    "lat": 70.83325,
+    "name": "Kråkeberget",
+    "lon": 25.254333,
+    "localityNo": 16055
+  },
+  {
+    "lat": 70.66655,
+    "name": "Kraken",
+    "lon": 23.184933,
+    "localityNo": 10837
+  },
+  {
+    "lat": 61.05835,
+    "name": "Kråkenes",
+    "lon": 4.921317,
+    "localityNo": 11719
+  },
+  {
+    "lat": 70.262633,
+    "name": "Kråkevik",
+    "lon": 23.30475,
+    "localityNo": 10614
+  },
+  {
+    "lat": 64.60255,
+    "name": "Kråkholmen",
+    "lon": 10.854067,
+    "localityNo": 21676
+  },
+  {
+    "lat": 62.83145,
+    "name": "Kråknes",
+    "lon": 6.962733,
+    "localityNo": 12239
+  },
+  {
+    "lat": 69.755317,
+    "name": "Kraknes Sjø",
+    "lon": 19.041567,
+    "localityNo": 36997
+  },
+  {
+    "lat": 64.14815,
+    "name": "Kråkøy Slakteri",
+    "lon": 10.159117,
+    "localityNo": 25935
+  },
+  {
+    "lat": 65.003783,
+    "name": "Kråkøya",
+    "lon": 11.042367,
+    "localityNo": 12652
+  },
+  {
+    "lat": 62.928533,
+    "name": "Krekvikbogen",
+    "lon": 7.580517,
+    "localityNo": 28776
+  },
+  {
+    "lat": 60.081383,
+    "name": "Krigsholmen",
+    "lon": 5.124117,
+    "localityNo": 14040
+  },
+  {
+    "lat": 59.7879,
+    "name": "Krossholmen",
+    "lon": 5.100533,
+    "localityNo": 11633
+  },
+  {
+    "lat": 68.306717,
+    "name": "Kunakken Alge",
+    "lon": 15.130567,
+    "localityNo": 45048
+  },
+  {
+    "lat": 59.211367,
+    "name": "Kunes",
+    "lon": 5.9532,
+    "localityNo": 13222
+  },
+  {
+    "lat": 68.714467,
+    "name": "Kuneset",
+    "lon": 15.034833,
+    "localityNo": 13595
+  },
+  {
+    "lat": 60.996417,
+    "name": "Kuøyna",
+    "lon": 4.897983,
+    "localityNo": 32518
+  },
+  {
+    "lat": 67.238983,
+    "name": "Kvalnesbukta",
+    "lon": 14.8369,
+    "localityNo": 32657
+  },
+  {
+    "lat": 67.239033,
+    "name": "Kvalnesbukta Alge",
+    "lon": 14.835217,
+    "localityNo": 37697
+  },
+  {
+    "lat": 59.396633,
+    "name": "Kvaløy Ø",
+    "lon": 5.171083,
+    "localityNo": 18217
+  },
+  {
+    "lat": 65.001917,
+    "name": "Kvaløya",
+    "lon": 11.058617,
+    "localityNo": 22775
+  },
+  {
+    "lat": 64.5387,
+    "name": "Kvalrosskjæret",
+    "lon": 10.877383,
+    "localityNo": 19356
+  },
+  {
+    "lat": 66.021833,
+    "name": "Kvalvågen",
+    "lon": 12.80755,
+    "localityNo": 14243
+  },
+  {
+    "lat": 66.669083,
+    "name": "Kvalvika",
+    "lon": 13.391633,
+    "localityNo": 11074
+  },
+  {
+    "lat": 61.372838,
+    "name": "Kvamen",
+    "lon": 5.442218,
+    "localityNo": 13501
+  },
+  {
+    "lat": 62.145317,
+    "name": "Kvangardsnes",
+    "lon": 5.94545,
+    "localityNo": 12213
+  },
+  {
+    "lat": 68.813817,
+    "name": "Kvanntoneset",
+    "lon": 17.521017,
+    "localityNo": 20576
+  },
+  {
+    "lat": 59.878017,
+    "name": "Kvarvaneset",
+    "lon": 5.575517,
+    "localityNo": 13963
+  },
+  {
+    "lat": 66.3242,
+    "name": "Kveitholmen",
+    "lon": 12.647583,
+    "localityNo": 21337
+  },
+  {
+    "lat": 63.825033,
+    "name": "Kveitskjeret",
+    "lon": 8.444633,
+    "localityNo": 35377
+  },
+  {
+    "lat": 69.232983,
+    "name": "Kvenbukta V",
+    "lon": 17.089417,
+    "localityNo": 15860
+  },
+  {
+    "lat": 60.992133,
+    "name": "Kverhelleskjeret",
+    "lon": 4.697483,
+    "localityNo": 39197
+  },
+  {
+    "lat": 59.685317,
+    "name": "Kvernaneset",
+    "lon": 5.4311,
+    "localityNo": 32217
+  },
+  {
+    "lat": 60.069283,
+    "name": "Kvernavika",
+    "lon": 5.351183,
+    "localityNo": 24975
+  },
+  {
+    "lat": 68.40205,
+    "name": "Kvernes",
+    "lon": 16.914367,
+    "localityNo": 28196
+  },
+  {
+    "lat": 61.0675,
+    "name": "Kvernhusvika",
+    "lon": 4.94345,
+    "localityNo": 11714
+  },
+  {
+    "lat": 60.054317,
+    "name": "Kviksholmen",
+    "lon": 5.090733,
+    "localityNo": 10041
+  },
+  {
+    "lat": 65.203167,
+    "name": "Kvingra",
+    "lon": 11.569,
+    "localityNo": 36457
+  },
+  {
+    "lat": 69.953867,
+    "name": "Kviteberg",
+    "lon": 21.88035,
+    "localityNo": 35997
+  },
+  {
+    "lat": 70.629167,
+    "name": "Kvitelv",
+    "lon": 27.123317,
+    "localityNo": 13813
+  },
+  {
+    "lat": 61.467817,
+    "name": "Kviteskjeret",
+    "lon": 5.2203,
+    "localityNo": 11775
+  },
+  {
+    "lat": 69.145083,
+    "name": "Kvitfloget",
+    "lon": 17.6465,
+    "localityNo": 30216
+  },
+  {
+    "lat": 63.209833,
+    "name": "Kvitingen Ved Grip",
+    "lon": 7.563767,
+    "localityNo": 39037
+  },
+  {
+    "lat": 65.481917,
+    "name": "Kvitneset",
+    "lon": 12.6365,
+    "localityNo": 10872
+  },
+  {
+    "lat": 64.968025,
+    "name": "Kvitneset",
+    "lon": 11.665157,
+    "localityNo": 12727
+  },
+  {
+    "lat": 66.1008,
+    "name": "Kvitskjæret",
+    "lon": 12.157333,
+    "localityNo": 35777
+  },
+  {
+    "lat": 61.316433,
+    "name": "Kyravika",
+    "lon": 5.1563,
+    "localityNo": 11803
+  },
+  {
+    "lat": 60.161583,
+    "name": "Kyrholmen S",
+    "lon": 5.207633,
+    "localityNo": 20595
+  },
+  {
+    "lat": 64.764017,
+    "name": "Kyrøyene",
+    "lon": 10.806633,
+    "localityNo": 30076
+  },
+  {
+    "lat": 60.1993,
+    "name": "Kysnes",
+    "lon": 6.095417,
+    "localityNo": 13234
+  },
+  {
+    "lat": 60.749917,
+    "name": "Laberget",
+    "lon": 5.298833,
+    "localityNo": 34657
+  },
+  {
+    "lat": 66.01325,
+    "name": "Labukta V",
+    "lon": 12.350567,
+    "localityNo": 10989
+  },
+  {
+    "lat": 59.194967,
+    "name": "Låderskjera",
+    "lon": 5.478617,
+    "localityNo": 38957
+  },
+  {
+    "lat": 70.89355,
+    "name": "Laholmen",
+    "lon": 25.55705,
+    "localityNo": 15460
+  },
+  {
+    "lat": 69.804383,
+    "name": "Lakseklubbukta",
+    "lon": 19.273283,
+    "localityNo": 23035
+  },
+  {
+    "lat": 60.53015,
+    "name": "Laksevika",
+    "lon": 5.11575,
+    "localityNo": 10080
+  },
+  {
+    "lat": 65.470933,
+    "name": "Lamholmen",
+    "lon": 12.1338,
+    "localityNo": 10898
+  },
+  {
+    "lat": 63.73305,
+    "name": "Lamøya",
+    "lon": 8.854983,
+    "localityNo": 12993
+  },
+  {
+    "lat": 67.974,
+    "name": "Lamøystraumen",
+    "lon": 15.513667,
+    "localityNo": 40097
+  },
+  {
+    "lat": 64.548083,
+    "name": "Landfallvika",
+    "lon": 11.524717,
+    "localityNo": 12667
+  },
+  {
+    "lat": 70.01095,
+    "name": "Langås",
+    "lon": 19.66665,
+    "localityNo": 34457
+  },
+  {
+    "lat": 59.230767,
+    "name": "Langavika",
+    "lon": 6.004483,
+    "localityNo": 11928
+  },
+  {
+    "lat": 61.63405,
+    "name": "Langeråa",
+    "lon": 4.86525,
+    "localityNo": 11791
+  },
+  {
+    "lat": 59.613267,
+    "name": "Langevågen",
+    "lon": 5.245267,
+    "localityNo": 16497
+  },
+  {
+    "lat": 58.20935,
+    "name": "Langholmen",
+    "lon": 8.292367,
+    "localityNo": 12834
+  },
+  {
+    "lat": 67.057833,
+    "name": "Langholmen",
+    "lon": 14.025333,
+    "localityNo": 11116
+  },
+  {
+    "lat": 59.097283,
+    "name": "Langholmen",
+    "lon": 5.835917,
+    "localityNo": 24715
+  },
+  {
+    "lat": 68.666383,
+    "name": "Langholmen N",
+    "lon": 14.914717,
+    "localityNo": 34637
+  },
+  {
+    "lat": 68.568433,
+    "name": "Langneset",
+    "lon": 15.33005,
+    "localityNo": 26876
+  },
+  {
+    "lat": 60.779467,
+    "name": "Langøy S",
+    "lon": 5.16,
+    "localityNo": 26295
+  },
+  {
+    "lat": 61.04395,
+    "name": "Langøy N",
+    "lon": 4.724283,
+    "localityNo": 11767
+  },
+  {
+    "lat": 63.78455,
+    "name": "Langøy Sør",
+    "lon": 8.596083,
+    "localityNo": 38597
+  },
+  {
+    "lat": 63.791517,
+    "name": "Langøya Kvaløya",
+    "lon": 8.6066,
+    "localityNo": 12380
+  },
+  {
+    "lat": 68.803383,
+    "name": "Langøyhovden",
+    "lon": 14.866383,
+    "localityNo": 11238
+  },
+  {
+    "lat": 59.2983,
+    "name": "Langøyna Ø",
+    "lon": 5.713333,
+    "localityNo": 13055
+  },
+  {
+    "lat": 63.8225,
+    "name": "Langskjæra",
+    "lon": 8.75505,
+    "localityNo": 20559
+  },
+  {
+    "lat": 63.821817,
+    "name": "Langskjæra II",
+    "lon": 8.743433,
+    "localityNo": 33557
+  },
+  {
+    "lat": 67.118383,
+    "name": "Langskjæran",
+    "lon": 13.898417,
+    "localityNo": 28036
+  },
+  {
+    "lat": 65.425117,
+    "name": "Langskjæret Ø",
+    "lon": 12.473998,
+    "localityNo": 10598
+  },
+  {
+    "lat": 70.084417,
+    "name": "Larstangen",
+    "lon": 20.090417,
+    "localityNo": 37297
+  },
+  {
+    "lat": 66.206017,
+    "name": "Lassevika I",
+    "lon": 13.5433,
+    "localityNo": 38377
+  },
+  {
+    "lat": 70.0645,
+    "name": "Latvika",
+    "lon": 29.0347,
+    "localityNo": 15957
+  },
+  {
+    "lat": 59.179733,
+    "name": "Lauplandsholmen",
+    "lon": 5.472633,
+    "localityNo": 11438
+  },
+  {
+    "lat": 70.02435,
+    "name": "Lausklubben",
+    "lon": 29.292183,
+    "localityNo": 33777
+  },
+  {
+    "lat": 61.18595,
+    "name": "Lauvholmgrunnen",
+    "lon": 5.230633,
+    "localityNo": 39277
+  },
+  {
+    "lat": 63.916883,
+    "name": "Lauvøya",
+    "lon": 9.92425,
+    "localityNo": 38977
+  },
+  {
+    "lat": 59.2966,
+    "name": "Låva",
+    "lon": 5.990283,
+    "localityNo": 19355
+  },
+  {
+    "lat": 65.484333,
+    "name": "Lavika",
+    "lon": 12.651167,
+    "localityNo": 10869
+  },
+  {
+    "lat": 69.257533,
+    "name": "Lavika",
+    "lon": 17.0887,
+    "localityNo": 11350
+  },
+  {
+    "lat": 60.980633,
+    "name": "Leiholmane",
+    "lon": 4.87435,
+    "localityNo": 13340
+  },
+  {
+    "lat": 66.3565,
+    "name": "Leirholmen",
+    "lon": 12.530117,
+    "localityNo": 26675
+  },
+  {
+    "lat": 60.880417,
+    "name": "Leirøyna",
+    "lon": 4.935433,
+    "localityNo": 38117
+  },
+  {
+    "lat": 67.0267,
+    "name": "Leirvik",
+    "lon": 14.126283,
+    "localityNo": 30857
+  },
+  {
+    "lat": 60.74215,
+    "name": "Leirvika",
+    "lon": 5.344317,
+    "localityNo": 13699
+  },
+  {
+    "lat": 64.446067,
+    "name": "Leirvikholmen",
+    "lon": 11.2982,
+    "localityNo": 12683
+  },
+  {
+    "lat": 63.035983,
+    "name": "Leite",
+    "lon": 7.678117,
+    "localityNo": 12870
+  },
+  {
+    "lat": 67.227833,
+    "name": "Leivsethamran",
+    "lon": 15.352583,
+    "localityNo": 19098
+  },
+  {
+    "lat": 65.078783,
+    "name": "Lekafjorden II",
+    "lon": 11.724033,
+    "localityNo": 34257
+  },
+  {
+    "lat": 69.037883,
+    "name": "Lekangsund II",
+    "lon": 17.264183,
+    "localityNo": 23056
+  },
+  {
+    "lat": 65.184144,
+    "name": "Lekvika",
+    "lon": 12.392213,
+    "localityNo": 19738
+  },
+  {
+    "lat": 59.72855,
+    "name": "Lelandsholmen",
+    "lon": 5.152383,
+    "localityNo": 14086
+  },
+  {
+    "lat": 64.5827,
+    "name": "Lennavika",
+    "lon": 11.202,
+    "localityNo": 13906
+  },
+  {
+    "lat": 66.55785,
+    "name": "Lian",
+    "lon": 13.526233,
+    "localityNo": 35977
+  },
+  {
+    "lat": 66.228867,
+    "name": "Lille Åsvær",
+    "lon": 12.312267,
+    "localityNo": 10990
+  },
+  {
+    "lat": 68.47665,
+    "name": "Lille Djupfest",
+    "lon": 16.09135,
+    "localityNo": 36497
+  },
+  {
+    "lat": 70.347517,
+    "name": "Lille Kufjord",
+    "lon": 22.972967,
+    "localityNo": 10840
+  },
+  {
+    "lat": 70.303383,
+    "name": "Lille Kvalfjord",
+    "lon": 22.937983,
+    "localityNo": 13317
+  },
+  {
+    "lat": 65.01145,
+    "name": "Lille Kvitholmen",
+    "lon": 11.6139,
+    "localityNo": 10262
+  },
+  {
+    "lat": 63.605633,
+    "name": "Lille Torsøy",
+    "lon": 8.48855,
+    "localityNo": 12392
+  },
+  {
+    "lat": 63.608027,
+    "name": "Lille Torsøy II",
+    "lon": 8.494633,
+    "localityNo": 29056
+  },
+  {
+    "lat": 68.566533,
+    "name": "Lilleelv",
+    "lon": 15.3329,
+    "localityNo": 11411
+  },
+  {
+    "lat": 60.083867,
+    "name": "Lindarholmen",
+    "lon": 5.63925,
+    "localityNo": 28396
+  },
+  {
+    "lat": 61.802817,
+    "name": "Lindeneset",
+    "lon": 5.979733,
+    "localityNo": 12212
+  },
+  {
+    "lat": 59.474067,
+    "name": "Lindvik",
+    "lon": 5.976433,
+    "localityNo": 12966
+  },
+  {
+    "lat": 66.53785,
+    "name": "Linesvika",
+    "lon": 13.325183,
+    "localityNo": 45044
+  },
+  {
+    "lat": 65.4933,
+    "name": "Lismåsøy",
+    "lon": 12.169217,
+    "localityNo": 14076
+  },
+  {
+    "lat": 69.00265,
+    "name": "Litjevika",
+    "lon": 17.440567,
+    "localityNo": 35317
+  },
+  {
+    "lat": 60.02005,
+    "name": "Litle Lunnøy",
+    "lon": 5.169533,
+    "localityNo": 14039
+  },
+  {
+    "lat": 68.611667,
+    "name": "Litleøya",
+    "lon": 15.381083,
+    "localityNo": 11410
+  },
+  {
+    "lat": 60.479783,
+    "name": "Litletveitholane",
+    "lon": 5.443633,
+    "localityNo": 13876
+  },
+  {
+    "lat": 60.2564,
+    "name": "Ljonesbjørgene",
+    "lon": 6.16585,
+    "localityNo": 12022
+  },
+  {
+    "lat": 60.565133,
+    "name": "Ljøsøy N",
+    "lon": 4.878417,
+    "localityNo": 14435
+  },
+  {
+    "lat": 59.691643,
+    "name": "Loddetå",
+    "lon": 5.54298,
+    "localityNo": 28996
+  },
+  {
+    "lat": 63.937283,
+    "name": "Lønngrunnen",
+    "lon": 9.780317,
+    "localityNo": 40137
+  },
+  {
+    "lat": 68.863,
+    "name": "Lønskog",
+    "lon": 15.087283,
+    "localityNo": 16216
+  },
+  {
+    "lat": 61.820067,
+    "name": "Løypingneset",
+    "lon": 5.247533,
+    "localityNo": 13549
+  },
+  {
+    "lat": 69.936717,
+    "name": "Lubben",
+    "lon": 19.832183,
+    "localityNo": 36757
+  },
+  {
+    "lat": 62.64515,
+    "name": "Lybergsvika",
+    "lon": 7.450533,
+    "localityNo": 14043
+  },
+  {
+    "lat": 59.713833,
+    "name": "Lyklingholmen N",
+    "lon": 5.155467,
+    "localityNo": 10292
+  },
+  {
+    "lat": 61.016933,
+    "name": "Lyngholmen",
+    "lon": 5.007033,
+    "localityNo": 12978
+  },
+  {
+    "lat": 60.1197,
+    "name": "Lyngnes",
+    "lon": 5.720917,
+    "localityNo": 33337
+  },
+  {
+    "lat": 64.81865,
+    "name": "Lyngøy",
+    "lon": 10.935217,
+    "localityNo": 32057
+  },
+  {
+    "lat": 63.80621,
+    "name": "Lyngvær Ø II",
+    "lon": 8.567418,
+    "localityNo": 12385
+  },
+  {
+    "lat": 59.21425,
+    "name": "Lyregrunnen",
+    "lon": 5.717267,
+    "localityNo": 45024
+  },
+  {
+    "lat": 64.5256,
+    "name": "Lyrnesset",
+    "lon": 10.748133,
+    "localityNo": 12633
+  },
+  {
+    "lat": 59.69935,
+    "name": "Mælen",
+    "lon": 5.724233,
+    "localityNo": 12127
+  },
+  {
+    "lat": 64.549183,
+    "name": "Makrellskjæret",
+    "lon": 10.7341,
+    "localityNo": 35477
+  },
+  {
+    "lat": 62.2278,
+    "name": "Måløysundet",
+    "lon": 5.82745,
+    "localityNo": 37537
+  },
+  {
+    "lat": 63.8473,
+    "name": "Mannbruholmen",
+    "lon": 8.53675,
+    "localityNo": 10232
+  },
+  {
+    "lat": 63.676433,
+    "name": "Måøydraga",
+    "lon": 8.757283,
+    "localityNo": 12370
+  },
+  {
+    "lat": 59.762117,
+    "name": "Maradalen",
+    "lon": 5.687317,
+    "localityNo": 12134
+  },
+  {
+    "lat": 61.152667,
+    "name": "Måren",
+    "lon": 6.1167,
+    "localityNo": 32977
+  },
+  {
+    "lat": 61.847933,
+    "name": "Marøy Nø",
+    "lon": 5.295383,
+    "localityNo": 13550
+  },
+  {
+    "lat": 70.249917,
+    "name": "Marøya",
+    "lon": 21.706083,
+    "localityNo": 10611
+  },
+  {
+    "lat": 64.854767,
+    "name": "Marøya",
+    "lon": 11.2481,
+    "localityNo": 13685
+  },
+  {
+    "lat": 70.737233,
+    "name": "Mårøyfjord",
+    "lon": 27.317183,
+    "localityNo": 15516
+  },
+  {
+    "lat": 61.506767,
+    "name": "Marøytåa",
+    "lon": 5.118367,
+    "localityNo": 11807
+  },
+  {
+    "lat": 70.239617,
+    "name": "Mårsanjarga",
+    "lon": 23.286883,
+    "localityNo": 10814
+  },
+  {
+    "lat": 67.76705,
+    "name": "Martnesvika",
+    "lon": 15.580867,
+    "localityNo": 13139
+  },
+  {
+    "lat": 63.74535,
+    "name": "Måsskjæra",
+    "lon": 8.881617,
+    "localityNo": 34437
+  },
+  {
+    "lat": 64.161233,
+    "name": "Masterholman",
+    "lon": 10.0496,
+    "localityNo": 22555
+  },
+  {
+    "lat": 66.195567,
+    "name": "Mastervika",
+    "lon": 13.517933,
+    "localityNo": 40257
+  },
+  {
+    "lat": 60.264083,
+    "name": "Matland",
+    "lon": 5.6591,
+    "localityNo": 10137
+  },
+  {
+    "lat": 59.952083,
+    "name": "Matløyso",
+    "lon": 5.284933,
+    "localityNo": 21915
+  },
+  {
+    "lat": 67.528,
+    "name": "Matvika",
+    "lon": 15.359683,
+    "localityNo": 36117
+  },
+  {
+    "lat": 66.477667,
+    "name": "Måvær",
+    "lon": 12.7355,
+    "localityNo": 38517
+  },
+  {
+    "lat": 65.85145,
+    "name": "Mefaldskjæret",
+    "lon": 12.2872,
+    "localityNo": 10447
+  },
+  {
+    "lat": 66.081417,
+    "name": "Melkøya",
+    "lon": 12.2005,
+    "localityNo": 31637
+  },
+  {
+    "lat": 66.819983,
+    "name": "Meløysjøen",
+    "lon": 13.461467,
+    "localityNo": 28956
+  },
+  {
+    "lat": 62.7838,
+    "name": "Merraberget",
+    "lon": 8.27825,
+    "localityNo": 12904
+  },
+  {
+    "lat": 67.036933,
+    "name": "Midt Femris",
+    "lon": 13.967767,
+    "localityNo": 21397
+  },
+  {
+    "lat": 60.076633,
+    "name": "Midtflua",
+    "lon": 5.467067,
+    "localityNo": 13541
+  },
+  {
+    "lat": 68.656183,
+    "name": "Mikkelsøya",
+    "lon": 14.729933,
+    "localityNo": 34277
+  },
+  {
+    "lat": 70.885417,
+    "name": "Misjona",
+    "lon": 25.495117,
+    "localityNo": 29596
+  },
+  {
+    "lat": 60.997733,
+    "name": "Mjånes",
+    "lon": 5.0304,
+    "localityNo": 10078
+  },
+  {
+    "lat": 60.176,
+    "name": "Mjåneset",
+    "lon": 5.7244,
+    "localityNo": 12047
+  },
+  {
+    "lat": 60.934767,
+    "name": "Mjølbærvika",
+    "lon": 4.956483,
+    "localityNo": 11653
+  },
+  {
+    "lat": 61.111583,
+    "name": "Mjølsvik",
+    "lon": 6.0423,
+    "localityNo": 26435
+  },
+  {
+    "lat": 70.106433,
+    "name": "Mjønes",
+    "lon": 19.583867,
+    "localityNo": 36257
+  },
+  {
+    "lat": 68.90805,
+    "name": "Mjøsund Vest",
+    "lon": 17.407817,
+    "localityNo": 37057
+  },
+  {
+    "lat": 69.128833,
+    "name": "Mohamn",
+    "lon": 17.79755,
+    "localityNo": 34057
+  },
+  {
+    "lat": 60.789633,
+    "name": "Moldøyosen",
+    "lon": 4.70075,
+    "localityNo": 11772
+  },
+  {
+    "lat": 68.305367,
+    "name": "Molgavlen",
+    "lon": 14.949933,
+    "localityNo": 13293
+  },
+  {
+    "lat": 68.936533,
+    "name": "Mollvika",
+    "lon": 16.72465,
+    "localityNo": 36077
+  },
+  {
+    "lat": 59.719917,
+    "name": "Molnes",
+    "lon": 5.857983,
+    "localityNo": 12107
+  },
+  {
+    "lat": 63.93095,
+    "name": "Møriholmen",
+    "lon": 10.196967,
+    "localityNo": 10382
+  },
+  {
+    "lat": 65.457233,
+    "name": "Mortenøy",
+    "lon": 12.549733,
+    "localityNo": 10877
+  },
+  {
+    "lat": 70.124867,
+    "name": "Mortensnes",
+    "lon": 23.223033,
+    "localityNo": 10794
+  },
+  {
+    "lat": 68.085533,
+    "name": "Mortsund",
+    "lon": 13.633417,
+    "localityNo": 29516
+  },
+  {
+    "lat": 67.63265,
+    "name": "Movik",
+    "lon": 15.26325,
+    "localityNo": 30157
+  },
+  {
+    "lat": 66.532867,
+    "name": "Movikodden N",
+    "lon": 12.888433,
+    "localityNo": 33657
+  },
+  {
+    "lat": 68.1791,
+    "name": "Mulbukt",
+    "lon": 16.413683,
+    "localityNo": 35277
+  },
+  {
+    "lat": 67.669283,
+    "name": "Mulen",
+    "lon": 15.198867,
+    "localityNo": 45004
+  },
+  {
+    "lat": 65.10865,
+    "name": "Mulingen",
+    "lon": 12.442233,
+    "localityNo": 10858
+  },
+  {
+    "lat": 67.145433,
+    "name": "Mulnesodden",
+    "lon": 14.281183,
+    "localityNo": 35617
+  },
+  {
+    "lat": 67.142667,
+    "name": "Mulnesodden S",
+    "lon": 14.27865,
+    "localityNo": 45028
+  },
+  {
+    "lat": 59.285483,
+    "name": "Munkholmen",
+    "lon": 5.631317,
+    "localityNo": 13629
+  },
+  {
+    "lat": 63.819683,
+    "name": "Munkskjæra",
+    "lon": 8.408817,
+    "localityNo": 36877
+  },
+  {
+    "lat": 62.6505,
+    "name": "Myrane",
+    "lon": 6.726683,
+    "localityNo": 27215
+  },
+  {
+    "lat": 68.78055,
+    "name": "Myrlandshaug",
+    "lon": 17.282283,
+    "localityNo": 11332
+  },
+  {
+    "lat": 70.659267,
+    "name": "Næringsbukta",
+    "lon": 22.640933,
+    "localityNo": 33997
+  },
+  {
+    "lat": 58.055833,
+    "name": "Nakkestad",
+    "lon": 7.06875,
+    "localityNo": 29957
+  },
+  {
+    "lat": 58.248667,
+    "name": "Napp",
+    "lon": 6.53675,
+    "localityNo": 11864
+  },
+  {
+    "lat": 59.742983,
+    "name": "Nappeholmane",
+    "lon": 5.363633,
+    "localityNo": 10303
+  },
+  {
+    "lat": 66.3673,
+    "name": "Naustholmen",
+    "lon": 12.371417,
+    "localityNo": 10978
+  },
+  {
+    "lat": 62.9424,
+    "name": "Naustneset",
+    "lon": 8.0756,
+    "localityNo": 10213
+  },
+  {
+    "lat": 64.389567,
+    "name": "Nausttaren",
+    "lon": 10.512533,
+    "localityNo": 34477
+  },
+  {
+    "lat": 59.756333,
+    "name": "Naustvika",
+    "lon": 5.243683,
+    "localityNo": 11510
+  },
+  {
+    "lat": 59.231283,
+    "name": "Nautøya",
+    "lon": 5.551467,
+    "localityNo": 25717
+  },
+  {
+    "lat": 59.183483,
+    "name": "Nautvik",
+    "lon": 5.94915,
+    "localityNo": 13221
+  },
+  {
+    "lat": 60.1386,
+    "name": "Naveide",
+    "lon": 5.110533,
+    "localityNo": 11611
+  },
+  {
+    "lat": 59.87075,
+    "name": "Nebbo",
+    "lon": 5.725017,
+    "localityNo": 24937
+  },
+  {
+    "lat": 67.458487,
+    "name": "Nedre Kvarv",
+    "lon": 15.511583,
+    "localityNo": 10513
+  },
+  {
+    "lat": 60.68835,
+    "name": "Nesbø Gjeldsvik",
+    "lon": 5.4232,
+    "localityNo": 13965
+  },
+  {
+    "lat": 60.893783,
+    "name": "Nesevågen",
+    "lon": 4.8371,
+    "localityNo": 17576
+  },
+  {
+    "lat": 69.907683,
+    "name": "Nøklan",
+    "lon": 21.8331,
+    "localityNo": 15659
+  },
+  {
+    "lat": 66.07035,
+    "name": "Nord Gåsvær",
+    "lon": 12.065617,
+    "localityNo": 11041
+  },
+  {
+    "lat": 63.589367,
+    "name": "Nord Leksa",
+    "lon": 9.409217,
+    "localityNo": 10375
+  },
+  {
+    "lat": 66.256117,
+    "name": "Nordbotnet",
+    "lon": 12.8942,
+    "localityNo": 23816
+  },
+  {
+    "lat": 59.286867,
+    "name": "Nordeimsøyna",
+    "lon": 5.812583,
+    "localityNo": 14495
+  },
+  {
+    "lat": 67.752283,
+    "name": "Nordfoldleira I",
+    "lon": 15.239067,
+    "localityNo": 45014
+  },
+  {
+    "lat": 67.083917,
+    "name": "Nordfugløy",
+    "lon": 13.85685,
+    "localityNo": 11129
+  },
+  {
+    "lat": 64.765967,
+    "name": "Nordgjæslingan",
+    "lon": 10.913767,
+    "localityNo": 26315
+  },
+  {
+    "lat": 70.286367,
+    "name": "Nordnes",
+    "lon": 23.400283,
+    "localityNo": 10791
+  },
+  {
+    "lat": 70.721533,
+    "name": "Nordnesbukta",
+    "lon": 23.340933,
+    "localityNo": 40357
+  },
+  {
+    "lat": 64.356583,
+    "name": "Nordre Skokkeløy",
+    "lon": 10.424967,
+    "localityNo": 38277
+  },
+  {
+    "lat": 63.71165,
+    "name": "Nordskag",
+    "lon": 8.5614,
+    "localityNo": 19457
+  },
+  {
+    "lat": 63.338917,
+    "name": "Nørholmen",
+    "lon": 8.2718,
+    "localityNo": 33937
+  },
+  {
+    "lat": 62.739233,
+    "name": "Ny-Hellaren",
+    "lon": 6.768683,
+    "localityNo": 45018
+  },
+  {
+    "lat": 60.130183,
+    "name": "Nye Hessvik",
+    "lon": 6.126617,
+    "localityNo": 35897
+  },
+  {
+    "lat": 66.030933,
+    "name": "Nye Skorpa",
+    "lon": 12.481483,
+    "localityNo": 33297
+  },
+  {
+    "lat": 60.358067,
+    "name": "Nygård",
+    "lon": 5.683283,
+    "localityNo": 13020
+  },
+  {
+    "lat": 60.052333,
+    "name": "Nystølvågen",
+    "lon": 5.79345,
+    "localityNo": 24495
+  },
+  {
+    "lat": 60.05005,
+    "name": "Nystølvågen II",
+    "lon": 5.794033,
+    "localityNo": 34537
+  },
+  {
+    "lat": 58.910083,
+    "name": "Oanes Sjø",
+    "lon": 6.079483,
+    "localityNo": 11922
+  },
+  {
+    "lat": 61.540367,
+    "name": "Oddane",
+    "lon": 4.968933,
+    "localityNo": 27055
+  },
+  {
+    "lat": 68.270383,
+    "name": "Oddværsætra",
+    "lon": 14.769217,
+    "localityNo": 11168
+  },
+  {
+    "lat": 59.799583,
+    "name": "Øklandsvågen",
+    "lon": 5.129417,
+    "localityNo": 11537
+  },
+  {
+    "lat": 65.19105,
+    "name": "Oksbåsen",
+    "lon": 12.6723,
+    "localityNo": 37077
+  },
+  {
+    "lat": 62.52025,
+    "name": "Oksebåsen V",
+    "lon": 6.16075,
+    "localityNo": 10181
+  },
+  {
+    "lat": 60.434183,
+    "name": "Oksen",
+    "lon": 4.94065,
+    "localityNo": 31697
+  },
+  {
+    "lat": 67.136967,
+    "name": "Øksengård",
+    "lon": 15.4048,
+    "localityNo": 11272
+  },
+  {
+    "lat": 60.81255,
+    "name": "Øksneset",
+    "lon": 4.862317,
+    "localityNo": 30559
+  },
+  {
+    "lat": 65.139233,
+    "name": "Øksningen",
+    "lon": 12.31975,
+    "localityNo": 14019
+  },
+  {
+    "lat": 67.974933,
+    "name": "Oksøy",
+    "lon": 15.310767,
+    "localityNo": 11320
+  },
+  {
+    "lat": 58.06565,
+    "name": "Oksøy",
+    "lon": 8.045567,
+    "localityNo": 34377
+  },
+  {
+    "lat": 64.6098,
+    "name": "Oksskardvika",
+    "lon": 11.28085,
+    "localityNo": 36597
+  },
+  {
+    "lat": 70.2122,
+    "name": "Olaneset",
+    "lon": 22.2785,
+    "localityNo": 10795
+  },
+  {
+    "lat": 63.79235,
+    "name": "Olausskjæret",
+    "lon": 8.51305,
+    "localityNo": 33737
+  },
+  {
+    "lat": 65.311183,
+    "name": "Olderbakken",
+    "lon": 12.368633,
+    "localityNo": 27876
+  },
+  {
+    "lat": 70.384033,
+    "name": "Olderfjord",
+    "lon": 23.484533,
+    "localityNo": 10790
+  },
+  {
+    "lat": 60.114117,
+    "name": "Olderhola",
+    "lon": 6.190267,
+    "localityNo": 12020
+  },
+  {
+    "lat": 61.103283,
+    "name": "Olderøy",
+    "lon": 4.712233,
+    "localityNo": 15403
+  },
+  {
+    "lat": 67.071033,
+    "name": "Oldervik",
+    "lon": 14.113967,
+    "localityNo": 22995
+  },
+  {
+    "lat": 63.8857,
+    "name": "Oldøya",
+    "lon": 9.941653,
+    "localityNo": 12746
+  },
+  {
+    "lat": 63.89062,
+    "name": "Oldøya N",
+    "lon": 9.953617,
+    "localityNo": 10380
+  },
+  {
+    "lat": 63.852733,
+    "name": "Oløya N",
+    "lon": 8.591083,
+    "localityNo": 38797
+  },
+  {
+    "lat": 58.854917,
+    "name": "Oltesvik",
+    "lon": 6.124417,
+    "localityNo": 11908
+  },
+  {
+    "lat": 66.4367,
+    "name": "Olvika",
+    "lon": 13.126033,
+    "localityNo": 28676
+  },
+  {
+    "lat": 59.550783,
+    "name": "Ommundsteigen",
+    "lon": 6.5131,
+    "localityNo": 12071
+  },
+  {
+    "lat": 63.631967,
+    "name": "Omsøyholman",
+    "lon": 8.575567,
+    "localityNo": 12383
+  },
+  {
+    "lat": 59.95335,
+    "name": "Onarøy",
+    "lon": 5.669683,
+    "localityNo": 10136
+  },
+  {
+    "lat": 62.96805,
+    "name": "Onsøyholmen",
+    "lon": 7.7752,
+    "localityNo": 15777
+  },
+  {
+    "lat": 68.888667,
+    "name": "Oppmyrbogen",
+    "lon": 15.06235,
+    "localityNo": 45026
+  },
+  {
+    "lat": 62.28765,
+    "name": "Opshaugvik",
+    "lon": 6.990333,
+    "localityNo": 10197
+  },
+  {
+    "lat": 63.039933,
+    "name": "Or",
+    "lon": 7.850267,
+    "localityNo": 19875
+  },
+  {
+    "lat": 62.77625,
+    "name": "Orholmen",
+    "lon": 6.78015,
+    "localityNo": 39937
+  },
+  {
+    "lat": 62.968467,
+    "name": "Ørjavik",
+    "lon": 7.371233,
+    "localityNo": 12919
+  },
+  {
+    "lat": 66.420083,
+    "name": "Ørnes",
+    "lon": 13.018033,
+    "localityNo": 17235
+  },
+  {
+    "lat": 69.491467,
+    "name": "Ørnfjordbotn",
+    "lon": 17.673067,
+    "localityNo": 30518
+  },
+  {
+    "lat": 63.761867,
+    "name": "Ørnøya",
+    "lon": 8.445183,
+    "localityNo": 12394
+  },
+  {
+    "lat": 63.758483,
+    "name": "Ørnøya II",
+    "lon": 8.450367,
+    "localityNo": 24696
+  },
+  {
+    "lat": 63.0345,
+    "name": "Orstranda",
+    "lon": 7.83515,
+    "localityNo": 33817
+  },
+  {
+    "lat": 63.661983,
+    "name": "Osholmen",
+    "lon": 9.135583,
+    "localityNo": 13888
+  },
+  {
+    "lat": 61.0795,
+    "name": "Oslandsurda",
+    "lon": 5.8099,
+    "localityNo": 12179
+  },
+  {
+    "lat": 60.746867,
+    "name": "Ospeneset",
+    "lon": 5.268483,
+    "localityNo": 19655
+  },
+  {
+    "lat": 59.866567,
+    "name": "Ospøy Ø",
+    "lon": 5.228133,
+    "localityNo": 10050
+  },
+  {
+    "lat": 69.9099,
+    "name": "Oterfjorden",
+    "lon": 29.680717,
+    "localityNo": 13691
+  },
+  {
+    "lat": 64.815782,
+    "name": "Oterholmen",
+    "lon": 11.2208,
+    "localityNo": 13959
+  },
+  {
+    "lat": 68.092633,
+    "name": "Oterholmen I",
+    "lon": 13.634483,
+    "localityNo": 11205
+  },
+  {
+    "lat": 68.929667,
+    "name": "Oterneset",
+    "lon": 16.701433,
+    "localityNo": 31397
+  },
+  {
+    "lat": 60.23545,
+    "name": "Oterstegdalen",
+    "lon": 5.638267,
+    "localityNo": 13345
+  },
+  {
+    "lat": 65.161733,
+    "name": "Otervika",
+    "lon": 11.968417,
+    "localityNo": 40117
+  },
+  {
+    "lat": 60.686417,
+    "name": "Otterholmen",
+    "lon": 4.908683,
+    "localityNo": 11738
+  },
+  {
+    "lat": 62.296517,
+    "name": "Overåneset",
+    "lon": 7.123917,
+    "localityNo": 13554
+  },
+  {
+    "lat": 62.30065,
+    "name": "Overåneset V",
+    "lon": 7.085433,
+    "localityNo": 20315
+  },
+  {
+    "lat": 68.981667,
+    "name": "Øvergården",
+    "lon": 16.534667,
+    "localityNo": 11378
+  },
+  {
+    "lat": 70.774767,
+    "name": "Øyra",
+    "lon": 27.2185,
+    "localityNo": 34697
+  },
+  {
+    "lat": 63.862833,
+    "name": "Pålskjæra",
+    "lon": 8.633517,
+    "localityNo": 26835
+  },
+  {
+    "lat": 63.91345,
+    "name": "Persflua",
+    "lon": 9.826433,
+    "localityNo": 33417
+  },
+  {
+    "lat": 70.8172,
+    "name": "Petternes",
+    "lon": 24.590567,
+    "localityNo": 33517
+  },
+  {
+    "lat": 58.221967,
+    "name": "Pinnen",
+    "lon": 6.68495,
+    "localityNo": 11854
+  },
+  {
+    "lat": 68.315383,
+    "name": "Pollan",
+    "lon": 15.140133,
+    "localityNo": 36437
+  },
+  {
+    "lat": 70.340883,
+    "name": "Pollen",
+    "lon": 22.804867,
+    "localityNo": 10841
+  },
+  {
+    "lat": 60.211417,
+    "name": "Porsvika",
+    "lon": 5.053667,
+    "localityNo": 18255
+  },
+  {
+    "lat": 61.190667,
+    "name": "Portevika",
+    "lon": 5.081683,
+    "localityNo": 11688
+  },
+  {
+    "lat": 60.968865,
+    "name": "Pøyla",
+    "lon": 5.195331,
+    "localityNo": 19175
+  },
+  {
+    "lat": 59.116767,
+    "name": "Prestholmane",
+    "lon": 5.8545,
+    "localityNo": 11972
+  },
+  {
+    "lat": 68.417533,
+    "name": "Pundsvik",
+    "lon": 16.79135,
+    "localityNo": 19556
+  },
+  {
+    "lat": 59.790017,
+    "name": "Rafdal",
+    "lon": 6.175783,
+    "localityNo": 10149
+  },
+  {
+    "lat": 68.025067,
+    "name": "Rahkasluokta",
+    "lon": 16.21425,
+    "localityNo": 30637
+  },
+  {
+    "lat": 69.885067,
+    "name": "Rakkenes",
+    "lon": 21.729983,
+    "localityNo": 10806
+  },
+  {
+    "lat": 66.243117,
+    "name": "Ramnøya N",
+    "lon": 12.29375,
+    "localityNo": 45029
+  },
+  {
+    "lat": 60.432617,
+    "name": "Ramsøy S",
+    "lon": 5.061917,
+    "localityNo": 11651
+  },
+  {
+    "lat": 64.754817,
+    "name": "Ramstadholmen",
+    "lon": 11.246033,
+    "localityNo": 13581
+  },
+  {
+    "lat": 60.578167,
+    "name": "Ramsvik",
+    "lon": 5.1907,
+    "localityNo": 11687
+  },
+  {
+    "lat": 63.9258,
+    "name": "Rånes Mindebukta",
+    "lon": 10.03685,
+    "localityNo": 12811
+  },
+  {
+    "lat": 63.549517,
+    "name": "Ranskjæret Frosta Sør",
+    "lon": 10.704267,
+    "localityNo": 39897
+  },
+  {
+    "lat": 63.793617,
+    "name": "Raskjæret",
+    "lon": 8.854567,
+    "localityNo": 12366
+  },
+  {
+    "lat": 63.780583,
+    "name": "Rataren",
+    "lon": 8.5176,
+    "localityNo": 28636
+  },
+  {
+    "lat": 63.782383,
+    "name": "Rataren II",
+    "lon": 8.52635,
+    "localityNo": 31959
+  },
+  {
+    "lat": 63.97185,
+    "name": "Ratvika",
+    "lon": 9.954783,
+    "localityNo": 31958
+  },
+  {
+    "lat": 59.657983,
+    "name": "Raunevågen",
+    "lon": 5.533667,
+    "localityNo": 13867
+  },
+  {
+    "lat": 63.664533,
+    "name": "Rauodden",
+    "lon": 8.884083,
+    "localityNo": 12406
+  },
+  {
+    "lat": 68.286683,
+    "name": "Raven",
+    "lon": 15.122683,
+    "localityNo": 32997
+  },
+  {
+    "lat": 68.772833,
+    "name": "Reinsnesøya",
+    "lon": 15.446583,
+    "localityNo": 33477
+  },
+  {
+    "lat": 67.605683,
+    "name": "Reinvika",
+    "lon": 15.368483,
+    "localityNo": 31777
+  },
+  {
+    "lat": 63.44995,
+    "name": "Reiråklakken",
+    "lon": 8.167133,
+    "localityNo": 29116
+  },
+  {
+    "lat": 63.617183,
+    "name": "Reitholmen",
+    "lon": 9.1311,
+    "localityNo": 13887
+  },
+  {
+    "lat": 58.371667,
+    "name": "Rekevika",
+    "lon": 6.621667,
+    "localityNo": 37097
+  },
+  {
+    "lat": 60.723417,
+    "name": "Rekeviki",
+    "lon": 5.328583,
+    "localityNo": 10086
+  },
+  {
+    "lat": 62.081933,
+    "name": "Rekvika",
+    "lon": 5.411267,
+    "localityNo": 45020
+  },
+  {
+    "lat": 66.69935,
+    "name": "Rendalsvik",
+    "lon": 13.624117,
+    "localityNo": 11072
+  },
+  {
+    "lat": 66.587633,
+    "name": "Renga S",
+    "lon": 13.096633,
+    "localityNo": 22796
+  },
+  {
+    "lat": 59.132517,
+    "name": "Rennaren",
+    "lon": 5.721883,
+    "localityNo": 17357
+  },
+  {
+    "lat": 63.176117,
+    "name": "Renndalen",
+    "lon": 8.6172,
+    "localityNo": 29896
+  },
+  {
+    "lat": 66.504117,
+    "name": "Rensøya N",
+    "lon": 12.07285,
+    "localityNo": 10893
+  },
+  {
+    "lat": 58.0243,
+    "name": "Revøy",
+    "lon": 7.0268,
+    "localityNo": 30657
+  },
+  {
+    "lat": 62.8457,
+    "name": "Rindarøy",
+    "lon": 6.77835,
+    "localityNo": 27395
+  },
+  {
+    "lat": 63.56,
+    "name": "Ringholmen",
+    "lon": 9.41005,
+    "localityNo": 12784
+  },
+  {
+    "lat": 59.405467,
+    "name": "Ringja",
+    "lon": 5.8631,
+    "localityNo": 11964
+  },
+  {
+    "lat": 68.3779,
+    "name": "Rinøyvåg Ø",
+    "lon": 15.767883,
+    "localityNo": 14795
+  },
+  {
+    "lat": 58.143983,
+    "name": "Risholmen",
+    "lon": 8.26705,
+    "localityNo": 12832
+  },
+  {
+    "lat": 60.416317,
+    "name": "Risøyna",
+    "lon": 4.909883,
+    "localityNo": 36697
+  },
+  {
+    "lat": 64.965367,
+    "name": "Risværgalten",
+    "lon": 11.532783,
+    "localityNo": 21495
+  },
+  {
+    "lat": 68.081417,
+    "name": "Risvik",
+    "lon": 16.321417,
+    "localityNo": 21176
+  },
+  {
+    "lat": 70.085867,
+    "name": "Rivarbukt",
+    "lon": 22.6618,
+    "localityNo": 10822
+  },
+  {
+    "lat": 65.826333,
+    "name": "Rødøya",
+    "lon": 12.58105,
+    "localityNo": 39057
+  },
+  {
+    "lat": 59.5993,
+    "name": "Rødspollen",
+    "lon": 5.4374,
+    "localityNo": 20756
+  },
+  {
+    "lat": 69.787967,
+    "name": "Rogndalen",
+    "lon": 18.6531,
+    "localityNo": 13804
+  },
+  {
+    "lat": 62.6695,
+    "name": "Rogne",
+    "lon": 6.356833,
+    "localityNo": 12281
+  },
+  {
+    "lat": 59.808094,
+    "name": "Rogøysund",
+    "lon": 5.093005,
+    "localityNo": 16895
+  },
+  {
+    "lat": 60.509333,
+    "name": "Rongøy",
+    "lon": 4.9317,
+    "localityNo": 29276
+  },
+  {
+    "lat": 60.509233,
+    "name": "Rongøyna II",
+    "lon": 4.925217,
+    "localityNo": 35157
+  },
+  {
+    "lat": 60.5057,
+    "name": "Rongøyna III",
+    "lon": 4.9302,
+    "localityNo": 35177
+  },
+  {
+    "lat": 62.135117,
+    "name": "Rønstad",
+    "lon": 6.021433,
+    "localityNo": 12209
+  },
+  {
+    "lat": 65.677883,
+    "name": "Rørskjæran S",
+    "lon": 11.774783,
+    "localityNo": 39397
+  },
+  {
+    "lat": 60.394683,
+    "name": "Rossholmen",
+    "lon": 6.274833,
+    "localityNo": 12018
+  },
+  {
+    "lat": 59.064283,
+    "name": "Rossholmen N",
+    "lon": 5.722617,
+    "localityNo": 12003
+  },
+  {
+    "lat": 67.073,
+    "name": "Røssøya N",
+    "lon": 13.947583,
+    "localityNo": 11122
+  },
+  {
+    "lat": 60.682817,
+    "name": "Rotøy",
+    "lon": 4.759617,
+    "localityNo": 11770
+  },
+  {
+    "lat": 68.894783,
+    "name": "Rotvika",
+    "lon": 17.690267,
+    "localityNo": 31097
+  },
+  {
+    "lat": 59.4422,
+    "name": "Røvær",
+    "lon": 5.10095,
+    "localityNo": 38717
+  },
+  {
+    "lat": 62.54865,
+    "name": "Røysa",
+    "lon": 6.1417,
+    "localityNo": 12298
+  },
+  {
+    "lat": 63.770083,
+    "name": "Ruggstein",
+    "lon": 8.476033,
+    "localityNo": 37197
+  },
+  {
+    "lat": 63.891067,
+    "name": "Rundhaugen",
+    "lon": 10.908767,
+    "localityNo": 12821
+  },
+  {
+    "lat": 66.474017,
+    "name": "Rundholman I",
+    "lon": 12.879367,
+    "localityNo": 45042
+  },
+  {
+    "lat": 63.801317,
+    "name": "Rundklumpen",
+    "lon": 9.607583,
+    "localityNo": 12794
+  },
+  {
+    "lat": 62.01035,
+    "name": "Rundreimstranda",
+    "lon": 5.3303,
+    "localityNo": 13612
+  },
+  {
+    "lat": 69.88975,
+    "name": "Russelva",
+    "lon": 20.769017,
+    "localityNo": 16015
+  },
+  {
+    "lat": 58.653,
+    "name": "Rutlebekk",
+    "lon": 6.701333,
+    "localityNo": 37037
+  },
+  {
+    "lat": 65.441333,
+    "name": "Sæterosen",
+    "lon": 12.44435,
+    "localityNo": 35737
+  },
+  {
+    "lat": 58.251167,
+    "name": "Sagebukta",
+    "lon": 6.79265,
+    "localityNo": 45015
+  },
+  {
+    "lat": 62.33795,
+    "name": "Sagelva",
+    "lon": 6.3815,
+    "localityNo": 13249
+  },
+  {
+    "lat": 60.348383,
+    "name": "Sagen 2",
+    "lon": 5.644033,
+    "localityNo": 32137
+  },
+  {
+    "lat": 60.141033,
+    "name": "Sagvik",
+    "lon": 5.906933,
+    "localityNo": 10328
+  },
+  {
+    "lat": 68.033583,
+    "name": "Salaluokta",
+    "lon": 16.25385,
+    "localityNo": 30957
+  },
+  {
+    "lat": 68.854633,
+    "name": "Salangslia",
+    "lon": 17.520883,
+    "localityNo": 13597
+  },
+  {
+    "lat": 63.90485,
+    "name": "Salatskjæra",
+    "lon": 8.589133,
+    "localityNo": 34857
+  },
+  {
+    "lat": 60.31815,
+    "name": "Saltkjelen I",
+    "lon": 6.183183,
+    "localityNo": 12973
+  },
+  {
+    "lat": 60.248017,
+    "name": "Saltkjelen II",
+    "lon": 6.2014,
+    "localityNo": 12019
+  },
+  {
+    "lat": 64.598867,
+    "name": "Saltkjelvika",
+    "lon": 11.2662,
+    "localityNo": 13748
+  },
+  {
+    "lat": 59.239167,
+    "name": "Saltskjer",
+    "lon": 6.053433,
+    "localityNo": 29736
+  },
+  {
+    "lat": 58.227167,
+    "name": "Salvågvika",
+    "lon": 6.632767,
+    "localityNo": 11856
+  },
+  {
+    "lat": 68.885833,
+    "name": "Sandan Sø",
+    "lon": 15.314567,
+    "localityNo": 11413
+  },
+  {
+    "lat": 68.060183,
+    "name": "Sandholman",
+    "lon": 13.5389,
+    "localityNo": 20096
+  },
+  {
+    "lat": 62.796583,
+    "name": "Sandholmane",
+    "lon": 6.67125,
+    "localityNo": 31677
+  },
+  {
+    "lat": 61.4837,
+    "name": "Sandkvia",
+    "lon": 5.137283,
+    "localityNo": 39237
+  },
+  {
+    "lat": 68.582533,
+    "name": "Sandnes Ø",
+    "lon": 14.941883,
+    "localityNo": 13296
+  },
+  {
+    "lat": 62.737617,
+    "name": "Sandnesbukta",
+    "lon": 7.879083,
+    "localityNo": 12884
+  },
+  {
+    "lat": 67.7382,
+    "name": "Sandøya",
+    "lon": 14.75345,
+    "localityNo": 35417
+  },
+  {
+    "lat": 64.243367,
+    "name": "Sandøya III",
+    "lon": 10.263817,
+    "localityNo": 19135
+  },
+  {
+    "lat": 65.310667,
+    "name": "Sandskjæret",
+    "lon": 12.326617,
+    "localityNo": 45013
+  },
+  {
+    "lat": 60.456567,
+    "name": "Sandvik",
+    "lon": 5.6922,
+    "localityNo": 28416
+  },
+  {
+    "lat": 62.195667,
+    "name": "Sandvika",
+    "lon": 5.904417,
+    "localityNo": 13243
+  },
+  {
+    "lat": 70.98,
+    "name": "Sarnes",
+    "lon": 25.747833,
+    "localityNo": 15462
+  },
+  {
+    "lat": 60.089083,
+    "name": "Sauaneset I",
+    "lon": 5.267967,
+    "localityNo": 13035
+  },
+  {
+    "lat": 60.59395,
+    "name": "Sauøy",
+    "lon": 4.86125,
+    "localityNo": 11758
+  },
+  {
+    "lat": 70.4457,
+    "name": "Segelnes",
+    "lon": 23.753267,
+    "localityNo": 33317
+  },
+  {
+    "lat": 63.149745,
+    "name": "Segelråa",
+    "lon": 8.12855,
+    "localityNo": 19855
+  },
+  {
+    "lat": 59.730433,
+    "name": "Seglberget",
+    "lon": 5.788733,
+    "localityNo": 17015
+  },
+  {
+    "lat": 63.767183,
+    "name": "Seiballskjæret",
+    "lon": 8.908517,
+    "localityNo": 34597
+  },
+  {
+    "lat": 64.092683,
+    "name": "Seiskjæra",
+    "lon": 10.11655,
+    "localityNo": 10398
+  },
+  {
+    "lat": 65.934283,
+    "name": "Seiskjæret",
+    "lon": 12.071567,
+    "localityNo": 37857
+  },
+  {
+    "lat": 61.5771,
+    "name": "Seljeset",
+    "lon": 5.237383,
+    "localityNo": 13706
+  },
+  {
+    "lat": 66.584167,
+    "name": "Selsøya",
+    "lon": 13.011833,
+    "localityNo": 45051
+  },
+  {
+    "lat": 66.5896,
+    "name": "Selsøyvær",
+    "lon": 12.84965,
+    "localityNo": 36517
+  },
+  {
+    "lat": 66.032849,
+    "name": "Selvågen",
+    "lon": 12.877375,
+    "localityNo": 14244
+  },
+  {
+    "lat": 58.861767,
+    "name": "Selvikstakk",
+    "lon": 6.1074,
+    "localityNo": 13335
+  },
+  {
+    "lat": 69.7467,
+    "name": "Sessøya",
+    "lon": 18.24865,
+    "localityNo": 30877
+  },
+  {
+    "lat": 62.673933,
+    "name": "Seterneset",
+    "lon": 7.31415,
+    "localityNo": 12844
+  },
+  {
+    "lat": 62.728067,
+    "name": "Setevika",
+    "lon": 6.939283,
+    "localityNo": 12244
+  },
+  {
+    "lat": 62.73835,
+    "name": "Setevika N",
+    "lon": 6.937667,
+    "localityNo": 33017
+  },
+  {
+    "lat": 59.924633,
+    "name": "Siglo S",
+    "lon": 5.207983,
+    "localityNo": 11593
+  },
+  {
+    "lat": 62.015817,
+    "name": "Silda",
+    "lon": 5.2099,
+    "localityNo": 39577
+  },
+  {
+    "lat": 63.419617,
+    "name": "Singsholmen",
+    "lon": 8.4127,
+    "localityNo": 24115
+  },
+  {
+    "lat": 68.903533,
+    "name": "Sjåneset",
+    "lon": 15.037333,
+    "localityNo": 13530
+  },
+  {
+    "lat": 62.9066,
+    "name": "Sjølsvik",
+    "lon": 8.11095,
+    "localityNo": 12892
+  },
+  {
+    "lat": 60.4557,
+    "name": "Skaftå",
+    "lon": 5.626183,
+    "localityNo": 18898
+  },
+  {
+    "lat": 60.268517,
+    "name": "Skaganeset",
+    "lon": 5.1079,
+    "localityNo": 20515
+  },
+  {
+    "lat": 63.84763,
+    "name": "Skalnestangen V",
+    "lon": 10.738733,
+    "localityNo": 12819
+  },
+  {
+    "lat": 66.7146,
+    "name": "Skålsvika",
+    "lon": 13.561517,
+    "localityNo": 11138
+  },
+  {
+    "lat": 62.59785,
+    "name": "Skarbukta",
+    "lon": 7.367717,
+    "localityNo": 20796
+  },
+  {
+    "lat": 68.728383,
+    "name": "Skardbergvika",
+    "lon": 17.309683,
+    "localityNo": 10550
+  },
+  {
+    "lat": 63.076283,
+    "name": "Skåren",
+    "lon": 8.191733,
+    "localityNo": 10216
+  },
+  {
+    "lat": 70.090617,
+    "name": "Skaret",
+    "lon": 20.758783,
+    "localityNo": 32357
+  },
+  {
+    "lat": 69.475883,
+    "name": "Skårliodden",
+    "lon": 18.070083,
+    "localityNo": 34137
+  },
+  {
+    "lat": 69.146683,
+    "name": "Skarvberget",
+    "lon": 17.009933,
+    "localityNo": 11357
+  },
+  {
+    "lat": 69.993617,
+    "name": "Skarvestein",
+    "lon": 20.71115,
+    "localityNo": 31457
+  },
+  {
+    "lat": 69.731167,
+    "name": "Skarvfjell",
+    "lon": 30.415333,
+    "localityNo": 16255
+  },
+  {
+    "lat": 65.834,
+    "name": "Skarvhammaren",
+    "lon": 12.55395,
+    "localityNo": 45050
+  },
+  {
+    "lat": 68.339717,
+    "name": "Skarvhausen",
+    "lon": 15.38435,
+    "localityNo": 21795
+  },
+  {
+    "lat": 63.650517,
+    "name": "Skarvøya",
+    "lon": 8.650533,
+    "localityNo": 35437
+  },
+  {
+    "lat": 62.316,
+    "name": "Skarvskjæret",
+    "lon": 5.74075,
+    "localityNo": 37517
+  },
+  {
+    "lat": 60.171767,
+    "name": "Skåtholmen",
+    "lon": 5.563633,
+    "localityNo": 34117
+  },
+  {
+    "lat": 68.8001,
+    "name": "Skatleia",
+    "lon": 14.593767,
+    "localityNo": 19635
+  },
+  {
+    "lat": 67.137717,
+    "name": "Skauholmen",
+    "lon": 13.9815,
+    "localityNo": 28856
+  },
+  {
+    "lat": 60.218933,
+    "name": "Skavhella",
+    "lon": 5.5593,
+    "localityNo": 22315
+  },
+  {
+    "lat": 65.476817,
+    "name": "Skavika",
+    "lon": 12.653167,
+    "localityNo": 10868
+  },
+  {
+    "lat": 60.0711,
+    "name": "Skiftesneset N",
+    "lon": 5.736867,
+    "localityNo": 12048
+  },
+  {
+    "lat": 59.494117,
+    "name": "Skigelstrand",
+    "lon": 5.846567,
+    "localityNo": 11966
+  },
+  {
+    "lat": 70.889183,
+    "name": "Skinnstakkvika",
+    "lon": 24.944717,
+    "localityNo": 10660
+  },
+  {
+    "lat": 60.040633,
+    "name": "Skiparvika",
+    "lon": 5.19205,
+    "localityNo": 39757
+  },
+  {
+    "lat": 58.241483,
+    "name": "Skipningsdalen",
+    "lon": 6.5958,
+    "localityNo": 11861
+  },
+  {
+    "lat": 61.806017,
+    "name": "Skipperdalsneset",
+    "lon": 5.0683,
+    "localityNo": 39657
+  },
+  {
+    "lat": 68.732083,
+    "name": "Skjærvika",
+    "lon": 17.226,
+    "localityNo": 11334
+  },
+  {
+    "lat": 68.911433,
+    "name": "Skjellesvika",
+    "lon": 16.645133,
+    "localityNo": 36177
+  },
+  {
+    "lat": 60.249967,
+    "name": "Skjerholmen N",
+    "lon": 5.174483,
+    "localityNo": 20115
+  },
+  {
+    "lat": 64.448517,
+    "name": "Skjerpøyskjæra",
+    "lon": 11.355567,
+    "localityNo": 39417
+  },
+  {
+    "lat": 61.2124,
+    "name": "Skjersnes",
+    "lon": 7.093267,
+    "localityNo": 12158
+  },
+  {
+    "lat": 61.21023,
+    "name": "Skjersnes I",
+    "lon": 7.092054,
+    "localityNo": 12159
+  },
+  {
+    "lat": 70.0345,
+    "name": "Skjervøy",
+    "lon": 20.99055,
+    "localityNo": 27737
+  },
+  {
+    "lat": 70.04375,
+    "name": "Skjervøy V",
+    "lon": 20.94965,
+    "localityNo": 33097
+  },
+  {
+    "lat": 62.379367,
+    "name": "Skjortneset II",
+    "lon": 6.889433,
+    "localityNo": 37797
+  },
+  {
+    "lat": 69.474333,
+    "name": "Skog",
+    "lon": 17.878683,
+    "localityNo": 30757
+  },
+  {
+    "lat": 69.961317,
+    "name": "Skognes",
+    "lon": 20.978267,
+    "localityNo": 30117
+  },
+  {
+    "lat": 60.201884,
+    "name": "Skogseidvatnet",
+    "lon": 5.873171,
+    "localityNo": 12042
+  },
+  {
+    "lat": 60.226562,
+    "name": "Skogseidvatnet II",
+    "lon": 5.875008,
+    "localityNo": 27956
+  },
+  {
+    "lat": 60.2277,
+    "name": "Skogseidvatnet III",
+    "lon": 5.876767,
+    "localityNo": 28796
+  },
+  {
+    "lat": 69.093017,
+    "name": "Skogshamn",
+    "lon": 17.512567,
+    "localityNo": 13531
+  },
+  {
+    "lat": 65.831417,
+    "name": "Skogsholmen",
+    "lon": 12.070533,
+    "localityNo": 33157
+  },
+  {
+    "lat": 63.853817,
+    "name": "Skogsøya",
+    "lon": 8.631517,
+    "localityNo": 25315
+  },
+  {
+    "lat": 66.05055,
+    "name": "Skogvika I",
+    "lon": 12.95525,
+    "localityNo": 37397
+  },
+  {
+    "lat": 68.716317,
+    "name": "Skommesvik",
+    "lon": 16.040033,
+    "localityNo": 28296
+  },
+  {
+    "lat": 65.807633,
+    "name": "Skonseng",
+    "lon": 12.6242,
+    "localityNo": 10961
+  },
+  {
+    "lat": 60.944233,
+    "name": "Skorpa",
+    "lon": 4.882817,
+    "localityNo": 11737
+  },
+  {
+    "lat": 60.332467,
+    "name": "Skorpeosen",
+    "lon": 4.9421,
+    "localityNo": 11640
+  },
+  {
+    "lat": 60.173317,
+    "name": "Skorpo",
+    "lon": 5.293683,
+    "localityNo": 32877
+  },
+  {
+    "lat": 59.875767,
+    "name": "Skorpo",
+    "lon": 5.638817,
+    "localityNo": 25896
+  },
+  {
+    "lat": 59.953233,
+    "name": "Skorpo Nv",
+    "lon": 5.827133,
+    "localityNo": 12108
+  },
+  {
+    "lat": 61.467117,
+    "name": "Skorva",
+    "lon": 5.3136,
+    "localityNo": 12192
+  },
+  {
+    "lat": 59.075583,
+    "name": "Skota Ø",
+    "lon": 5.436867,
+    "localityNo": 16515
+  },
+  {
+    "lat": 62.34895,
+    "name": "Skotungneset",
+    "lon": 6.910767,
+    "localityNo": 23695
+  },
+  {
+    "lat": 69.017,
+    "name": "Skøyen",
+    "lon": 17.45725,
+    "localityNo": 11326
+  },
+  {
+    "lat": 61.14635,
+    "name": "Skreda",
+    "lon": 5.08115,
+    "localityNo": 38577
+  },
+  {
+    "lat": 61.15495,
+    "name": "Skredstivik",
+    "lon": 5.133333,
+    "localityNo": 18657
+  },
+  {
+    "lat": 65.122983,
+    "name": "Skrosen",
+    "lon": 11.674517,
+    "localityNo": 12705
+  },
+  {
+    "lat": 64.801733,
+    "name": "Skrubbholmen",
+    "lon": 11.162183,
+    "localityNo": 30997
+  },
+  {
+    "lat": 60.156317,
+    "name": "Skrubbo",
+    "lon": 5.713217,
+    "localityNo": 31117
+  },
+  {
+    "lat": 69.78865,
+    "name": "Skulgambukt",
+    "lon": 19.161017,
+    "localityNo": 15236
+  },
+  {
+    "lat": 67.243033,
+    "name": "Skysselvika V",
+    "lon": 15.398867,
+    "localityNo": 11273
+  },
+  {
+    "lat": 66.158083,
+    "name": "Slapøya N",
+    "lon": 12.38975,
+    "localityNo": 14676
+  },
+  {
+    "lat": 59.831917,
+    "name": "Slåttenes",
+    "lon": 5.9837,
+    "localityNo": 28096
+  },
+  {
+    "lat": 65.906167,
+    "name": "Slåtterøya",
+    "lon": 12.273217,
+    "localityNo": 45045
+  },
+  {
+    "lat": 63.447787,
+    "name": "Slåttholmen",
+    "lon": 8.958173,
+    "localityNo": 26155
+  },
+  {
+    "lat": 65.523933,
+    "name": "Slåttvika",
+    "lon": 12.545017,
+    "localityNo": 13000
+  },
+  {
+    "lat": 63.88,
+    "name": "Slettholmene",
+    "lon": 8.559183,
+    "localityNo": 24456
+  },
+  {
+    "lat": 70.06215,
+    "name": "Slettneset",
+    "lon": 21.875333,
+    "localityNo": 30417
+  },
+  {
+    "lat": 70.625517,
+    "name": "Slettnesfjord",
+    "lon": 23.107933,
+    "localityNo": 10838
+  },
+  {
+    "lat": 62.334,
+    "name": "Slettvika",
+    "lon": 6.157667,
+    "localityNo": 20815
+  },
+  {
+    "lat": 65.039883,
+    "name": "Slokkholmen Ø",
+    "lon": 11.4847,
+    "localityNo": 12712
+  },
+  {
+    "lat": 70.22045,
+    "name": "Sloppegrunn",
+    "lon": 21.809067,
+    "localityNo": 32237
+  },
+  {
+    "lat": 64.938817,
+    "name": "Småholman",
+    "lon": 10.894933,
+    "localityNo": 39797
+  },
+  {
+    "lat": 59.2051,
+    "name": "Smal Skar",
+    "lon": 5.966083,
+    "localityNo": 11939
+  },
+  {
+    "lat": 69.896867,
+    "name": "Småvær",
+    "lon": 18.486267,
+    "localityNo": 35337
+  },
+  {
+    "lat": 59.344617,
+    "name": "Smedholmen",
+    "lon": 5.8946,
+    "localityNo": 40037
+  },
+  {
+    "lat": 64.755967,
+    "name": "Smineset N",
+    "lon": 11.54245,
+    "localityNo": 29356
+  },
+  {
+    "lat": 60.868183,
+    "name": "Smørdalen",
+    "lon": 5.551717,
+    "localityNo": 12154
+  },
+  {
+    "lat": 69.831167,
+    "name": "Solheim",
+    "lon": 19.520383,
+    "localityNo": 27476
+  },
+  {
+    "lat": 59.90715,
+    "name": "Soløy Ø",
+    "lon": 5.159333,
+    "localityNo": 11605
+  },
+  {
+    "lat": 68.00445,
+    "name": "Soløya",
+    "lon": 13.18255,
+    "localityNo": 13291
+  },
+  {
+    "lat": 63.245767,
+    "name": "Solskjeløya",
+    "lon": 8.202117,
+    "localityNo": 38477
+  },
+  {
+    "lat": 63.255,
+    "name": "Solværet",
+    "lon": 7.856933,
+    "localityNo": 27436
+  },
+  {
+    "lat": 59.609517,
+    "name": "Sølvøyane",
+    "lon": 5.133367,
+    "localityNo": 13032
+  },
+  {
+    "lat": 70.077333,
+    "name": "Sommarbukt",
+    "lon": 22.66705,
+    "localityNo": 10276
+  },
+  {
+    "lat": 66.031183,
+    "name": "Sør Gåsvær",
+    "lon": 12.02305,
+    "localityNo": 38297
+  },
+  {
+    "lat": 61.1056,
+    "name": "Søreide",
+    "lon": 5.8536,
+    "localityNo": 15456
+  },
+  {
+    "lat": 61.099983,
+    "name": "Sørevik",
+    "lon": 5.729967,
+    "localityNo": 23375
+  },
+  {
+    "lat": 67.661579,
+    "name": "Sørlandsbukta",
+    "lon": 12.665441,
+    "localityNo": 25295
+  },
+  {
+    "lat": 67.6546,
+    "name": "Sørlandsvika 2",
+    "lon": 12.682233,
+    "localityNo": 26355
+  },
+  {
+    "lat": 63.98405,
+    "name": "Sørøyflesa",
+    "lon": 9.057067,
+    "localityNo": 15375
+  },
+  {
+    "lat": 69.0188,
+    "name": "Sortevika",
+    "lon": 17.520067,
+    "localityNo": 35318
+  },
+  {
+    "lat": 65.88035,
+    "name": "Sørværet",
+    "lon": 11.93045,
+    "localityNo": 36017
+  },
+  {
+    "lat": 59.88065,
+    "name": "Sørvik",
+    "lon": 5.102933,
+    "localityNo": 10040
+  },
+  {
+    "lat": 68.47335,
+    "name": "Sørvika",
+    "lon": 15.222633,
+    "localityNo": 13936
+  },
+  {
+    "lat": 59.892183,
+    "name": "Spannsholmen",
+    "lon": 5.1242,
+    "localityNo": 11615
+  },
+  {
+    "lat": 69.764767,
+    "name": "Spergittklubben",
+    "lon": 30.41225,
+    "localityNo": 13865
+  },
+  {
+    "lat": 62.755383,
+    "name": "Sponvikfluna",
+    "lon": 6.499133,
+    "localityNo": 38177
+  },
+  {
+    "lat": 68.401133,
+    "name": "Stabben",
+    "lon": 16.2172,
+    "localityNo": 34297
+  },
+  {
+    "lat": 65.665283,
+    "name": "Stakkvika",
+    "lon": 12.650017,
+    "localityNo": 10435
+  },
+  {
+    "lat": 60.088617,
+    "name": "Ståløy",
+    "lon": 5.1734,
+    "localityNo": 11596
+  },
+  {
+    "lat": 66.618017,
+    "name": "Stangholmen",
+    "lon": 12.954667,
+    "localityNo": 28896
+  },
+  {
+    "lat": 70.511917,
+    "name": "Stangnes",
+    "lon": 23.751883,
+    "localityNo": 40017
+  },
+  {
+    "lat": 64.80155,
+    "name": "Stasøya",
+    "lon": 11.633783,
+    "localityNo": 45046
+  },
+  {
+    "lat": 60.149517,
+    "name": "Stegavåg",
+    "lon": 5.155583,
+    "localityNo": 34558
+  },
+  {
+    "lat": 61.371708,
+    "name": "Steiehalsen",
+    "lon": 5.365561,
+    "localityNo": 15396
+  },
+  {
+    "lat": 68.51185,
+    "name": "Steilo",
+    "lon": 14.951633,
+    "localityNo": 32697
+  },
+  {
+    "lat": 65.134833,
+    "name": "Steinflesa",
+    "lon": 11.515983,
+    "localityNo": 30537
+  },
+  {
+    "lat": 60.1405,
+    "name": "Steinneset",
+    "lon": 5.095383,
+    "localityNo": 34557
+  },
+  {
+    "lat": 61.565267,
+    "name": "Steinvik",
+    "lon": 5.31025,
+    "localityNo": 13708
+  },
+  {
+    "lat": 70.151467,
+    "name": "Steinviknes",
+    "lon": 22.308067,
+    "localityNo": 10825
+  },
+  {
+    "lat": 64.967717,
+    "name": "Stevika",
+    "lon": 12.1263,
+    "localityNo": 37577
+  },
+  {
+    "lat": 67.06885,
+    "name": "Stigvika",
+    "lon": 14.076133,
+    "localityNo": 13290
+  },
+  {
+    "lat": 60.081633,
+    "name": "Stille S",
+    "lon": 5.144183,
+    "localityNo": 11525
+  },
+  {
+    "lat": 65.782517,
+    "name": "Stokkasjøen",
+    "lon": 12.591783,
+    "localityNo": 31217
+  },
+  {
+    "lat": 62.055617,
+    "name": "Stokkeneset",
+    "lon": 5.4832,
+    "localityNo": 12233
+  },
+  {
+    "lat": 63.333533,
+    "name": "Stokkvika",
+    "lon": 9.180583,
+    "localityNo": 19015
+  },
+  {
+    "lat": 60.60465,
+    "name": "Stolane",
+    "lon": 5.126483,
+    "localityNo": 11649
+  },
+  {
+    "lat": 69.914667,
+    "name": "Storbukt",
+    "lon": 29.487075,
+    "localityNo": 15956
+  },
+  {
+    "lat": 64.9591,
+    "name": "Storbukta",
+    "lon": 11.6157,
+    "localityNo": 10417
+  },
+  {
+    "lat": 66.400717,
+    "name": "Store Bukkøy N",
+    "lon": 12.4117,
+    "localityNo": 10974
+  },
+  {
+    "lat": 70.911617,
+    "name": "Store Kobbøy",
+    "lon": 25.32495,
+    "localityNo": 36099
+  },
+  {
+    "lat": 70.353317,
+    "name": "Store Kufjord",
+    "lon": 23.079117,
+    "localityNo": 10839
+  },
+  {
+    "lat": 70.321117,
+    "name": "Store Kvalfjord",
+    "lon": 22.896517,
+    "localityNo": 10281
+  },
+  {
+    "lat": 70.2875,
+    "name": "Store Lerresfjord",
+    "lon": 23.465883,
+    "localityNo": 10789
+  },
+  {
+    "lat": 58.977767,
+    "name": "Store Teistholmen Ø",
+    "lon": 5.867,
+    "localityNo": 11971
+  },
+  {
+    "lat": 60.091383,
+    "name": "Storebø",
+    "lon": 5.222617,
+    "localityNo": 19519
+  },
+  {
+    "lat": 61.534886,
+    "name": "Storekrok I",
+    "lon": 4.938267,
+    "localityNo": 11788
+  },
+  {
+    "lat": 70.13225,
+    "name": "Storelva",
+    "lon": 20.789433,
+    "localityNo": 30217
+  },
+  {
+    "lat": 60.8763,
+    "name": "Storeneset",
+    "lon": 5.02805,
+    "localityNo": 11700
+  },
+  {
+    "lat": 61.476267,
+    "name": "Storevik",
+    "lon": 5.285,
+    "localityNo": 13568
+  },
+  {
+    "lat": 67.185567,
+    "name": "Storevika",
+    "lon": 14.388433,
+    "localityNo": 35817
+  },
+  {
+    "lat": 59.838083,
+    "name": "Storevikholmen",
+    "lon": 5.30565,
+    "localityNo": 11492
+  },
+  {
+    "lat": 68.325183,
+    "name": "Storfjell",
+    "lon": 15.2023,
+    "localityNo": 13593
+  },
+  {
+    "lat": 70.3414,
+    "name": "Storholmen",
+    "lon": 23.39285,
+    "localityNo": 24535
+  },
+  {
+    "lat": 61.203133,
+    "name": "Storlia",
+    "lon": 5.193833,
+    "localityNo": 10311
+  },
+  {
+    "lat": 68.19825,
+    "name": "Stormneset",
+    "lon": 16.134117,
+    "localityNo": 11290
+  },
+  {
+    "lat": 60.530883,
+    "name": "Storoksen",
+    "lon": 4.97325,
+    "localityNo": 20776
+  },
+  {
+    "lat": 59.6412,
+    "name": "Storøy Ø",
+    "lon": 5.37015,
+    "localityNo": 13204
+  },
+  {
+    "lat": 68.427917,
+    "name": "Storøya Nø",
+    "lon": 15.86515,
+    "localityNo": 11298
+  },
+  {
+    "lat": 67.902,
+    "name": "Storskjæret",
+    "lon": 15.191683,
+    "localityNo": 38017
+  },
+  {
+    "lat": 63.26985,
+    "name": "Storskjeret",
+    "lon": 8.228283,
+    "localityNo": 31338
+  },
+  {
+    "lat": 63.506067,
+    "name": "Storskogøya",
+    "lon": 9.19075,
+    "localityNo": 19016
+  },
+  {
+    "lat": 60.653733,
+    "name": "Storskrebukti",
+    "lon": 5.4192,
+    "localityNo": 13566
+  },
+  {
+    "lat": 65.688667,
+    "name": "Storsteinsvika",
+    "lon": 12.668467,
+    "localityNo": 10436
+  },
+  {
+    "lat": 66.1954,
+    "name": "Storsteinvika",
+    "lon": 13.541517,
+    "localityNo": 40237
+  },
+  {
+    "lat": 66.545633,
+    "name": "Storstrompan",
+    "lon": 13.419083,
+    "localityNo": 13124
+  },
+  {
+    "lat": 70.14955,
+    "name": "Storvik",
+    "lon": 22.41675,
+    "localityNo": 13316
+  },
+  {
+    "lat": 70.871233,
+    "name": "Storvika",
+    "lon": 25.446317,
+    "localityNo": 15461
+  },
+  {
+    "lat": 62.8021,
+    "name": "Storvika",
+    "lon": 6.977733,
+    "localityNo": 22335
+  },
+  {
+    "lat": 66.80855,
+    "name": "Storvika",
+    "lon": 13.242333,
+    "localityNo": 13125
+  },
+  {
+    "lat": 67.202633,
+    "name": "Storvika I Skjerstadfjorden",
+    "lon": 15.275,
+    "localityNo": 32397
+  },
+  {
+    "lat": 68.896217,
+    "name": "Storvika III",
+    "lon": 17.487317,
+    "localityNo": 10552
+  },
+  {
+    "lat": 69.043917,
+    "name": "Storvika V",
+    "lon": 17.357317,
+    "localityNo": 23055
+  },
+  {
+    "lat": 64.928933,
+    "name": "Storvikbukta",
+    "lon": 11.912917,
+    "localityNo": 10421
+  },
+  {
+    "lat": 69.88185,
+    "name": "Strandmo",
+    "lon": 19.435083,
+    "localityNo": 10753
+  },
+  {
+    "lat": 63.580633,
+    "name": "Straumen",
+    "lon": 9.948833,
+    "localityNo": 33857
+  },
+  {
+    "lat": 60.221333,
+    "name": "Straumneset",
+    "lon": 6.140133,
+    "localityNo": 12081
+  },
+  {
+    "lat": 68.673983,
+    "name": "Stretarneset",
+    "lon": 14.982483,
+    "localityNo": 22435
+  },
+  {
+    "lat": 59.6088,
+    "name": "Stualand",
+    "lon": 5.5269,
+    "localityNo": 26235
+  },
+  {
+    "lat": 60.249683,
+    "name": "Stuholmen",
+    "lon": 4.978117,
+    "localityNo": 11552
+  },
+  {
+    "lat": 63.494933,
+    "name": "Suholmen",
+    "lon": 8.02235,
+    "localityNo": 36100
+  },
+  {
+    "lat": 59.833133,
+    "name": "Sunde",
+    "lon": 5.709167,
+    "localityNo": 19396
+  },
+  {
+    "lat": 66.988867,
+    "name": "Sundsfjord II",
+    "lon": 14.160167,
+    "localityNo": 35457
+  },
+  {
+    "lat": 66.176367,
+    "name": "Sundsøy",
+    "lon": 12.770283,
+    "localityNo": 29376
+  },
+  {
+    "lat": 63.416633,
+    "name": "Svanøya",
+    "lon": 7.79165,
+    "localityNo": 39617
+  },
+  {
+    "lat": 64.4527,
+    "name": "Svartåsen",
+    "lon": 11.3418,
+    "localityNo": 18775
+  },
+  {
+    "lat": 70.018767,
+    "name": "Svartberget",
+    "lon": 22.020733,
+    "localityNo": 45000
+  },
+  {
+    "lat": 67.939483,
+    "name": "Svartfjell",
+    "lon": 15.503168,
+    "localityNo": 11312
+  },
+  {
+    "lat": 61.002967,
+    "name": "Svartholmen",
+    "lon": 4.879117,
+    "localityNo": 39817
+  },
+  {
+    "lat": 68.718417,
+    "name": "Svartskjær",
+    "lon": 16.775733,
+    "localityNo": 31817
+  },
+  {
+    "lat": 63.960733,
+    "name": "Svartskjæret Ø",
+    "lon": 10.07105,
+    "localityNo": 12748
+  },
+  {
+    "lat": 60.324217,
+    "name": "Svåsandneset",
+    "lon": 6.318983,
+    "localityNo": 12074
+  },
+  {
+    "lat": 61.557717,
+    "name": "Sveholmane",
+    "lon": 5.215333,
+    "localityNo": 11776
+  },
+  {
+    "lat": 63.655285,
+    "name": "Svellungen",
+    "lon": 9.156795,
+    "localityNo": 13727
+  },
+  {
+    "lat": 61.004267,
+    "name": "Sveneset",
+    "lon": 4.70125,
+    "localityNo": 10305
+  },
+  {
+    "lat": 68.927833,
+    "name": "Svindalen I",
+    "lon": 15.42875,
+    "localityNo": 40118
+  },
+  {
+    "lat": 61.30475,
+    "name": "Svinøy V",
+    "lon": 5.101317,
+    "localityNo": 11813
+  },
+  {
+    "lat": 66.769233,
+    "name": "Svinvær",
+    "lon": 13.170633,
+    "localityNo": 11144
+  },
+  {
+    "lat": 59.685183,
+    "name": "Svollandsneset",
+    "lon": 5.58855,
+    "localityNo": 22955
+  },
+  {
+    "lat": 59.749417,
+    "name": "Svortevik",
+    "lon": 5.798317,
+    "localityNo": 21975
+  },
+  {
+    "lat": 59.742611,
+    "name": "Sydnessund",
+    "lon": 5.722145,
+    "localityNo": 13228
+  },
+  {
+    "lat": 60.3046,
+    "name": "Syltøy",
+    "lon": 4.96645,
+    "localityNo": 13196
+  },
+  {
+    "lat": 63.76675,
+    "name": "Synstøy-Bremøya",
+    "lon": 8.574683,
+    "localityNo": 38537
+  },
+  {
+    "lat": 60.467733,
+    "name": "Syrtangen",
+    "lon": 4.968667,
+    "localityNo": 10309
+  },
+  {
+    "lat": 63.980417,
+    "name": "Takflua",
+    "lon": 9.865033,
+    "localityNo": 38697
+  },
+  {
+    "lat": 63.705033,
+    "name": "Taraskjæra",
+    "lon": 8.870767,
+    "localityNo": 34417
+  },
+  {
+    "lat": 67.572817,
+    "name": "Tårnvika",
+    "lon": 15.128683,
+    "localityNo": 16165
+  },
+  {
+    "lat": 59.520333,
+    "name": "Teigane",
+    "lon": 6.337233,
+    "localityNo": 26575
+  },
+  {
+    "lat": 60.17935,
+    "name": "Teigland I",
+    "lon": 5.959917,
+    "localityNo": 13057
+  },
+  {
+    "lat": 66.868417,
+    "name": "Teksmona",
+    "lon": 13.601383,
+    "localityNo": 29776
+  },
+  {
+    "lat": 59.73605,
+    "name": "Tendalsvik",
+    "lon": 5.884,
+    "localityNo": 21755
+  },
+  {
+    "lat": 63.805033,
+    "name": "Tennøya",
+    "lon": 8.4444,
+    "localityNo": 12449
+  },
+  {
+    "lat": 60.553033,
+    "name": "Tepstad",
+    "lon": 5.385317,
+    "localityNo": 13644
+  },
+  {
+    "lat": 60.5163,
+    "name": "Ternholmen Nø",
+    "lon": 4.9179,
+    "localityNo": 11741
+  },
+  {
+    "lat": 62.6431,
+    "name": "Terningen",
+    "lon": 6.54805,
+    "localityNo": 12268
+  },
+  {
+    "lat": 64.777133,
+    "name": "Ternskjæret II",
+    "lon": 11.639767,
+    "localityNo": 12662
+  },
+  {
+    "lat": 70.52875,
+    "name": "Tinnlandet",
+    "lon": 23.229167,
+    "localityNo": 15517
+  },
+  {
+    "lat": 59.72365,
+    "name": "Tittelsnes",
+    "lon": 5.534383,
+    "localityNo": 25815
+  },
+  {
+    "lat": 67.892433,
+    "name": "Tjajneluokta",
+    "lon": 16.236718,
+    "localityNo": 20075
+  },
+  {
+    "lat": 68.474867,
+    "name": "Tjukkeneset",
+    "lon": 17.303933,
+    "localityNo": 31077
+  },
+  {
+    "lat": 63.937483,
+    "name": "Tjuvholmen Strandh",
+    "lon": 10.141533,
+    "localityNo": 12753
+  },
+  {
+    "lat": 60.024317,
+    "name": "Tobbeholmane",
+    "lon": 5.30815,
+    "localityNo": 10054
+  },
+  {
+    "lat": 68.868983,
+    "name": "Toften",
+    "lon": 15.30105,
+    "localityNo": 11414
+  },
+  {
+    "lat": 70.572533,
+    "name": "Toknebuktneset",
+    "lon": 24.075567,
+    "localityNo": 10635
+  },
+  {
+    "lat": 59.2522,
+    "name": "Tollaksholmen",
+    "lon": 5.390517,
+    "localityNo": 17575
+  },
+  {
+    "lat": 60.07015,
+    "name": "Toneset",
+    "lon": 5.443817,
+    "localityNo": 38237
+  },
+  {
+    "lat": 68.863717,
+    "name": "Toppsund Ø",
+    "lon": 16.403033,
+    "localityNo": 26055
+  },
+  {
+    "lat": 68.911633,
+    "name": "Toppsund V",
+    "lon": 16.2927,
+    "localityNo": 30236
+  },
+  {
+    "lat": 60.130183,
+    "name": "Torangskjeret",
+    "lon": 5.176033,
+    "localityNo": 30837
+  },
+  {
+    "lat": 64.89295,
+    "name": "Torgerhaugen",
+    "lon": 11.763017,
+    "localityNo": 30177
+  },
+  {
+    "lat": 59.893833,
+    "name": "Torget",
+    "lon": 5.095967,
+    "localityNo": 11628
+  },
+  {
+    "lat": 64.780183,
+    "name": "Torlandsøya",
+    "lon": 11.45475,
+    "localityNo": 12671
+  },
+  {
+    "lat": 59.518267,
+    "name": "Torsneset",
+    "lon": 5.820033,
+    "localityNo": 12114
+  },
+  {
+    "lat": 70.24245,
+    "name": "Torsvåg II",
+    "lon": 19.5,
+    "localityNo": 34077
+  },
+  {
+    "lat": 68.485917,
+    "name": "Tortenneset",
+    "lon": 17.338667,
+    "localityNo": 31297
+  },
+  {
+    "lat": 61.144667,
+    "name": "Torvund",
+    "lon": 5.656367,
+    "localityNo": 33677
+  },
+  {
+    "lat": 65.249433,
+    "name": "Tosen",
+    "lon": 12.815283,
+    "localityNo": 34917
+  },
+  {
+    "lat": 60.669867,
+    "name": "Toska N",
+    "lon": 4.9172,
+    "localityNo": 31497
+  },
+  {
+    "lat": 60.63325,
+    "name": "Toska S",
+    "lon": 4.997617,
+    "localityNo": 14018
+  },
+  {
+    "lat": 60.653536,
+    "name": "Toskasundet",
+    "lon": 4.956108,
+    "localityNo": 10071
+  },
+  {
+    "lat": 60.082383,
+    "name": "Tovo",
+    "lon": 5.143733,
+    "localityNo": 37757
+  },
+  {
+    "lat": 60.1178,
+    "name": "Trælsøyosen",
+    "lon": 5.2702,
+    "localityNo": 29336
+  },
+  {
+    "lat": 69.518467,
+    "name": "Trælvika",
+    "lon": 17.68705,
+    "localityNo": 30517
+  },
+  {
+    "lat": 63.87185,
+    "name": "Tranøya N",
+    "lon": 9.76985,
+    "localityNo": 32717
+  },
+  {
+    "lat": 61.370383,
+    "name": "Trellevika",
+    "lon": 5.0185,
+    "localityNo": 10090
+  },
+  {
+    "lat": 69.51185,
+    "name": "Trettevik",
+    "lon": 18.022033,
+    "localityNo": 17077
+  },
+  {
+    "lat": 59.831933,
+    "name": "Trettholmosen",
+    "lon": 5.0801,
+    "localityNo": 32857
+  },
+  {
+    "lat": 59.504717,
+    "name": "Trettøy",
+    "lon": 5.240183,
+    "localityNo": 11517
+  },
+  {
+    "lat": 63.868933,
+    "name": "Tristeinen",
+    "lon": 9.619183,
+    "localityNo": 30560
+  },
+  {
+    "lat": 63.33155,
+    "name": "Trøan Bjørklibukta",
+    "lon": 9.1231,
+    "localityNo": 13677
+  },
+  {
+    "lat": 68.704,
+    "name": "Trolløya Sv",
+    "lon": 15.016667,
+    "localityNo": 13594
+  },
+  {
+    "lat": 60.13035,
+    "name": "Trollsøy",
+    "lon": 5.248183,
+    "localityNo": 38457
+  },
+  {
+    "lat": 68.71725,
+    "name": "Trollvika",
+    "lon": 17.022217,
+    "localityNo": 11351
+  },
+  {
+    "lat": 60.082433,
+    "name": "Trommo",
+    "lon": 6.080067,
+    "localityNo": 10332
+  },
+  {
+    "lat": 60.797933,
+    "name": "Trøvika",
+    "lon": 4.808867,
+    "localityNo": 37637
+  },
+  {
+    "lat": 59.371233,
+    "name": "Tuholmane Ø",
+    "lon": 5.216333,
+    "localityNo": 10029
+  },
+  {
+    "lat": 59.731883,
+    "name": "Tungeneset",
+    "lon": 5.313667,
+    "localityNo": 11572
+  },
+  {
+    "lat": 59.741933,
+    "name": "Tungesvik",
+    "lon": 5.98095,
+    "localityNo": 10147
+  },
+  {
+    "lat": 61.30865,
+    "name": "Tussaneset",
+    "lon": 4.741567,
+    "localityNo": 35397
+  },
+  {
+    "lat": 69.662833,
+    "name": "Tussøya",
+    "lon": 18.180067,
+    "localityNo": 25855
+  },
+  {
+    "lat": 70.09005,
+    "name": "Tuvan",
+    "lon": 22.705367,
+    "localityNo": 10821
+  },
+  {
+    "lat": 61.110083,
+    "name": "Tveit",
+    "lon": 5.340483,
+    "localityNo": 14081
+  },
+  {
+    "lat": 60.414183,
+    "name": "Tveitnes",
+    "lon": 6.402,
+    "localityNo": 30717
+  },
+  {
+    "lat": 60.105917,
+    "name": "Tveitnesvik",
+    "lon": 6.20525,
+    "localityNo": 12077
+  },
+  {
+    "lat": 65.888417,
+    "name": "Tvillingholman S",
+    "lon": 12.242717,
+    "localityNo": 14241
+  },
+  {
+    "lat": 64.103333,
+    "name": "Tysvika",
+    "lon": 10.25045,
+    "localityNo": 12643
+  },
+  {
+    "lat": 59.87835,
+    "name": "Uføro",
+    "lon": 5.526917,
+    "localityNo": 13562
+  },
+  {
+    "lat": 69.798917,
+    "name": "Uløy",
+    "lon": 20.641933,
+    "localityNo": 10570
+  },
+  {
+    "lat": 69.860083,
+    "name": "Uløybukt",
+    "lon": 20.713967,
+    "localityNo": 10726
+  },
+  {
+    "lat": 63.598217,
+    "name": "Ulværholmen",
+    "lon": 9.116583,
+    "localityNo": 13570
+  },
+  {
+    "lat": 63.672233,
+    "name": "Ulvan",
+    "lon": 9.0329,
+    "localityNo": 13720
+  },
+  {
+    "lat": 60.517717,
+    "name": "Ulvesundet",
+    "lon": 4.890717,
+    "localityNo": 17862
+  },
+  {
+    "lat": 59.432583,
+    "name": "Ulvøyo",
+    "lon": 5.10645,
+    "localityNo": 34737
+  },
+  {
+    "lat": 63.000533,
+    "name": "Urda",
+    "lon": 8.325633,
+    "localityNo": 32437
+  },
+  {
+    "lat": 64.619883,
+    "name": "Urdvika",
+    "lon": 11.38905,
+    "localityNo": 20797
+  },
+  {
+    "lat": 60.174983,
+    "name": "Usholmsvika",
+    "lon": 5.091133,
+    "localityNo": 11533
+  },
+  {
+    "lat": 59.778333,
+    "name": "Utåker",
+    "lon": 5.9024,
+    "localityNo": 24135
+  },
+  {
+    "lat": 68.659717,
+    "name": "Uvåg",
+    "lon": 14.6805,
+    "localityNo": 14678
+  },
+  {
+    "lat": 60.695,
+    "name": "Vadholmen",
+    "lon": 4.761117,
+    "localityNo": 35517
+  },
+  {
+    "lat": 69.335333,
+    "name": "Værnes",
+    "lon": 17.093533,
+    "localityNo": 22495
+  },
+  {
+    "lat": 63.415967,
+    "name": "Værøya Ø",
+    "lon": 8.483883,
+    "localityNo": 24197
+  },
+  {
+    "lat": 59.6597,
+    "name": "Vågi Totak",
+    "lon": 8.030983,
+    "localityNo": 12837
+  },
+  {
+    "lat": 69.91855,
+    "name": "Vagnfjorden",
+    "lon": 29.5878,
+    "localityNo": 10677
+  },
+  {
+    "lat": 67.377417,
+    "name": "Vågøya",
+    "lon": 14.581083,
+    "localityNo": 35637
+  },
+  {
+    "lat": 61.490383,
+    "name": "Vågsøya",
+    "lon": 5.0247,
+    "localityNo": 10091
+  },
+  {
+    "lat": 68.307504,
+    "name": "Valbergene",
+    "lon": 13.838713,
+    "localityNo": 15816
+  },
+  {
+    "lat": 63.81735,
+    "name": "Valøyan",
+    "lon": 8.462483,
+    "localityNo": 31557
+  },
+  {
+    "lat": 66.2991,
+    "name": "Valvika Alge",
+    "lon": 12.814367,
+    "localityNo": 40077
+  },
+  {
+    "lat": 71.017783,
+    "name": "Vannfjorden",
+    "lon": 25.38915,
+    "localityNo": 38857
+  },
+  {
+    "lat": 60.392933,
+    "name": "Vardanes",
+    "lon": 6.307283,
+    "localityNo": 36657
+  },
+  {
+    "lat": 63.635717,
+    "name": "Varden",
+    "lon": 9.186467,
+    "localityNo": 35657
+  },
+  {
+    "lat": 66.350267,
+    "name": "Vardskjæret S",
+    "lon": 12.469867,
+    "localityNo": 36337
+  },
+  {
+    "lat": 65.546517,
+    "name": "Varholmen",
+    "lon": 12.127967,
+    "localityNo": 36317
+  },
+  {
+    "lat": 66.320233,
+    "name": "Varpet",
+    "lon": 13.055817,
+    "localityNo": 45023
+  },
+  {
+    "lat": 62.3067,
+    "name": "Vartdal",
+    "lon": 6.092083,
+    "localityNo": 12303
+  },
+  {
+    "lat": 65.062041,
+    "name": "Varvassvika",
+    "lon": 12.09999,
+    "localityNo": 10865
+  },
+  {
+    "lat": 66.8078,
+    "name": "Vassdalsvik Alge",
+    "lon": 13.566333,
+    "localityNo": 39857
+  },
+  {
+    "lat": 63.592167,
+    "name": "Vassgåsholmen",
+    "lon": 9.339833,
+    "localityNo": 37717
+  },
+  {
+    "lat": 59.215433,
+    "name": "Vassvik",
+    "lon": 6.097567,
+    "localityNo": 10126
+  },
+  {
+    "lat": 70.273783,
+    "name": "Vassvika",
+    "lon": 21.685083,
+    "localityNo": 18117
+  },
+  {
+    "lat": 68.227683,
+    "name": "Våtvika",
+    "lon": 14.805217,
+    "localityNo": 13047
+  },
+  {
+    "lat": 70.7514,
+    "name": "Vedbotn",
+    "lon": 25.636983,
+    "localityNo": 10652
+  },
+  {
+    "lat": 64.607433,
+    "name": "Vedøya",
+    "lon": 11.354817,
+    "localityNo": 12678
+  },
+  {
+    "lat": 67.097583,
+    "name": "Vedskjeran",
+    "lon": 13.998883,
+    "localityNo": 38317
+  },
+  {
+    "lat": 68.781933,
+    "name": "Vedvika",
+    "lon": 14.6153,
+    "localityNo": 10504
+  },
+  {
+    "lat": 67.96265,
+    "name": "Veggfjell",
+    "lon": 15.808267,
+    "localityNo": 11303
+  },
+  {
+    "lat": 70.542083,
+    "name": "Vegglandet",
+    "lon": 23.241883,
+    "localityNo": 45025
+  },
+  {
+    "lat": 70.539917,
+    "name": "Veidnes",
+    "lon": 30.136583,
+    "localityNo": 32637
+  },
+  {
+    "lat": 61.571867,
+    "name": "Veiesund",
+    "lon": 5.047283,
+    "localityNo": 32337
+  },
+  {
+    "lat": 69.8227,
+    "name": "Vengsøy",
+    "lon": 18.51875,
+    "localityNo": 35838
+  },
+  {
+    "lat": 61.988285,
+    "name": "Venøyvikane",
+    "lon": 5.267423,
+    "localityNo": 13660
+  },
+  {
+    "lat": 61.902217,
+    "name": "Verpeide",
+    "lon": 5.209233,
+    "localityNo": 13837
+  },
+  {
+    "lat": 68.981583,
+    "name": "Vestnes",
+    "lon": 16.48835,
+    "localityNo": 11385
+  },
+  {
+    "lat": 61.97075,
+    "name": "Vetrhusstranda",
+    "lon": 5.284,
+    "localityNo": 13709
+  },
+  {
+    "lat": 58.94315,
+    "name": "Viganeset V",
+    "lon": 6.12205,
+    "localityNo": 11903
+  },
+  {
+    "lat": 59.97,
+    "name": "Vikane",
+    "lon": 5.331367,
+    "localityNo": 17395
+  },
+  {
+    "lat": 60.7125,
+    "name": "Vikane",
+    "lon": 5.403633,
+    "localityNo": 13704
+  },
+  {
+    "lat": 62.538167,
+    "name": "Vikane",
+    "lon": 6.10265,
+    "localityNo": 39017
+  },
+  {
+    "lat": 60.263667,
+    "name": "Vikane 1",
+    "lon": 6.208383,
+    "localityNo": 27315
+  },
+  {
+    "lat": 65.113067,
+    "name": "Vikestadvågen",
+    "lon": 12.251267,
+    "localityNo": 10863
+  },
+  {
+    "lat": 59.873267,
+    "name": "Vikøya S",
+    "lon": 5.109017,
+    "localityNo": 11624
+  },
+  {
+    "lat": 64.44675,
+    "name": "Vindhammaren",
+    "lon": 11.304633,
+    "localityNo": 12682
+  },
+  {
+    "lat": 69.468417,
+    "name": "Vindhammarneset",
+    "lon": 17.606183,
+    "localityNo": 36717
+  },
+  {
+    "lat": 68.78065,
+    "name": "Vindhammeren",
+    "lon": 14.59325,
+    "localityNo": 11252
+  },
+  {
+    "lat": 60.43815,
+    "name": "Vindøy",
+    "lon": 4.949183,
+    "localityNo": 37957
+  },
+  {
+    "lat": 62.28505,
+    "name": "Vindsnes",
+    "lon": 7.279633,
+    "localityNo": 12839
+  },
+  {
+    "lat": 59.299817,
+    "name": "Vindsvik",
+    "lon": 6.322467,
+    "localityNo": 13226
+  },
+  {
+    "lat": 67.533167,
+    "name": "Vindvika",
+    "lon": 15.165583,
+    "localityNo": 19235
+  },
+  {
+    "lat": 67.717583,
+    "name": "Vinkfjorden Alge",
+    "lon": 15.407033,
+    "localityNo": 36119
+  },
+  {
+    "lat": 70.57315,
+    "name": "Vinnalandet",
+    "lon": 23.397883,
+    "localityNo": 10616
+  },
+  {
+    "lat": 59.399383,
+    "name": "Vintraviki",
+    "lon": 6.020533,
+    "localityNo": 11925
+  },
+  {
+    "lat": 62.2097,
+    "name": "Voldnes",
+    "lon": 5.7849,
+    "localityNo": 13246
+  },
+  {
+    "lat": 59.086417,
+    "name": "Voll II",
+    "lon": 5.680617,
+    "localityNo": 23895
+  },
+  {
+    "lat": 59.7435,
+    "name": "Vordnesholmen",
+    "lon": 5.204783,
+    "localityNo": 15878
+  },
+  {
+    "lat": 69.96655,
+    "name": "Vorterøya",
+    "lon": 20.615283,
+    "localityNo": 36237
+  },
+  {
+    "lat": 63.04965,
+    "name": "Vullum",
+    "lon": 8.2162,
+    "localityNo": 17495
+  },
+  {
+    "lat": 58.020983,
+    "name": "Ydstesteinen",
+    "lon": 6.879133,
+    "localityNo": 23676
+  },
+  {
+    "lat": 59.977933,
+    "name": "Ystadneset",
+    "lon": 5.77565,
+    "localityNo": 29936
+  },
+  {
+    "lat": 68.694317,
+    "name": "Ystevika",
+    "lon": 17.05325,
+    "localityNo": 13306
+  },
+  {
+    "lat": 65.772383,
+    "name": "Ystøya",
+    "lon": 12.245183,
+    "localityNo": 45003
+  },
+  {
+    "lat": 68.50135,
+    "name": "Ytre Hadseløya",
+    "lon": 14.585667,
+    "localityNo": 39777
+  },
+  {
+    "lat": 69.420517,
+    "name": "Ytre Jøvik",
+    "lon": 17.33755,
+    "localityNo": 24155
+  },
+  {
+    "lat": 70.1421,
+    "name": "Ytre Koven",
+    "lon": 22.89265,
+    "localityNo": 32617
+  },
+  {
+    "lat": 69.419467,
+    "name": "Ytre Lavollsfjord",
+    "lon": 17.287567,
+    "localityNo": 24175
+  },
+  {
+    "lat": 69.947917,
+    "name": "Ytre Simanes",
+    "lon": 23.095,
+    "localityNo": 20176
+  },
+  {
+    "lat": 68.719483,
+    "name": "Ytre Stræte",
+    "lon": 17.138817,
+    "localityNo": 11338
+  },
+  {
+    "lat": 65.934967,
+    "name": "Ytre Vassholmen",
+    "lon": 12.139133,
+    "localityNo": 29417
+  },
+  {
+    "lat": 64.972983,
+    "name": "Ytterflesa",
+    "lon": 11.443517,
+    "localityNo": 45032
+  },
+  {
+    "lat": 68.601767,
+    "name": "Ytterhavna",
+    "lon": 15.361633,
+    "localityNo": 18595
+  }
+]
