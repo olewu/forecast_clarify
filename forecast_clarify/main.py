@@ -1,8 +1,10 @@
+from multiprocessing import dummy
 import xarray as xr
 from datetime import datetime
 import pandas as pd
 import numpy as np
 from scipy.optimize import leastsq
+from numpy import polyfit, polyval
 
 #--------------------SEASONAL CYCLE ESTIMATION--------------------#
 class seas_cycle():
@@ -12,7 +14,7 @@ class seas_cycle():
     time step is in the data, it will transform them into single day time steps!
     """
     
-    def __init__(self,absolute_vals,nharm=3,time_name='time'):
+    def __init__(self,absolute_vals,nharm=3,time_name='time',moment='mean',load_mode=False):
         """
         Initialize a seasonal cycle object.
         Default number of harmonics is 3, which corresponds approximately
@@ -20,24 +22,31 @@ class seas_cycle():
         """
         self.nharm = nharm
         self.time_name = time_name
+        self.moment = moment
 
-        # convert to xarray.Dataset if not already:
-        if isinstance(absolute_vals,xr.Dataset):
-            self.absolute_vals = absolute_vals
-        elif isinstance(absolute_vals,pd.DataFrame):
-            self.absolute_vals = pddf2xrds(absolute_vals)
-        elif isinstance(absolute_vals,pd.Series):
-            self.absolute_vals = pddf2xrds(pd.DataFrame(absolute_vals))
-        else:
-            print('<absolute_vals> is of unsupported type {0:}, try converting to xarray.Dataset, pandas.DataFrame or pandas.Series first'.format(type(absolute_vals)))
+        if not load_mode:
+            # convert to xarray.Dataset if not already:
+            if isinstance(absolute_vals,xr.Dataset):
+                self.absolute_vals = absolute_vals
+            elif isinstance(absolute_vals,pd.DataFrame):
+                self.absolute_vals = pddf2xrds(absolute_vals)
+            elif isinstance(absolute_vals,pd.Series):
+                self.absolute_vals = pddf2xrds(pd.DataFrame(absolute_vals))
+            else:
+                print('<absolute_vals> is of unsupported type {0:}, try converting to xarray.Dataset, pandas.DataFrame or pandas.Series first'.format(type(absolute_vals)))
 
-        # group time series by day of year:
-        if 'month_day' not in self.absolute_vals.coords:
-            self.doy = get_doy_coord(self.absolute_vals)
-            self.absolute_vals = self.absolute_vals.assign_coords(month_day=self.doy)
-        
-        # compute calendar day mean and std as initial estimate of the seasonal cycle
-        self.abs_doy_mean = self.absolute_vals.groupby('month_day').mean((time_name))
+            # group time series by day of year:
+            if 'month_day' not in self.absolute_vals.coords:
+                self.doy = get_doy_coord(self.absolute_vals)
+                self.absolute_vals = self.absolute_vals.assign_coords(month_day=self.doy)
+            else:
+                self.doy = self.absolute_vals.month_day
+            
+            # compute calendar day mean and std as initial estimate of the seasonal cycle
+            if self.moment == 'mean':
+                self.abs_doy_mean = self.absolute_vals.groupby('month_day').mean((time_name))
+            elif self.moment == 'std':
+                self.abs_doy_mean = self.absolute_vals.groupby('month_day').std((time_name))
 
     def fit(self):
         """
@@ -76,7 +85,33 @@ class seas_cycle():
         # expand seasonal cycle to valid dates:
         self.sc_exp_doy = self.predict(self.doy)
         # compute anomalies:
-        self.anomalies = self.absolute_vals - self.sc_exp_doy
+        if self.moment == 'mean':
+            self.anomalies = self.absolute_vals - self.sc_exp_doy
+        elif self.moment == 'std':
+            self.anomalies = self.absolute_vals/self.sc_exp_doy
+
+    def load_sc(self,filename):
+        """
+        """
+
+        with xr.open_dataset(filename) as ds:
+            self.amplitude = ds.amplitude
+            self.phase = ds.phase
+            self.offset = ds.offset
+            self.nharm = len(ds.phase.hrmc)
+
+    def save(self,filename):
+        """
+        """
+
+        xr.Dataset(
+            data_vars = dict(
+                amplitude   = self.amplitude.temperature,
+                phase       = self.phase.temperature,
+                offset      = self.offset.temperature
+            )
+        ).to_netcdf(filename)
+
 
 def seascyc_full(doy,timeseries,harmonics):
 
@@ -162,10 +197,10 @@ def pddf2xrds(pddf,varn_ls=[]):
 
     return xrds.assign_coords(time=pddf.index.values)
 
-def month_day_to_doy(moda_str_lst):
+def month_day_to_doy(moda_str_lst,ign_leap = True):
     """
     return a 1D np.array of days of year that ignore leap years and just place any Feb 29 AND Mar 1
-    on day 61, Mar 2 on day 62 etc. Note that this means that a leap year will get TWO days with doy 61!
+    on day 60, Mar 2 on day 61 etc. Note that this means that a leap year will get TWO days with doy 61!
     Note that doy for Jan 1 is 1!
     INPUT:
             moda_str_lst:   (list) list of strings in the form "MM-DD" (M: month, D: day)
@@ -174,10 +209,16 @@ def month_day_to_doy(moda_str_lst):
             of the month-day-strings
     """
     doy = []
-    dummy_year = 1999
+    if ign_leap:
+        # choose a non-leap year
+        dummy_year = 1999
+    else:
+        # choose a leap year:
+        dummy_year = 2020
+
     base_date = datetime(dummy_year-1,12,31)
     for moda_str in moda_str_lst:
-        if moda_str == '02-29':
+        if moda_str == '02-29' and ign_leap:
             doy.append(60)
         else:
             doy.append(
@@ -186,16 +227,130 @@ def month_day_to_doy(moda_str_lst):
 
     return np.array(doy)
 
-def get_doy_coord(data):
+def get_doy_coord(data,ign_leap=True):
     """
     """
 
     return xr.DataArray(
-        month_day_to_doy(data.time.dt.strftime('%m-%d').values),
+        month_day_to_doy(data.time.dt.strftime('%m-%d').values,ign_leap=ign_leap),
         coords=dict(time=(['time'],data['time'].values)),
         dims=('time'),
         name='month_day'
         )
+
+
+class trend():
+    def __init__(self,degree=1):
+        """
+        """
+        self.degree = degree
+
+    def fit(self,data_array,time_coord = 'time',origin=np.datetime64('2000-01-01T00:00:00')):
+        
+        self.abs_vals = data_array
+        self.time_coord = time_coord
+        self.origin = origin
+        
+        t_int = np.array(self.abs_vals[self.time_coord]  - self.origin, dtype=int)
+        self.t_int = xr.DataArray(
+            t_int,
+            dims = {self.time_coord : len(self.abs_vals[self.time_coord])},
+            coords = {self.time_coord : self.abs_vals[self.time_coord]}
+        )
+
+        self.polyv = xr.apply_ufunc(
+            lin_reg,
+            self.t_int, self.abs_vals, self.degree,
+            input_core_dims = [[self.time_coord],[self.time_coord],[]],
+            output_core_dims = [['pdeg']],
+            dask_gufunc_kwargs =  dict(output_sizes = {'pdeg':self.degree+1}),
+            vectorize = True,
+            dask = 'parallelized'
+         )
+
+        self.polyv = self.polyv.assign_coords(pdeg = [ii for ii in range(self.degree,-1,-1)])
+
+        self.polyv.attrs['origin time'] = '{:}'.format(self.origin)
+        self.polyv.attrs['time units'] = 'ns since {:}'.format(self.origin)
+        self.polyv.attrs['coefficient arrangment'] = '`deg`, `deg-1`, ... `0`'
+        self.polyv.attrs['polynomial degree'] = '{0:d}'.format(self.degree)
+
+        self.attributes = self.polyv.attrs
+
+        self.mean = self.abs_vals.mean(time_coord)
+
+    def detrend(self):
+
+        trnd_line = xr.apply_ufunc(
+            polyval,
+            self.polyv,self.t_int,
+            input_core_dims = [['pdeg'],[self.time_coord]],
+            output_core_dims = [[self.time_coord]],
+            vectorize = True,
+            dask = 'parallelized'
+        )
+
+        self.trend_line = trnd_line
+
+        self.data_detrended = self.abs_vals - trnd_line + self.mean
+
+        return self.data_detrended
+
+    def predict(self,prd_time,time_coord='lags'):
+
+        prd_time_int = xr.DataArray(
+            np.array(prd_time - self.origin, dtype=int),
+            dims = prd_time.dims,
+            coords = prd_time.coords
+        )
+
+        trnd_val = xr.apply_ufunc(
+            polyval,
+            self.polyv,prd_time_int,
+            input_core_dims = [['pdeg'],[time_coord]],
+            output_core_dims = [[time_coord]],
+            vectorize = True,
+            dask = 'parallelized'
+        )
+
+        return trnd_val # + self.mean
+
+    def load_trend(self,filename):
+        """
+        load a trend file and skip the self.fit() step
+        """
+
+        with xr.load_dataset(filename) as ds:
+            self.polyv = ds.polyv
+            self.mean = ds.offset
+
+        self.origin = np.datetime64(ds.polyv.attrs['origin time'])
+        self.degree = int(ds.polyv.attrs['polynomial degree'])
+
+    def save(self,filename):
+        """
+        save a trend file so it can be loaded without estimation from the original data
+        """
+
+        dataset = xr.Dataset(
+            data_vars = dict(
+                polyv       = self.polyv.temperature,
+                offset      = self.mean.temperature
+            )
+        )
+        
+        dataset.polyv.attrs = self.attributes
+
+        dataset.to_netcdf(filename)
+
+
+def lin_reg(prdctr,prdctnd,degree):
+
+    idx = np.isfinite(prdctnd)
+
+    p = polyfit(prdctr[idx],prdctnd[idx],degree)
+    
+    return p
 
 
 #--------------------PERSISTENCE FORECAST MODEL--------------------#
@@ -236,5 +391,23 @@ class persistence():
 
         return self.persistence_fc
 
+    def load(self,filename):
+        """
+        """
+        with xr.open_dataset(filename) as ds:
+            self.corr = ds.correlation
+            self.lags = ds.lags.max().values
+
+    def save(self,filename):
+        """
+        """
+        xr.Dataset(
+            data_vars = dict(
+                correlation = self.corr.temperature
+            )
+        ).to_netcdf(filename)
+
+
 def auto_corr(timeseries,lags):
+    timeseries = timeseries[np.isfinite(timeseries)]
     return np.concatenate([np.array([1]),np.array([np.corrcoef(timeseries[lg:],timeseries[:-lg])[0,1] for lg in range(1,1+lags)])])
