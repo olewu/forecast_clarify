@@ -1,4 +1,6 @@
 from multiprocessing import dummy
+from os import ST_SYNCHRONOUS
+from selectors import EpollSelector
 import xarray as xr
 from datetime import datetime
 import pandas as pd
@@ -197,7 +199,7 @@ def pddf2xrds(pddf,varn_ls=[]):
 
     return xrds.assign_coords(time=pddf.index.values)
 
-def month_day_to_doy(moda_str_lst,ign_leap = True):
+def month_day_to_doy(moda_str_lst):
     """
     return a 1D np.array of days of year that ignore leap years and just place any Feb 29 AND Mar 1
     on day 60, Mar 2 on day 61 etc. Note that this means that a leap year will get TWO days with doy 61!
@@ -209,16 +211,11 @@ def month_day_to_doy(moda_str_lst,ign_leap = True):
             of the month-day-strings
     """
     doy = []
-    if ign_leap:
-        # choose a non-leap year
-        dummy_year = 1999
-    else:
-        # choose a leap year:
-        dummy_year = 2020
+    dummy_year = 1999
 
     base_date = datetime(dummy_year-1,12,31)
     for moda_str in moda_str_lst:
-        if moda_str == '02-29' and ign_leap:
+        if moda_str == '02-29':
             doy.append(60)
         else:
             doy.append(
@@ -231,12 +228,21 @@ def get_doy_coord(data,ign_leap=True):
     """
     """
 
-    return xr.DataArray(
-        month_day_to_doy(data.time.dt.strftime('%m-%d').values,ign_leap=ign_leap),
-        coords=dict(time=(['time'],data['time'].values)),
-        dims=('time'),
-        name='month_day'
-        )
+    if ign_leap:
+        return xr.DataArray(
+            month_day_to_doy(data.time.dt.strftime('%m-%d').values),
+            coords=dict(time=(['time'],data['time'].values)),
+            dims=('time'),
+            name='month_day'
+            )
+
+    else:
+        return xr.DataArray(
+            data.time.dt.dayofyear.values,
+            coords=dict(time=(['time'],data['time'].values)),
+            dims=('time'),
+            name='month_day'
+            )
 
 
 class trend():
@@ -364,7 +370,7 @@ class persistence():
     def fit(self,timeseries):
         
         self.training_ts = timeseries
-        
+
         corr = xr.apply_ufunc(
             auto_corr,
             self.training_ts,self.lags,
@@ -408,6 +414,134 @@ class persistence():
         ).to_netcdf(filename)
 
 
+class persistence_seasonal():
+    def __init__(self,lags=4,wndw=91,harmonics=3):
+        """
+        lags = 4 means lags 1, 2, 3 & 4 weeks
+        """
+        self.lags = lags + 1
+        self.lags_coord = np.arange(1,self.lags)
+        self.pers_wndw = wndw
+        self.smooth_harm = harmonics
+
+    def fit(self,timeseries,show_progress=True):
+        # re-organize time series by doy and pad with doys at beginning and end
+        self.timeseries = timeseries.assign_coords(month_day=get_doy_coord(timeseries,ign_leap=False))
+        
+        timeseries_by_doy = doy_pad(self.timeseries,self.pers_wndw)
+
+        corr = []; doy_coo = []
+        
+        for moda in set(self.timeseries.month_day.values):
+            if moda%10 == 0 and show_progress:
+                print('{0:2.1f}% done'.format(moda/365*100))
+            doy_coo.append(moda)
+            i_sel = np.logical_and(timeseries_by_doy.month_day >= moda-self.pers_wndw//2,timeseries_by_doy.month_day <= moda+self.pers_wndw//2)
+            corr_lt = []
+            for lead_w in self.lags_coord:
+                end = timeseries_by_doy.time.max() - pd.Timedelta('{:}D'.format(lead_w*7))
+                i_sel_n = i_sel; i_sel_n[i_sel.time > end] = False
+                init_slice = timeseries_by_doy.isel(time = i_sel_n)
+
+                # add lead days to init_slice.time and check (one by one) if these dates exist
+                coll_lag,coll_ini = [],[]
+                for ins in init_slice:
+                    # print(tt.values)
+                    lead_date = ins.time + pd.Timedelta('{:}D'.format(lead_w*7))
+                    lead_doy = lead_date.month_day + lead_w*7
+                    add_val = timeseries_by_doy.sel(time = lead_date.values)
+                    if (add_val.month_day == lead_doy.values).dims:
+                        add_val = add_val.sel(time = add_val.month_day == lead_doy.values)
+
+                    # print(lead_doy.values,add_val.month_day.values)
+                    if add_val.time.values.size > 0:
+                        coll_lag.append(add_val)
+                        coll_ini.append(ins)
+                    # print(timeseries_by_doy.sel(time = lead_date.values))
+
+                init_slice_ = xr.concat(coll_ini,dim='time')
+                lag_slice = xr.concat(coll_lag,dim='time').assign_coords(time=init_slice_.time)
+
+                corr_lt.append(xr.corr(init_slice_,lag_slice,dim='time'))
+            corr.append(xr.concat(corr_lt,dim=pd.Index(self.lags_coord,name='lags')))
+
+        self.persistence_raw = xr.concat(corr,dim=pd.Index(doy_coo,name='month_day'))
+
+        # do smoothing with `self.smooth_harm` harmonics if specified (skipped if None)
+        if self.smooth_harm is not None:
+            SC_pers = xr.apply_ufunc(
+                        seascyc_full,
+                        self.persistence_raw.month_day,
+                        self.persistence_raw,
+                        self.smooth_harm,
+                        input_core_dims = [['month_day'],['month_day'],[]],
+                        output_core_dims = [['month_day'],[],['hrmc'],['hrmc']],
+                        dask_gufunc_kwargs =  dict(output_sizes = {'hrmc':self.smooth_harm}),
+                        vectorize = True,
+                        dask = 'parallelized'
+                    )
+
+            self.persistence_smooth = xr.apply_ufunc(
+                        construct_clim, # functions
+                        self.persistence_raw.month_day.values, SC_pers[1],SC_pers[2],SC_pers[3], # input
+                        input_core_dims = [['month_day'],[],['hrmc'],['hrmc']],
+                        output_core_dims = [['month_day'],],
+                        vectorize = True,
+                        dask = 'parallelized'
+                    )
+        else:
+            self.persistence_smooth = self.persistence_raw
+
+    def predict(self,initial_condition):
+        self.initial_condition = initial_condition
+        # get doy of initial value and 
+
+    def load(self,filename):
+        return
+
+    def save(self,filename):
+        """
+        currently saves the a value for every station and doy (365) but could in theory save 
+        smoothed correlations by just storing `self.smooth_harm`*2 + 1 values per stations
+        """
+        self.persistence_smooth.to_netcdf(filename)
+
+
 def auto_corr(timeseries,lags):
     timeseries = timeseries[np.isfinite(timeseries)]
     return np.concatenate([np.array([1]),np.array([np.corrcoef(timeseries[lg:],timeseries[:-lg])[0,1] for lg in range(1,1+lags)])])
+
+
+def doy_pad(timeseries,wndw):
+    st_y = timeseries.time.dt.year.min().values.item()
+    en_y = timeseries.time.dt.year.max().values.item()
+    pad = int(np.ceil((en_y - st_y)/7)) * wndw//2
+
+    timeseries_reorg = xr.DataArray(
+        timeseries.temperature.values,
+        dims = {
+            'month_day' :len(timeseries.time.values),
+            'location'  :len(timeseries.location.values),
+        },
+        coords = {
+            'location'  :('location', timeseries.location.values),
+            'month_day' :('month_day',timeseries.month_day.values),
+            'time'      :('month_day',timeseries.time.values)
+        }
+    ).sortby('month_day')
+    timeseries_reorg = timeseries_reorg.pad(month_day=pad,mode='wrap')
+    new_month_day = timeseries_reorg.month_day.values
+    new_month_day[:pad] -= 365; new_month_day[-pad:] += 365
+
+    return xr.DataArray(
+            timeseries_reorg.values,
+            dims = {
+                'time' :len(timeseries_reorg.time.values),
+                'location'  :len(timeseries_reorg.location.values),
+            },
+            coords = {
+                'location'  :('location', timeseries_reorg.location.values),
+                'month_day' :('time',new_month_day),
+                'time'      :('time',timeseries_reorg.time.values)
+            }
+        )
