@@ -59,7 +59,7 @@ def train_persistence_model_weekly(training_file,trend_deg=1,standardize=True,se
     else:
         pers = persistence_seasonal(lags=lags,wndw=wndw,harmonics=pers_harmonics)
         pers.fit(anoms_weekly)
-        pers.save(os.path.join(dirs['param_files'],fname+'persistence_seasonal_cycle_{0:d}D-wndw_{1:d}harm.nc'.format(wndw,pers_harmonics)))
+        pers.save(os.path.join(dirs['param_files'],fname+'_persistence_seasonal_cycle_{0:d}D-wndw_{1:d}harm.nc'.format(wndw,pers_harmonics)))
 
 if __name__ == '__main__':
     training_file = '/projects/NS9853K/DATA/norkyst800/station_3m/temperature_insitu_3m_norkyst800_barentswatch_closest_20060101-20220920.nc'

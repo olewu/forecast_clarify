@@ -1,11 +1,13 @@
 from multiprocessing import dummy
 from os import ST_SYNCHRONOUS
 from selectors import EpollSelector
+from xxlimited import Str
 import xarray as xr
 from datetime import datetime
 import pandas as pd
 import numpy as np
 from scipy.optimize import leastsq
+from scipy.stats import pearsonr
 from numpy import polyfit, polyval
 
 #--------------------SEASONAL CYCLE ESTIMATION--------------------#
@@ -465,10 +467,12 @@ class persistence_seasonal():
                 corr_lt.append(xr.corr(init_slice_,lag_slice,dim='time'))
             corr.append(xr.concat(corr_lt,dim=pd.Index(self.lags_coord,name='lags')))
 
+        doy_coo = np.array(doy_coo)
         self.persistence_raw = xr.concat(corr,dim=pd.Index(doy_coo,name='month_day'))
 
         # do smoothing with `self.smooth_harm` harmonics if specified (skipped if None)
         if self.smooth_harm is not None:
+            pers_type = 'smoothed'
             SC_pers = xr.apply_ufunc(
                         seascyc_full,
                         self.persistence_raw.month_day,
@@ -488,28 +492,56 @@ class persistence_seasonal():
                         output_core_dims = [['month_day'],],
                         vectorize = True,
                         dask = 'parallelized'
-                    )
+                    ).assign_coords(month_day=doy_coo)
         else:
+            pers_type = 'raw'
+            self.smooth_harm = -1
             self.persistence_smooth = self.persistence_raw
 
+        self.persistence = xr.Dataset(
+            data_vars = dict(
+                correlation = self.persistence_smooth
+            ),
+            attrs=dict(
+                persistence_type = pers_type,
+                harmonics = self.smooth_harm,
+                window = self.pers_wndw
+            )
+        )
+
     def predict(self,initial_condition):
-        self.initial_condition = initial_condition
-        # get doy of initial value and 
+        self.initial_condition = initial_condition.expand_dims(dim={'month_day':[initial_condition.month_day.values]})
+
+        # pad the correlation array with 1s to also return the initial value (lag 0) 
+
+        self.corr_pad = self.corr.pad({'lags': (1,0)},mode='constant',constant_values=1).assign_coords(lags=np.concatenate([[0],self.corr.lags.values]))
+        persistence_fc = self.initial_condition * self.corr_pad
+
+        # get doy of initial value and
+        td = [persistence_fc.time.values + pd.Timedelta('{0:d}D'.format(ddiff*7)) for ddiff in persistence_fc.lags.values]
+        tdoy = persistence_fc.month_day.values + persistence_fc.lags.values*7
+        self.persistence_fc = persistence_fc.assign_coords(dict(time = ('lags',td),time_doy = ('lags',tdoy))).squeeze().drop('month_day')
+
+        return self.persistence_fc
 
     def load(self,filename):
-        return
+        with xr.open_dataset(filename) as ds:
+            self.corr = ds.correlation
+            self.lags = ds.lags.max().values.item()
+            self.smooth_harm = ds.attrs['harmonics']
+            self.pers_wndw = ds.attrs['window']
 
     def save(self,filename):
         """
         currently saves the a value for every station and doy (365) but could in theory save 
         smoothed correlations by just storing `self.smooth_harm`*2 + 1 values per stations
         """
-        self.persistence_smooth.to_netcdf(filename)
+        self.persistence.to_netcdf(filename)
 
 
 def auto_corr(timeseries,lags):
     timeseries = timeseries[np.isfinite(timeseries)]
-    return np.concatenate([np.array([1]),np.array([np.corrcoef(timeseries[lg:],timeseries[:-lg])[0,1] for lg in range(1,1+lags)])])
+    return np.concatenate([np.array([1]),np.array([pearsonr(timeseries[lg:],timeseries[:-lg])[0] for lg in range(1,1+lags)])])
 
 
 def doy_pad(timeseries,wndw):
