@@ -1,14 +1,9 @@
-from multiprocessing import dummy
-from os import ST_SYNCHRONOUS
-from selectors import EpollSelector
-from xxlimited import Str
 import xarray as xr
 from datetime import datetime
 import pandas as pd
 import numpy as np
 from scipy.optimize import leastsq
 from scipy.stats import pearsonr
-from numpy import polyfit, polyval
 
 #--------------------SEASONAL CYCLE ESTIMATION--------------------#
 class seas_cycle():
@@ -290,7 +285,7 @@ class trend():
     def detrend(self):
 
         trnd_line = xr.apply_ufunc(
-            polyval,
+            np.polyval,
             self.polyv,self.t_int,
             input_core_dims = [['pdeg'],[self.time_coord]],
             output_core_dims = [[self.time_coord]],
@@ -313,7 +308,7 @@ class trend():
         )
 
         trnd_val = xr.apply_ufunc(
-            polyval,
+            np.polyval,
             self.polyv,prd_time_int,
             input_core_dims = [['pdeg'],[time_coord]],
             output_core_dims = [[time_coord]],
@@ -356,7 +351,7 @@ def lin_reg(prdctr,prdctnd,degree):
 
     idx = np.isfinite(prdctnd)
 
-    p = polyfit(prdctr[idx],prdctnd[idx],degree)
+    p = np.polyfit(prdctr[idx],prdctnd[idx],degree)
     
     return p
 

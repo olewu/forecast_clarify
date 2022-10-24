@@ -1,4 +1,3 @@
-
 from forecast_clarify.main import *
 from forecast_clarify.config import *
 import os
@@ -71,6 +70,9 @@ def make_persistence_forecast(init_value,init_time,station_id=None,standardized_
     # add anomalies back to climatology as predicted for the desired dates above:
     abs_temp_fc = anom_fc*SC_std_pred + (SC_pred + trend_pred - model['trend'].mean)
     abs_temp_fc.name = 'temperature'
+
+    # correct the doy coordinate to range from 1 to 365:
+    abs_temp_fc = abs_temp_fc.assign_coords(time_doy=(abs_temp_fc.time_doy-1)%365 + 1)
 
     if station_id is not None:
         abs_temp_fc = abs_temp_fc.sel(location=station_id)
