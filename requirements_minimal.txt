@@ -1,0 +1,7 @@
+jupyter==1.0.0
+netCDF4==1.6.1
+numpy==1.23.0
+pandas==1.4.3
+pyclarify==0.3.5
+scikit-learn==1.1.2
+xarray==2022.3.0

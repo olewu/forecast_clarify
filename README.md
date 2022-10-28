@@ -6,7 +6,21 @@ forecast_clarify
 <!-- [![conda-forge](https://img.shields.io/conda/dn/conda-forge/forecast_clarify?label=conda-forge)](https://anaconda.org/conda-forge/forecast_clarify) -->[![Documentation Status](https://readthedocs.org/projects/forecast_clarify/badge/?version=latest)](https://forecast_clarify.readthedocs.io/en/latest/?badge=latest)
 
 
-Local sea surface temperature weekly forecasts based on local statistics (seasonal cycle, week-to-week persistence) and coarse-resolution dynamical forecasts
+Local water temperature (3m) weekly forecasts based on local statistics (seasonal cycle, week-to-week persistence) from NorKyst800 (2006 - 2022).
+
+To install, initialize an environment with python (tested with 3.10.0 and 3.10.4 but expect other version of python3 to work).
+
+Install the minimal requirements using
+```
+pip install -r requirements_minimal.txt
+```
+then install the package functionality from the project root folder (where this README is located) using
+```
+pip install -e .
+```
+
+This should enable you to run `/notebooks/010_test_load.ipynb`. The notebook will access functionality in `/forecast_clarify/clarify_persistence_package.py`, which in turn needs `/forecast_clarify/main.py` and `/forecast_clarify/config.py` as well as the model parameter files saved in `/data/processed/`.
+
 
 --------
 
