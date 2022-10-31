@@ -130,6 +130,9 @@ def harm_fit(doy,timeseries,harmonics):
             returns offest, amp, phase (int,list,list) where amp and phase have length
             matching the number of requested harmonics 
     """
+    # treat nans in the timeseries:
+    doy = doy[np.isfinite(timeseries.squeeze())]
+    timeseries = timeseries[np.isfinite(timeseries)]
 
     offset = timeseries.mean(axis=0)
     ts_centered = timeseries - offset
