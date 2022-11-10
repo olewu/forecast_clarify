@@ -88,27 +88,27 @@ def collect_model(components=('trend','seasonal_cycle_mean','seasonal_cycle_std'
     components_coll = {}
     # trend:
     if 'trend' in components:
-        trnd = trend()
+        trnd = Trend()
         trnd.load_trend(os.path.join(dirs['param_files'],filename_base + 'trend.nc'))
         components_coll['trend'] = trnd
     # seasonal cycle of mean:
     if 'seasonal_cycle_mean' in components:
-        SC = seas_cycle(1,load_mode=True)
+        SC = SeasonalCycle(1,load_mode=True)
         SC.load_sc(os.path.join(dirs['param_files'],filename_base + 'seasonal_cycle.nc'))
         components_coll['seasonal_cycle_mean'] = SC
     # seasonal cycle of std:
     if 'seasonal_cycle_std' in components:
-        SC_std = seas_cycle(1,load_mode=True)
+        SC_std = SeasonalCycle(1,load_mode=True)
         SC_std.load_sc(os.path.join(dirs['param_files'],filename_base + 'seasonal_cycle_std.nc'))
         components_coll['seasonal_cycle_std'] = SC_std
     # persistence:
     if 'persistence' in components:
         if wndw is None:
-            pers = persistence()
+            pers = Persistence()
             pers.load(os.path.join(dirs['param_files'],filename_base + 'persistence.nc'))
         # seasonally varying persistence parameter:
         else:
-            pers = persistence_seasonal()
+            pers = SeasonalPersistence()
             if wndw is None:
                 print('Cannot load persistnce seasonal cycle without `wndw` being specified!')
             pers.load(os.path.join(dirs['param_files'],filename_base + 'persistence_seasonal_cycle_{0:d}D-wndw_{1:d}harm.nc'.format(wndw,harm)))

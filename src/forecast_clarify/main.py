@@ -5,8 +5,9 @@ import numpy as np
 from scipy.optimize import leastsq
 from scipy.stats import pearsonr
 
+
 #--------------------SEASONAL CYCLE ESTIMATION--------------------#
-class seas_cycle():
+class SeasonalCycle():
     """
     seasonal cycle class
     will transform time axis to day of year (thus ignoring hrs, mins, secs!), so no matter what the
@@ -245,7 +246,7 @@ def get_doy_coord(data,ign_leap=True):
             )
 
 
-class trend():
+class Trend():
     def __init__(self,degree=1):
         """
         """
@@ -360,7 +361,7 @@ def lin_reg(prdctr,prdctnd,degree):
 
 
 #--------------------PERSISTENCE FORECAST MODEL--------------------#
-class persistence():
+class Persistence():
     def __init__(self,lags=4):
         """
         lags in units of timestep of input data
@@ -414,7 +415,7 @@ class persistence():
         ).to_netcdf(filename)
 
 
-class persistence_seasonal():
+class SeasonalPersistence():
     def __init__(self,lags=4,wndw=91,harmonics=3):
         """
         lags = 4 means lags 1, 2, 3 & 4 weeks
