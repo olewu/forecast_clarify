@@ -4,8 +4,9 @@ import os
 import json
 
 def find_station_in_bw(station_name,return_latlon=False):
+    datasets = get_datasets()
 
-    with open(bw_sites_file) as f: # location defined in config
+    with open(datasets[0]) as f: # location defined in config
         data = json.load(f)
 
     stat_specs = [(d['name'],d['localityNo'],d['lat'],d['lon']) for d in data if station_name == d['name']]
@@ -84,34 +85,39 @@ def make_persistence_forecast(init_value,init_time,station_id=None,standardized_
 
 
 def collect_model(components=('trend','seasonal_cycle_mean','seasonal_cycle_std','persistence'),filename_base = 'temperature_insitu_3m_norkyst800_barentswatch_closest_20060101-20220920_',wndw=None,harm=None):
-    
+    datasets = get_datasets()
     components_coll = {}
     # trend:
     if 'trend' in components:
         trnd = Trend()
-        trnd.load_trend(os.path.join(dirs['param_files'],filename_base + 'trend.nc'))
+        path = [x for x in datasets if "trend.nc" in x][0]
+        trnd.load_trend(path)
         components_coll['trend'] = trnd
     # seasonal cycle of mean:
     if 'seasonal_cycle_mean' in components:
         SC = SeasonalCycle(1,load_mode=True)
-        SC.load_sc(os.path.join(dirs['param_files'],filename_base + 'seasonal_cycle.nc'))
+        path = [x for x in datasets if "seasonal_cycle.nc" in x][0]
+        SC.load_sc(path)
         components_coll['seasonal_cycle_mean'] = SC
     # seasonal cycle of std:
     if 'seasonal_cycle_std' in components:
         SC_std = SeasonalCycle(1,load_mode=True)
-        SC_std.load_sc(os.path.join(dirs['param_files'],filename_base + 'seasonal_cycle_std.nc'))
+        path = [x for x in datasets if "seasonal_cycle_std.nc" in x][0]
+        SC_std.load_sc(path)
         components_coll['seasonal_cycle_std'] = SC_std
     # persistence:
     if 'persistence' in components:
         if wndw is None:
             pers = Persistence()
-            pers.load(os.path.join(dirs['param_files'],filename_base + 'persistence.nc'))
+            path = [x for x in datasets if "persistence.nc" in x][0]
+            pers.load(path)
         # seasonally varying persistence parameter:
         else:
             pers = SeasonalPersistence()
             if wndw is None:
-                print('Cannot load persistnce seasonal cycle without `wndw` being specified!')
-            pers.load(os.path.join(dirs['param_files'],filename_base + 'persistence_seasonal_cycle_{0:d}D-wndw_{1:d}harm.nc'.format(wndw,harm)))
+                print('Cannot load persistence seasonal cycle without `wndw` being specified!')
+            path = [x for x in datasets if f"persistence_seasonal_cycle_{wndw}D-wndw_{harm}harm.nc" in x][0]
+            pers.load(path)
         components_coll['persistence'] = pers
     
     return components_coll

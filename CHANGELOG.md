@@ -26,7 +26,8 @@ Changes are grouped as follows
 
 ### Changed
 
-- Moved `data` and `forecast_clarify` to `src` folder
+- Moved `forecast_clarify` to `src` folder
+- Moved `data` folder to `forecast_clarify` folder.
 - Changed name of `main.seas_cycle` class to `main.SeasonalCycle`
 - Changed name of `main.trend` class to `main.Trend`
 - Changed name of `main.persistence` class to `main.Persistence`
@@ -37,3 +38,4 @@ Changes are grouped as follows
 ### Added
 
 - `CHANGELOG.md` file
+- `load_dataset`, `list_datasets` and `get_datasets` methods.
