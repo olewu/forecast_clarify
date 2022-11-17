@@ -39,3 +39,12 @@ Changes are grouped as follows
 
 - `CHANGELOG.md` file
 - `load_dataset`, `list_datasets` and `get_datasets` methods.
+
+## [0.1.1] - 2022-11-17
+
+### Changed
+
+- conform with PEP8-standard
+- relaxed xarray version requirement in `setup.cfg`
+- Changed hardcoded index for dataset in `forecast_clarfiy.clarify_persistece_package.find_station_in_bw` to look-up of `.json` file
+- added changes to `CHANGELOG.md`
