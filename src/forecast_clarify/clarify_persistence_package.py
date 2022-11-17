@@ -9,7 +9,9 @@ import pandas as pd
 def find_station_in_bw(station_name, return_latlon=False):
     datasets = get_datasets()
 
-    with open(datasets[5]) as f:  # location defined in config
+    ds_path = [x for x in datasets if "sites.json" in x][0]
+
+    with open(ds_path) as f:  # location defined in config
         data = json.load(f)
 
     stat_specs = [
