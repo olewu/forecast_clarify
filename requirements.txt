@@ -1,3 +1,9 @@
+# Build requirements
+flake8==4.0.1
+pytest==6.2.5
+build==0.7.0
+
+# Package requirements
 jupyter==1.0.0
 netCDF4==1.6.1
 numpy==1.21.0 #1.23.0
