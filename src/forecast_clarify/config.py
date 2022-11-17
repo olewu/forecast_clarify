@@ -5,11 +5,12 @@ import xarray as xr
 dirname = os.path.dirname(__file__)
 
 dirs = dict(
-    figures     = os.path.join(dirname, '/data/processedfigures/'),
-    param_files = os.path.join(dirname,'/data/processed/')
+    figures=os.path.join(dirname, "/data/processedfigures/"),
+    param_files=os.path.join(dirname, "/data/processed/"),
 )
 
-bw_sites_file = os.path.join(dirname, '/data/external/barentswatch_sites.json')
+bw_sites_file = os.path.join(dirname, "/data/external/barentswatch_sites.json")
+
 
 def get_datasets():
     datasets = []
@@ -22,6 +23,7 @@ def get_datasets():
                     dataset = os.path.join(sub_folder, d)
                     datasets.append(dataset)
     return datasets
+
 
 def list_dataset():
     datasets = get_datasets()
