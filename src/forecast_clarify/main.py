@@ -161,7 +161,9 @@ def harm_fit(doy, timeseries, harmonics):
     for n in range(0, harmonics):
 
         # function to minimize
-        opt_func = lambda wv: wv[0] * np.sin(x * (n + 1) + wv[1]) - ts_centered
+        def opt_func(wv):
+            return wv[0] * np.sin(x * (n + 1) + wv[1]) - ts_centered
+        # opt_func = lambda wv: wv[0] * np.sin(x * (n + 1) + wv[1]) - ts_centered
 
         # minimize using least squares:
         harm_fit_params.append(leastsq(opt_func, [rms, 0])[0])

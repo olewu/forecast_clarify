@@ -17,7 +17,7 @@ def get_datasets():
     folder = os.path.join(dirname, "data")
     for f in os.listdir(folder):
         sub_folder = os.path.join(folder, f)
-        if not ".py" in sub_folder and not "__" in sub_folder:
+        if ".py" not in sub_folder and "__" not in sub_folder:
             for d in os.listdir(sub_folder):
                 if d.split(".")[-1] in ["json", "nc"]:
                     dataset = os.path.join(sub_folder, d)
