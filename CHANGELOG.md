@@ -48,3 +48,4 @@ Changes are grouped as follows
 - relaxed xarray version requirement in `setup.cfg`
 - Changed hardcoded index for dataset in `forecast_clarfiy.clarify_persistece_package.find_station_in_bw` to look-up of `.json` file
 - added changes to `CHANGELOG.md`
+- update `README.md`

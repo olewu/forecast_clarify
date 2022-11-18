@@ -8,19 +8,7 @@ forecast_clarify
 
 Local water temperature (3m) weekly forecasts based on local statistics (seasonal cycle, week-to-week persistence) from NorKyst800 (2006 - 2022).
 
-To install, initialize an environment with python (tested with 3.10.0 and 3.10.4 but expect other version of python3 to work).
-
-Install the minimal requirements using
-```
-pip install -r requirements_minimal.txt
-```
-then install the package functionality from the project root folder (where this README is located) using
-```
-pip install -e .
-```
-
-This should enable you to run `/notebooks/010_test_load.ipynb`. The notebook will access functionality in `/forecast_clarify/clarify_persistence_package.py`, which in turn needs `/forecast_clarify/main.py` and `/forecast_clarify/config.py` as well as the model parameter files saved in `/data/processed/`.
-
+Forecasts can be created for all [BarentsWatch Sites](https://www.barentswatch.no/). Model parameters at these sights are derived from the closest grid points in the high-resolution ocean model ROMS, run in the NorKyst800 set-up (described in [Asplin et al., 2020](https://link.springer.com/article/10.1007/s10236-020-01378-0)).
 
 --------
 
