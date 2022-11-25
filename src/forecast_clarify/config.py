@@ -1,6 +1,6 @@
 import os
-import xarray as xr
 
+import xarray as xr
 
 dirname = os.path.dirname(__file__)
 

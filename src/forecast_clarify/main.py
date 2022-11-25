@@ -1,7 +1,8 @@
-import xarray as xr
 from datetime import datetime
-import pandas as pd
+
 import numpy as np
+import pandas as pd
+import xarray as xr
 from scipy.optimize import leastsq
 from scipy.stats import pearsonr
 
@@ -163,6 +164,7 @@ def harm_fit(doy, timeseries, harmonics):
         # function to minimize
         def opt_func(wv):
             return wv[0] * np.sin(x * (n + 1) + wv[1]) - ts_centered
+
         # opt_func = lambda wv: wv[0] * np.sin(x * (n + 1) + wv[1]) - ts_centered
 
         # minimize using least squares:
