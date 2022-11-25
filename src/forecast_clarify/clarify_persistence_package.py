@@ -1,9 +1,17 @@
-from forecast_clarify.main import get_doy_coord, Trend, SeasonalCycle, Persistence, SeasonalPersistence
-from forecast_clarify.config import get_datasets
 import json
-import xarray as xr
+
 import numpy as np
 import pandas as pd
+import xarray as xr
+
+from forecast_clarify.config import get_datasets
+from forecast_clarify.main import (
+    Persistence,
+    SeasonalCycle,
+    SeasonalPersistence,
+    Trend,
+    get_doy_coord,
+)
 
 
 def find_station_in_bw(station_name, return_latlon=False):
