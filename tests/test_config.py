@@ -1,9 +1,17 @@
-from forecast_clarify.config import dirs
+from forecast_clarify.src.forecast_clarify.model_registry import Manager
 import sys
 import unittest
 import xarray as xr
 import os
 
+model_registry_manager = Manager()
+datasets_dir = model_registry_manager.get_dir()
+
+
+dirs = dict(
+    figures=os.path.join(datasets_dir, "processedfigures/"),
+    param_files=os.path.join(datasets_dir, "processed/"),
+)
 
 sys.path.insert(1, "src/")
 
