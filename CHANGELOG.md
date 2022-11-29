@@ -49,3 +49,33 @@ Changes are grouped as follows
 - Changed hardcoded index for dataset in `forecast_clarfiy.clarify_persistece_package.find_station_in_bw` to look-up of `.json` file
 - added changes to `CHANGELOG.md`
 - update `README.md`
+
+
+## 2022-11-29
+
+### Removed
+
+- `src/forecast_clarify/data/__init__.py`
+- `src/forecast_clarify/data/external/.gitkeep`
+- `src/forecast_clarify/data/external/__init__.py`
+- `src/forecast_clarify/data/external/barentswatch_sites.json`
+- `src/forecast_clarify/data/processed/.gitkeep`
+- `src/forecast_clarify/data/processed/__init__.py`
+- `src/forecast_clarify/data/processed/temperature_insitu_3m_norkyst800_barentswatch_closest_20060101-20220920_persistence.nc`
+- `src/forecast_clarify/data/processed/temperature_insitu_3m_norkyst800_barentswatch_closest_20060101-20220920_persistence_seasonal_cycle_61D-wndw_3harm.nc`
+- `src/forecast_clarify/data/processed/temperature_insitu_3m_norkyst800_barentswatch_closest_20060101-20220920_seasonal_cycle.nc`
+- `src/forecast_clarify/data/processed/temperature_insitu_3m_norkyst800_barentswatch_closest_20060101-20220920_seasonal_cycle_std.nc`
+- `src/forecast_clarify/data/processed/temperature_insitu_3m_norkyst800_barentswatch_closest_20060101-20220920_trend.nc`
+- `src/forecast_clarify/data/raw/.gitkeep`
+- `src/forecast_clarify/data/raw/__init__.py`
+
+### Added
+
+- Implemented model registry manager, which can pull/push datasets from W&B: `src/forecast_clarify/model_registry.py`
+
+### Changed
+
+- All files from `data/` are moved into <a href="https://wandb.ai/clarify/climate-futures-clarify/artifacts/dataset/sea_temperature/v0">About<a>, from which the model registry manager pulls the model parameters
+- The only requirement is to set the WANDB_TOKEN env variable before execution.
+- added wandb as requirement in `requirements.txt`
+- added test of model registry manager to `tests/test_config.py`
