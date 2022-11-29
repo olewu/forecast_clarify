@@ -75,7 +75,7 @@ Changes are grouped as follows
 
 ### Changed
 
-- All files from `data/` are moved into <a href="https://wandb.ai/clarify/climate-futures-clarify/artifacts/dataset/sea_temperature/v0">About<a>, from which the model registry manager pulls the model parameters
+- All files from `data/` are moved into <a href="https://wandb.ai/clarify/climate-futures-clarify/artifacts/dataset/sea_temperature/v0">https://wandb.ai/clarify/climate-futures-clarify/artifacts/dataset/sea_temperature/v0<a>, from which the model registry manager pulls the model parameters
 - The only requirement is to set the WANDB_TOKEN env variable before execution.
 - added wandb as requirement in `requirements.txt`
 - added test of model registry manager to `tests/test_config.py`
