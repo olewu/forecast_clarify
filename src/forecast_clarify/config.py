@@ -1,22 +1,15 @@
 import os
 
 import xarray as xr
+from forecast_clarify.model_registry import Manager
 
-dirname = os.path.dirname(__file__)
-
-dirs = dict(
-    figures=os.path.join(dirname, "/data/processedfigures/"),
-    param_files=os.path.join(dirname, "/data/processed/"),
-)
-
-bw_sites_file = os.path.join(dirname, "/data/external/barentswatch_sites.json")
-
+model_registry_manager = Manager()
 
 def get_datasets():
+    datasets_dir = model_registry_manager.get_dir()
     datasets = []
-    folder = os.path.join(dirname, "data")
-    for f in os.listdir(folder):
-        sub_folder = os.path.join(folder, f)
+    for f in os.listdir(datasets_dir):
+        sub_folder = os.path.join(datasets_dir, f)
         if ".py" not in sub_folder and "__" not in sub_folder:
             for d in os.listdir(sub_folder):
                 if d.split(".")[-1] in ["json", "nc"]:
